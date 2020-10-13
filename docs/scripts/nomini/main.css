@@ -102,3 +102,111 @@ body {
     margin-top: 5px; }
   .header__textCalculate {
     font-size: 18px; }
+
+.createKitchen__wrapper {
+  min-height: 762px;
+  background: url(../img/createKitchen.png) center center/cover no-repeat; }
+
+.createKitchen__row {
+  min-height: 104px; }
+
+.createKitchen__column {
+  min-height: 762px;
+  padding-left: 158px;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.8); }
+
+.createKitchen__title {
+  margin: 0;
+  padding-top: 77px;
+  font-family: CormorantGaramond;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 117.3%;
+  color: #181818; }
+
+.createKitchen__descr {
+  margin-top: 46px;
+  padding-right: 161px;
+  font-size: 16px;
+  line-height: 140%;
+  color: #494949; }
+
+.createKitchen__form {
+  margin-top: 60px;
+  padding-right: 161px; }
+
+.createKitchen__inputBlocks {
+  display: flex;
+  justify-content: space-between; }
+
+.createKitchen__inputBlock {
+  width: 100%; }
+  .createKitchen__inputBlock:nth-child(2n) {
+    margin-left: 35px; }
+
+.createKitchen__label {
+  padding-left: 24px;
+  display: block; }
+
+.createKitchen__input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #9D9D9D;
+  width: 100%;
+  padding-top: 8px; }
+
+.createKitchen__button {
+  margin-top: 40px;
+  width: 606px;
+  height: 70px;
+  background-color: #FF3D00;
+  border: none;
+  font-size: 20px;
+  color: #ffffff; }
+
+.createKitchen__order {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start; }
+
+.createKitchen__year {
+  font-size: 18px;
+  line-height: 140%;
+  color: #000000;
+  display: block;
+  margin: auto 0; }
+
+.createKitchen__numberOrder {
+  font-size: 45px;
+  line-height: 56px;
+  color: #373737;
+  margin-left: 93px; }
+
+.createKitchen__row {
+  padding-right: 235px;
+  padding-left: 270px;
+  padding-top: 65px;
+  padding-bottom: 66px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left; }
+
+.createKitchen__block {
+  height: 104px;
+  padding-left: 32px;
+  padding-right: 104px;
+  border-left: 2px solid rgba(50, 50, 50, 0.08); }
+  .createKitchen__block:nth-child(4n) {
+    padding-right: 0; }
+
+.createKitchen__subtitle {
+  margin-top: 0;
+  font-size: 20px;
+  color: #131313; }
+
+.createKitchen__text {
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #868686; }

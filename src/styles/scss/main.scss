@@ -3,4 +3,6 @@ body {
     margin: 0;
 }
 @import 'src/styles/scss/base/_fonts.scss';
+@import 'src/styles/scss/base/_variables.scss';
 @import 'src/styles/scss/blocks/_header.scss';
+@import 'src/styles/scss/blocks/_createKitchen.scss';
