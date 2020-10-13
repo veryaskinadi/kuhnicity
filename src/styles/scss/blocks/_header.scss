@@ -1,0 +1,99 @@
+.header {
+    min-height: 139px;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        min-height: 40px;
+        color: #333333;
+        background: rgba(240, 240, 240, 0.88);
+    }
+    &__select {
+        background: rgba(240, 240, 240, 0.88);
+        border: none;
+        
+            position: relative;
+            display: inline-block;
+        
+          &:after {
+            content: "▼";
+            padding: 0 8px;
+            font-size: 12px;
+            position: absolute;
+            right: 8px;
+            top: 4px;
+            z-index: 1;
+            text-align: center;
+            width: 10%;
+            height: 100%;
+            pointer-events: none;
+            box-sizing: border-box;
+          }
+    }
+    &__navbar {
+        margin-left: 162px;
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+    &__item {
+        text-decoration: none;
+        color: #333333;
+        padding-right: 17px;
+        padding-left: 18px;
+    }
+    &__call {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 98px;
+    }
+    &__wrapperContacts {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 178px;
+    }
+    &__mailto {
+        text-decoration: none;
+        color: #333333;
+        line-height: 40px;
+    }
+    &__tel {
+        text-decoration: none;
+        line-height: 40px;
+        color: #333333;
+    }
+    &__textPhone {
+        margin-right: 37px;
+    }
+    &__subheader {
+        min-height: 99px;
+        padding-left: 161px;
+        padding-right: 159px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__catalog {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        padding-left: 95px; 
+        padding-top: 20px;    
+    }
+    &__catalogText {
+        margin-left: 21px;
+        font-size: 18px;
+    }
+    &__devider {
+        width: 205px;
+        height: 0px;
+        border: 1px solid rgba(21, 21, 21, 0.22);
+        margin-top: 5px;
+    }
+    &__textCalculate {
+        font-size: 18px;
+    }
+}

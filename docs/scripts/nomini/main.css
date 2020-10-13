@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body {
+  font-family: 'Averta';
+  margin: 0; }
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url("../fonts/CormorantGaramond-Light.eot");
+  src: url("../fonts/CormorantGaramond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/CormorantGaramond-Light.woff") format("woff"), url("../fonts/CormorantGaramond-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url("../fonts/CormorantGaramond-Medium.eot");
+  src: url("../fonts/CormorantGaramond-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/CormorantGaramond-Medium.woff") format("woff"), url("../fonts/CormorantGaramond-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Averta';
+  src: local("../fonts/Averta Regular"), local("Averta-Regular"), url("../fonts/AvertaDemoPE-Regular.woff2") format("woff2"), url("../fonts/AvertaDemoPE-Regular.woff") format("woff"), url("../fonts/AvertaDemoPE-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+.header {
+  min-height: 139px; }
+  .header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    min-height: 40px;
+    color: #333333;
+    background: rgba(240, 240, 240, 0.88); }
+  .header__select {
+    background: rgba(240, 240, 240, 0.88);
+    border: none;
+    position: relative;
+    display: inline-block; }
+    .header__select:after {
+      content: "▼";
+      padding: 0 8px;
+      font-size: 12px;
+      position: absolute;
+      right: 8px;
+      top: 4px;
+      z-index: 1;
+      text-align: center;
+      width: 10%;
+      height: 100%;
+      pointer-events: none;
+      box-sizing: border-box; }
+  .header__navbar {
+    margin-left: 162px;
+    display: flex;
+    justify-content: space-between; }
+  .header__item {
+    text-decoration: none;
+    color: #333333;
+    padding-right: 17px;
+    padding-left: 18px; }
+  .header__call {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 98px; }
+  .header__wrapperContacts {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 178px; }
+  .header__mailto {
+    text-decoration: none;
+    color: #333333;
+    line-height: 40px; }
+  .header__tel {
+    text-decoration: none;
+    line-height: 40px;
+    color: #333333; }
+  .header__textPhone {
+    margin-right: 37px; }
+  .header__subheader {
+    min-height: 99px;
+    padding-left: 161px;
+    padding-right: 159px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__catalog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__logo {
+    padding-left: 95px;
+    padding-top: 20px; }
+  .header__catalogText {
+    margin-left: 21px;
+    font-size: 18px; }
+  .header__devider {
+    width: 205px;
+    height: 0px;
+    border: 1px solid rgba(21, 21, 21, 0.22);
+    margin-top: 5px; }
+  .header__textCalculate {
+    font-size: 18px; }
