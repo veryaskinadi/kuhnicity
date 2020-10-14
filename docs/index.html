@@ -7,93 +7,120 @@
     <title>kuhnicity</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__menu">
-            <nav class="header__navbar">
-                <select class="header__item header__select" id="cities">
-                    <option value="Москва">Москва</option>
-                    <option value="Санкт-Петербург">Санкт-Петербург</option>
-                    <option value="Казань">Казань</option>
-                    <option value="Екатеринбург">Екатеринбург</option>
-                    <option value="Frattamaggiore">Frattamaggiore</option>
-                </select>
-                <select class="header__item header__select" id="aboutCompany">
-                    <option value="O компании">O компании</option>
-                    <option value="О нас">О нас</option>
-                    <option value="Написать директору">Написать директору</option>
-                    <option value="Написать Путину">Написать Путину</option>
-                </select>
-                <a href="#" class="header__item">Акции</a>
-                <a href="#" class="header__item">Контакты</a>
-                <a href="#" class="header__item">Заказать замер</a>
-                <a href="#" class="header__item">Адреса салонов</a>
-            </nav>
-            <div class="header__wrapperContacts">
-                <div class="header__mail">
-                    <a href="mailto: info@kuhnicity.ru" class="header__mailto">info@kuhnicity.ru</a>
-                </div>
-                <div class="header__call">
-                    <p class="header__textPhone">Заказать звонок</p>
-                    <a href="tel: +74991354378" class="header__tel">+7 (499) 135-43-78</a>
-                </div>
-            </div>
-        </div>
-        <div class="header__subheader">
-            <div class="header__catalog">
-                <div class="header__burger">
-                    <img src="styles/img/icons/burger.svg" alt="burger" class="header__burgerIcon">
-                </div>
-                <div class="header__catalogText">КАТАЛОГ</div>
-            </div>
-            <div class="header__logo">
-                <img src="styles/img/logo/logo.svg" alt="logo" class="header__kuhnicityLogo">
-            </div>
-            <div class="header__calculate">
-                <div class="header__textCalculate">РАССЧИТАТЬ КУХНЮ</div>
-                <div class="header__devider"></div>
-            </div>
-        </div>
-    </header>
-    <section class="createKitchen">
-        <div class="createKitchen__wrapper">
-            <div class="createKitchen__column">
-                <h1 class="createKitchen__title">Создаем кухни,<br> в которые вы влюбитесь</h1>
-                <p class="createKitchen__descr">Производим кухни по российской-немецкой технологии.<br> В каталоге более 300 моделей. А ещё, делаем бесплатный дизайн-проект конкретно для вас. </p>
-                <form action="#" class="createKitchen__form">
-                    <div class="createKitchen__inputBlocks">
-                        <div class="createKitchen__inputBlock">
-                            <label for="name" class="createKitchen__label">Ваше имя</label>
-                            <input class="createKitchen__input" name="name" type="text" value="">
-                        </div>
-                        <div class="createKitchen__inputBlock">
-                            <label for="phone" class="createKitchen__label">Ваш телефон</label>
-                            <input class="createKitchen__input" name="phone" type="text" aria-invalid="false">
-                        </div>
+    <div class="main">
+        <header class="header">
+            <div class="header__menu">
+                <nav class="header__navbar">
+                    <select class="header__item header__select" id="cities">
+                        <option value="Москва">Москва</option>
+                        <option value="Санкт-Петербург">Санкт-Петербург</option>
+                        <option value="Казань">Казань</option>
+                        <option value="Екатеринбург">Екатеринбург</option>
+                        <option value="Frattamaggiore">Frattamaggiore</option>
+                    </select>
+                    <select class="header__item header__select" id="aboutCompany">
+                        <option value="O компании">O компании</option>
+                        <option value="О нас">О нас</option>
+                        <option value="Написать директору">Написать директору</option>
+                        <option value="Написать Путину">Написать Путину</option>
+                    </select>
+                    <a href="#" class="header__item">Акции</a>
+                    <a href="#" class="header__item">Контакты</a>
+                    <a href="#" class="header__item">Заказать замер</a>
+                    <a href="#" class="header__item">Адреса салонов</a>
+                </nav>
+                <div class="header__wrapperContacts">
+                    <div class="header__mail">
+                        <a href="mailto: info@kuhnicity.ru" class="header__mailto">info@kuhnicity.ru</a>
                     </div>
-                   <button class="createKitchen__button">ПОЛУЧИТЬ ДИЗАЙН-ПРОЕКТ</button>
-                </form>
-                <div class="createKitchen__order">
-                    <p class="createKitchen__year">С 1999 года <br> выполено заказов</p>
-                    <p class="createKitchen__numberOrder">72 125</p>
+                    <div class="header__call">
+                        <p class="header__textPhone">Заказать звонок</p>
+                        <a href="tel: +74991354378" class="header__tel">+7 (499) 135-43-78</a>
+                    </div>
                 </div>
             </div>
+            <div class="header__subheader">
+                <div class="header__catalog">
+                    <div class="header__burger">
+                        <img src="styles/img/icons/burger.svg" alt="burger" class="header__burgerIcon">
+                    </div>
+                    <div class="header__catalogText">КАТАЛОГ</div>
+                </div>
+                <div class="header__logo">
+                    <img src="styles/img/logo/logo.svg" alt="logo" class="header__kuhnicityLogo">
+                </div>
+                <div class="header__calculate">
+                    <div class="header__textCalculate">РАССЧИТАТЬ КУХНЮ</div>
+                    <div class="header__devider"></div>
+                </div>
+            </div>
+        </header>
+        <section class="createKitchen">
+            <div class="createKitchen__wrapper">
+                <div class="createKitchen__column">
+                    <h1 class="createKitchen__title">Создаем кухни,<br> в которые вы влюбитесь</h1>
+                    <p class="createKitchen__descr">Производим кухни по российской-немецкой технологии.<br> В каталоге более 300 моделей. А ещё, делаем бесплатный дизайн-проект конкретно для вас. </p>
+                    <form action="#" class="createKitchen__form">
+                        <div class="createKitchen__inputBlocks">
+                            <div class="createKitchen__inputBlock">
+                                <label for="name" class="createKitchen__label">Ваше имя</label>
+                                <input class="createKitchen__input" name="name" type="text" value="">
+                            </div>
+                            <div class="createKitchen__inputBlock">
+                                <label for="phone" class="createKitchen__label">Ваш телефон</label>
+                                <input class="createKitchen__input" name="phone" type="text" aria-invalid="false">
+                            </div>
+                        </div>
+                       <button class="createKitchen__button">ПОЛУЧИТЬ ДИЗАЙН-ПРОЕКТ</button>
+                    </form>
+                    <div class="createKitchen__order">
+                        <p class="createKitchen__year">С 1999 года <br> выполено заказов</p>
+                        <p class="createKitchen__numberOrder">72 125</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    <section class="terms">
+        <div class="terms__row">
+            <div class="terms__block">
+                <h3 class="terms__subtitle">100 салонов</h3>
+                <p class="terms__text">70 салонов в России и 30 в Казахстане,  Украине и  Беларусь.</p>
+            </div>
+            <div class="terms__block">
+                <h3 class="terms__subtitle">Рассрочка 2 года</h3>
+                <p class="terms__text">Удобная рассрочка оплаты на 2 года без процентов</p>
+            </div>
+            <div class="terms__block">
+                <h3 class="terms__subtitle">Свое производство</h3>
+                <p class="terms__text">Производство 60 тыс. м² в Зеленограде. 600 сотрудников и 69 тыс. заказов с 1991 г.</p>
+            </div>
+            <div class="terms__block">
+                <h3 class="terms__subtitle">Гарантия 24 месяца</h3>
+                <p class="terms__text">2 года сервисного  обслуживания всего кухонного гарнитура KUCHENBERG </p>
+            </div>
         </div>
-        <div class="createKitchen__row">
-            <div class="createKitchen__block">
-                <h3 class="createKitchen__subtitle">100 салонов</h3>
-                <p class="createKitchen__text">70 салонов в России и 30 в Казахстане,  Украине и  Беларусь.</p>
+    </section>
+    <section class="advertising">
+        <aside class="sidebar">
+            <p class="sidebar__text">Акции Акции</p>
+        </aside>
+        <div class="stock">
+            <div class="stock__discount">
+                <h3 class="stock__discountTitle">Скидка 40% на все модели месяца</h3>
+                <p class="stock__discountText">Акции и спецпредложения для ещё более выгодной покупки кухни вашей мечты. А ещё мы бесплатно предлагаем дизайн-проект.</p>
+                <button class="stock__discountButton">Получить скидку</button>
             </div>
-            <div class="createKitchen__block">
-                <h3 class="createKitchen__subtitle">Рассрочка 2 года</h3>
-                <p class="createKitchen__text">Удобная рассрочка оплаты на 2 года без процентов</p>
+            <div class="stock__wrapperPresent">
+                <div class="stock__present">
+                    <h3 class="stock__presentTitle">Дарим 150 000 ₽  на новую кухню</h3>
+                    <p class="stock__presentText">Акции и спецпредложения для ещё более выгодной покупки кухни вашей мечты. А ещё мы бесплатно предлагаем дизайн-проект.</p>
+                    <div class="stock__circle">ПЕРЕЙТИ</div>
+                </div>
             </div>
-            <div class="createKitchen__block">
-                <h3 class="createKitchen__subtitle">Свое производство</h3>
-                <p class="createKitchen__text">Производство 60 тыс. м² в Зеленограде. 600 сотрудников и 69 тыс. заказов с 1991 г.</p>
-            </div>
-            <div class="createKitchen__block">
-                <h3 class="createKitchen__subtitle">Гарантия 24 месяца</h3>
-                <p class="createKitchen__text">2 года сервисного  обслуживания всего кухонного гарнитура KUCHENBERG </p>
+            <div class="stock__title">
+                <h3 class="stock__titleText">Заголовок акции</h3>
             </div>
         </div>
     </section>

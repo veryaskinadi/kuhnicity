@@ -3,6 +3,9 @@ body {
   font-family: 'Averta';
   margin: 0; }
 
+.main {
+  position: relative; }
+
 @font-face {
   font-family: 'CormorantGaramond';
   src: url("../fonts/CormorantGaramond-Light.eot");
@@ -24,7 +27,10 @@ body {
   font-style: normal; }
 
 .header {
-  min-height: 139px; }
+  width: 100%;
+  position: fixed;
+  height: 139px;
+  z-index: 999; }
   .header__menu {
     display: flex;
     justify-content: space-between;
@@ -84,7 +90,8 @@ body {
     padding-right: 159px;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    background-color: #ffffff; }
   .header__catalog {
     display: flex;
     justify-content: space-between;
@@ -103,110 +110,224 @@ body {
   .header__textCalculate {
     font-size: 18px; }
 
-.createKitchen__wrapper {
-  min-height: 762px;
-  background: url(../img/createKitchen.png) center center/cover no-repeat; }
-
-.createKitchen__row {
-  min-height: 104px; }
-
-.createKitchen__column {
-  min-height: 762px;
-  padding-left: 158px;
-  width: 40%;
-  background: rgba(255, 255, 255, 0.8); }
-
-.createKitchen__title {
-  margin: 0;
-  padding-top: 77px;
-  font-family: CormorantGaramond;
-  font-weight: 500;
-  font-size: 72px;
-  line-height: 117.3%;
-  color: #181818; }
-
-.createKitchen__descr {
-  margin-top: 46px;
-  padding-right: 161px;
-  font-size: 16px;
-  line-height: 140%;
-  color: #494949; }
-
-.createKitchen__form {
-  margin-top: 60px;
-  padding-right: 161px; }
-
-.createKitchen__inputBlocks {
-  display: flex;
-  justify-content: space-between; }
-
-.createKitchen__inputBlock {
-  width: 100%; }
-  .createKitchen__inputBlock:nth-child(2n) {
-    margin-left: 35px; }
-
-.createKitchen__label {
-  padding-left: 24px;
-  display: block; }
-
-.createKitchen__input {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #9D9D9D;
+.createKitchen {
+  margin-top: 139px;
+  position: absolute;
   width: 100%;
-  padding-top: 8px; }
+  z-index: 5; }
+  .createKitchen__wrapper {
+    min-height: 762px;
+    background: url(../img/createKitchen.png) center center/cover no-repeat; }
+  .createKitchen__row {
+    min-height: 104px; }
+  .createKitchen__column {
+    min-height: 762px;
+    padding-left: 158px;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.8); }
+  .createKitchen__title {
+    margin: 0;
+    padding-top: 90px;
+    font-family: CormorantGaramond;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 117.3%;
+    color: #181818; }
+  .createKitchen__descr {
+    margin-top: 46px;
+    padding-right: 161px;
+    font-size: 16px;
+    line-height: 140%;
+    color: #494949; }
+  .createKitchen__form {
+    margin-top: 60px;
+    padding-right: 161px; }
+  .createKitchen__inputBlocks {
+    display: flex;
+    justify-content: space-between; }
+  .createKitchen__inputBlock {
+    width: 100%; }
+    .createKitchen__inputBlock:nth-child(2n) {
+      margin-left: 35px; }
+  .createKitchen__label {
+    padding-left: 24px;
+    display: block; }
+  .createKitchen__input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #9D9D9D;
+    width: 100%;
+    padding-top: 8px; }
+  .createKitchen__button {
+    margin-top: 40px;
+    width: 606px;
+    height: 70px;
+    background-color: #FF3D00;
+    border: none;
+    font-size: 20px;
+    color: #ffffff; }
+  .createKitchen__order {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start; }
+  .createKitchen__year {
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+    display: block;
+    margin: auto 0; }
+  .createKitchen__numberOrder {
+    font-size: 45px;
+    line-height: 56px;
+    color: #373737;
+    margin-left: 93px; }
 
-.createKitchen__button {
-  margin-top: 40px;
-  width: 606px;
-  height: 70px;
-  background-color: #FF3D00;
-  border: none;
-  font-size: 20px;
-  color: #ffffff; }
+.terms {
+  padding-top: 901px;
+  z-index: 6;
+  background-color: #ffffff; }
+  .terms__block {
+    min-height: 104px;
+    padding-left: 32px;
+    padding-right: 104px;
+    border-left: 2px solid rgba(50, 50, 50, 0.08); }
+    .terms__block:nth-child(4n) {
+      padding-right: 0; }
+  .terms__subtitle {
+    margin-top: 0;
+    font-size: 20px;
+    color: #131313; }
+  .terms__text {
+    margin-top: 19px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #868686; }
+  .terms__row {
+    padding-right: 235px;
+    padding-left: 270px;
+    padding-top: 65px;
+    padding-bottom: 66px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left; }
 
-.createKitchen__order {
-  margin-top: 5px;
+.advertising {
+  background: #F2F2F2;
+  min-height: 1368px;
   display: flex;
-  justify-content: flex-start; }
+  flex-direction: row; }
 
-.createKitchen__year {
-  font-size: 18px;
-  line-height: 140%;
-  color: #000000;
-  display: block;
-  margin: auto 0; }
-
-.createKitchen__numberOrder {
-  font-size: 45px;
-  line-height: 56px;
-  color: #373737;
-  margin-left: 93px; }
-
-.createKitchen__row {
-  padding-right: 235px;
-  padding-left: 270px;
-  padding-top: 65px;
-  padding-bottom: 66px;
+.sidebar {
+  width: 449px;
+  min-height: 1368px;
   display: flex;
-  justify-content: space-between;
-  text-align: left; }
+  flex-direction: column-reverse;
+  z-index: 1; }
+  .sidebar__text {
+    white-space: nowrap;
+    font-family: CormorantGaramond;
+    font-weight: 300;
+    font-size: 350px;
+    line-height: 110.8%;
+    color: #272727;
+    display: block;
+    transform: rotate(-90deg); }
 
-.createKitchen__block {
-  height: 104px;
-  padding-left: 32px;
-  padding-right: 104px;
-  border-left: 2px solid rgba(50, 50, 50, 0.08); }
-  .createKitchen__block:nth-child(4n) {
-    padding-right: 0; }
-
-.createKitchen__subtitle {
-  margin-top: 0;
-  font-size: 20px;
-  color: #131313; }
-
-.createKitchen__text {
-  margin-top: 19px;
-  font-size: 16px;
-  line-height: 20px;
-  color: #868686; }
+.stock {
+  position: relative; }
+  .stock__discount {
+    width: 551px;
+    height: 648px;
+    background: url(../img/discount.png), center center/cover no-repeat; }
+  .stock__discountTitle {
+    padding-top: 76px;
+    padding-left: 83px;
+    padding-right: 96px;
+    margin-top: 71px;
+    font-family: CormorantGaramond;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 107.8%;
+    color: #FFFFFF;
+    letter-spacing: -0.025em; }
+  .stock__discountText {
+    margin-top: -41px;
+    padding-left: 83px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.035em;
+    color: #E3E3E3;
+    padding-right: 129px; }
+  .stock__discountButton {
+    margin-top: 64px;
+    margin-left: 83px;
+    width: 293px;
+    height: 70px;
+    background: #F1F1F1;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #323232;
+    border: none; }
+  .stock__wrapperPresent {
+    position: absolute;
+    right: -515px;
+    bottom: 425px; }
+  .stock__present {
+    position: relative;
+    width: 675px;
+    height: 388px;
+    background: url(../img/present.png) center center/cover no-repeat; }
+  .stock__presentTitle {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 47px;
+    font-family: CormorantGaramond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 107.8%;
+    text-align: center;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    text-align: center; }
+  .stock__presentText {
+    margin-top: 45px;
+    padding-left: 111px;
+    padding-right: 112px;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #E3E3E3; }
+  .stock__title {
+    margin-top: 181px;
+    margin-left: 50px;
+    width: 631px;
+    height: 333px;
+    background: url(../img/titleStock.png) center center/cover no-repeat; }
+  .stock__titleText {
+    padding-left: 38px;
+    padding-top: 272px;
+    font-size: 25px;
+    line-height: 110.8%;
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .stock__circle {
+    position: absolute;
+    bottom: -14px;
+    right: -91px;
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+    background-color: #FF3D00;
+    font-size: 18px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }

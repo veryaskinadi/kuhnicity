@@ -1,5 +1,8 @@
 .header {
-    min-height: 139px;
+    width: 100%;
+    position: fixed;
+    height: 139px;
+    z-index: 999;
     &__menu {
         display: flex;
         justify-content: space-between;
@@ -73,6 +76,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: #ffffff;
     }
     &__catalog {
         display: flex;

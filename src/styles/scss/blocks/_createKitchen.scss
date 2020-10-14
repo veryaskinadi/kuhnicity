@@ -1,4 +1,8 @@
 .createKitchen {
+    margin-top: 139px;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
     &__wrapper {
         min-height: 762px;
         background: url(../img/createKitchen.png) center center/cover no-repeat;
@@ -14,7 +18,7 @@
     }
     &__title {
         margin: 0;
-        padding-top: 77px;
+        padding-top: 90px;
         font-family: CormorantGaramond;
         font-weight: 500;
         font-size: 72px;
@@ -79,34 +83,5 @@
         line-height: 56px;
         color: #373737;
         margin-left: 93px;
-    }
-    &__row {
-        padding-right: 235px;
-        padding-left: 270px;
-        padding-top: 65px;
-        padding-bottom: 66px;
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
-    }
-    &__block {
-        height: 104px;
-        padding-left: 32px;
-        padding-right: 104px;
-        border-left: 2px solid rgba(50, 50, 50, 0.08);
-        &:nth-child(4n) {
-            padding-right: 0;
-        }
-    }
-    &__subtitle {
-        margin-top: 0;
-        font-size: 20px;
-        color: #131313;
-    }
-    &__text {
-        margin-top: 19px;
-        font-size: 16px;
-        line-height: 20px;
-        color: #868686;
     }
 }
