@@ -331,3 +331,86 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; }
+
+.catalog {
+  min-height: 887px;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 37.6% 26.2% 35.3%;
+  grid-template-areas: 'sale appliances kitchen' 'sale appliances kitchen' 'sale case kitchen' 'countertop case kitchen'; }
+  .catalog__sale {
+    grid-area: sale;
+    background: url(../img/catalog/sale.png) center center/cover no-repeat; }
+  .catalog__linkSale {
+    display: block;
+    padding-top: 330px;
+    margin-left: 49px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .catalog__linkChoose {
+    margin-left: 49px;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 252%;
+    letter-spacing: 0.035em;
+    color: #FFFFFF; }
+  .catalog__linkWrapper {
+    margin-top: 29px; }
+  .catalog__appliances {
+    grid-area: appliances;
+    background: url(../img/catalog/appliances.png) center center/cover no-repeat; }
+  .catalog__linkAppliances {
+    display: block;
+    padding-top: 350px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .catalog__kitchen {
+    grid-area: kitchen;
+    background: url(../img/catalog/kitchen.png) center center/cover no-repeat; }
+  .catalog__linkKitchen {
+    display: block;
+    padding-top: 807px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .catalog__countertop {
+    grid-area: countertop;
+    background: url(../img/catalog/countertop.png) center center/cover no-repeat; }
+  .catalog__linkCountertop {
+    display: block;
+    text-decoration: none;
+    padding-top: 137px;
+    margin-left: 49px;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .catalog__case {
+    grid-area: case;
+    background: url(../img/catalog/case.png) center center/cover no-repeat; }
+  .catalog__linkCase {
+    display: block;
+    text-decoration: none;
+    padding-top: 360px;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
