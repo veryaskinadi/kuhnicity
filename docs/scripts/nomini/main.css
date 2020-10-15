@@ -606,3 +606,48 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 270px; }
+
+.designs {
+  position: relative;
+  min-height: 725px; }
+  .designs__title {
+    margin-left: 49px;
+    margin-bottom: 0;
+    font-family: CormorantGaramond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 250px;
+    line-height: 107.8%;
+    letter-spacing: -0.025em;
+    color: #FF3D00; }
+  .designs__text {
+    margin-top: 174px;
+    margin-left: 166px;
+    max-width: 454px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.035em;
+    color: #666666; }
+  .designs__button {
+    margin-top: 79px;
+    margin-left: 166px;
+    width: 456px;
+    height: 70px;
+    background-color: #232323;
+    font-size: 20px;
+    line-height: 120.3%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none; }
+  .designs__wrapperImg1 {
+    position: absolute;
+    top: 16px;
+    right: 0;
+    z-index: -15; }
+  .designs__wrapperImg2 {
+    position: absolute;
+    bottom: 0;
+    right: 308px;
+    z-index: -5; }
