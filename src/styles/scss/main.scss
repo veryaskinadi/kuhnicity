@@ -2,7 +2,7 @@ body {
     font-family: 'Averta';
     margin: 0;
 }
-.main {
+.headerCreateKitchen {
     position: relative;
 }
 @import 'src/styles/scss/base/_fonts.scss';
@@ -11,4 +11,5 @@ body {
 @import 'src/styles/scss/blocks/_createKitchen.scss';
 @import 'src/styles/scss/blocks/_terms.scss';
 @import 'src/styles/scss/blocks/_advertising.scss';
-@import 'src/styles/scss/blocks/_catalog.scss'
+@import 'src/styles/scss/blocks/_catalog.scss';
+@import 'src/styles/scss/blocks/_productCards.scss'

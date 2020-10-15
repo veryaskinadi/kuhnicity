@@ -1,0 +1,209 @@
+.productCards {
+    min-height: 1847px;
+    padding-top: 109px;
+    padding-bottom: 109px;
+    &__title {
+        padding-right: 160px;
+        padding-left: 160px;
+        margin-bottom: 0;
+        font-family: CormorantGaramond;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 117.3%;
+        letter-spacing: -0.025em;
+        color: #141414;
+    }
+    &__tabs {
+        margin-right: 160px;
+        margin-left: 160px;
+        margin-top: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0;
+    }
+    &__tab {
+        list-style-type: none;
+    }
+    &__tabsLink {
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.135em;
+        text-transform: uppercase;
+        color: #151515;
+    }
+    &__content {
+        padding-right: 128px;
+        padding-left: 128px;
+        margin-top: -16px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    &__card {
+        margin-top: 70px;
+        margin-left: 32px;
+        margin-right: 32px;
+        width: 490px;
+        height: 663px;
+    }
+    &__wrapperItem1 {
+        width: 490px;
+        height: 586px;
+        background: url(../img/productCards/photo1.png) center center/cover no-repeat;
+    }
+    &__wrapperItem2 {
+        width: 490px;
+        height: 586px;
+        background: url(../img/productCards/photo2.png) center center/cover no-repeat;
+    }
+    &__wrapperItem3 {
+        width: 490px;
+        height: 586px;
+        background: url(../img/productCards/photo3.png) center center/cover no-repeat;
+    }
+    &__wrapperItem4 {
+        width: 490px;
+        height: 586px;
+        background: url(../img/productCards/photo4.png) center center/cover no-repeat;
+    }
+    &__wrapperItem5 {
+        width: 490px;
+        height: 586px;
+        background: url(../img/productCards/photo5.png) center center/cover no-repeat;
+    }
+    &__wrapperItem6 {
+        width: 490px;
+        height: 628px;
+    }
+    &__item {
+        display: none;
+        position: relative;
+        width: 490px;
+        height: 586px;
+        background: rgba(255, 255, 255, 0.3);
+        &_active {
+            margin-top: -83px;
+            display: block;
+        }
+    }
+    &__itemAll {
+        background-color: #FF3D00;
+        width: 490px;
+        height: 628px;
+    }
+    &__calculateModel {
+        position: absolute;
+        top: 68px;
+        right: 21px;
+        width: 39px;
+        height: 39px; 
+        color: #292929;
+        border: solid 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__wrapperProperty {
+        padding-top: 83px;
+        margin-left: 36px;
+    }
+    &__property {
+        margin-top: 44px;
+        max-width: 203px;
+    }
+    &__titleProperty {
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 120.3%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #323232;
+    }
+    &__textProperty {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: 0.035em;
+        color: #585858;
+    }
+
+    &__rectangle {
+        margin-top: 39px;
+        width: 490px;
+        height: 70px;
+        background: #FF3D00;
+        font-size: 20px;
+        line-height: 70px;
+        text-align: center;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__footer {
+        margin-top: 23px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__titleProduct{
+        margin: 0;
+        font-size: 20px;
+        line-height: 120.3%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #323232;        
+    }
+    &__descriptionProduct{
+        margin-top: 4px;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.035em;
+        color: #323232;
+    }
+    &__priceProduct {
+        font-size: 20px;
+        line-height: 120.3%;
+        text-align: right;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #323232;
+    }
+    &__linkAllModel {
+        padding-right: 12px;
+        font-size: 20px;
+        line-height: 120.3%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__nameModel {
+        padding-top: 135px;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        font-family: CormorantGaramond;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 107.8%;
+        letter-spacing: -0.025em;
+        color: #FFFFFF;
+        
+    }
+    &__textSale {
+        margin-top: 19px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 120.3%;
+        letter-spacing: 0.105em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__watchAll {
+        display: flex;
+        justify-content: center;
+        margin-top: 270px;
+    }
+}

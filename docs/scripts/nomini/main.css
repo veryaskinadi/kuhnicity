@@ -3,7 +3,7 @@ body {
   font-family: 'Averta';
   margin: 0; }
 
-.main {
+.headerCreateKitchen {
   position: relative; }
 
 @font-face {
@@ -36,7 +36,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    min-height: 40px;
+    height: 40px;
     color: #333333;
     background: rgba(240, 240, 240, 0.88); }
   .header__select {
@@ -69,18 +69,18 @@ body {
   .header__call {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 98px; }
   .header__wrapperContacts {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-right: 178px; }
   .header__mailto {
     text-decoration: none;
-    color: #333333;
-    line-height: 40px; }
+    color: #333333; }
   .header__tel {
     text-decoration: none;
-    line-height: 40px;
     color: #333333; }
   .header__textPhone {
     margin-right: 37px; }
@@ -215,15 +215,18 @@ body {
   background: #F2F2F2;
   min-height: 1368px;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  overflow: hidden; }
 
 .sidebar {
-  width: 449px;
+  width: 536px;
   min-height: 1368px;
   display: flex;
   flex-direction: column-reverse;
   z-index: 1; }
   .sidebar__text {
+    margin-bottom: -510px;
+    transform-origin: 11% 0;
     white-space: nowrap;
     font-family: CormorantGaramond;
     font-weight: 300;
@@ -238,7 +241,7 @@ body {
   .stock__discount {
     width: 551px;
     height: 648px;
-    background: url(../img/discount.png), center center/cover no-repeat; }
+    background: url(../img/advertising/discount.png) center center/cover no-repeat; }
   .stock__discountTitle {
     padding-top: 76px;
     padding-left: 83px;
@@ -270,19 +273,32 @@ body {
     text-transform: uppercase;
     color: #323232;
     border: none; }
+  .stock__wrapperDiscount {
+    width: 551px;
+    height: 648px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 92.71%); }
+  .stock__wrapperTitle {
+    margin-top: 181px;
+    margin-left: 27px;
+    width: 631px;
+    height: 333px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 92.71%); }
   .stock__wrapperPresent {
     position: absolute;
-    right: -515px;
-    bottom: 425px; }
+    width: 675px;
+    height: 388px;
+    right: -526px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 92.71%);
+    bottom: 419px; }
   .stock__present {
     position: relative;
     width: 675px;
     height: 388px;
-    background: url(../img/present.png) center center/cover no-repeat; }
+    background: url(../img/advertising/present.png) center center/cover no-repeat; }
   .stock__presentTitle {
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 47px;
+    margin-bottom: 0;
+    margin-top: 0;
     font-family: CormorantGaramond;
     font-style: normal;
     font-weight: 300;
@@ -293,7 +309,7 @@ body {
     color: #FFFFFF;
     text-align: center; }
   .stock__presentText {
-    margin-top: 45px;
+    margin-top: 47px;
     padding-left: 111px;
     padding-right: 112px;
     font-size: 16px;
@@ -302,11 +318,9 @@ body {
     letter-spacing: 0.035em;
     color: #E3E3E3; }
   .stock__title {
-    margin-top: 181px;
-    margin-left: 50px;
     width: 631px;
     height: 333px;
-    background: url(../img/titleStock.png) center center/cover no-repeat; }
+    background: url(../img/advertising/titleStock.png) center center/cover no-repeat; }
   .stock__titleText {
     padding-left: 38px;
     padding-top: 272px;
@@ -414,3 +428,181 @@ body {
     letter-spacing: 0.105em;
     text-transform: uppercase;
     color: #FFFFFF; }
+
+.productCards {
+  min-height: 1847px;
+  padding-top: 109px;
+  padding-bottom: 109px; }
+  .productCards__title {
+    padding-right: 160px;
+    padding-left: 160px;
+    margin-bottom: 0;
+    font-family: CormorantGaramond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 117.3%;
+    letter-spacing: -0.025em;
+    color: #141414; }
+  .productCards__tabs {
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0; }
+  .productCards__tab {
+    list-style-type: none; }
+  .productCards__tabsLink {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #151515; }
+  .productCards__content {
+    padding-right: 128px;
+    padding-left: 128px;
+    margin-top: -16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; }
+  .productCards__card {
+    margin-top: 70px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 490px;
+    height: 663px; }
+  .productCards__wrapperItem1 {
+    width: 490px;
+    height: 586px;
+    background: url(../img/productCards/photo1.png) center center/cover no-repeat; }
+  .productCards__wrapperItem2 {
+    width: 490px;
+    height: 586px;
+    background: url(../img/productCards/photo2.png) center center/cover no-repeat; }
+  .productCards__wrapperItem3 {
+    width: 490px;
+    height: 586px;
+    background: url(../img/productCards/photo3.png) center center/cover no-repeat; }
+  .productCards__wrapperItem4 {
+    width: 490px;
+    height: 586px;
+    background: url(../img/productCards/photo4.png) center center/cover no-repeat; }
+  .productCards__wrapperItem5 {
+    width: 490px;
+    height: 586px;
+    background: url(../img/productCards/photo5.png) center center/cover no-repeat; }
+  .productCards__wrapperItem6 {
+    width: 490px;
+    height: 628px; }
+  .productCards__item {
+    display: none;
+    position: relative;
+    width: 490px;
+    height: 586px;
+    background: rgba(255, 255, 255, 0.3); }
+    .productCards__item_active {
+      margin-top: -83px;
+      display: block; }
+  .productCards__itemAll {
+    background-color: #FF3D00;
+    width: 490px;
+    height: 628px; }
+  .productCards__calculateModel {
+    position: absolute;
+    top: 68px;
+    right: 21px;
+    width: 39px;
+    height: 39px;
+    color: #292929;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .productCards__wrapperProperty {
+    padding-top: 83px;
+    margin-left: 36px; }
+  .productCards__property {
+    margin-top: 44px;
+    max-width: 203px; }
+  .productCards__titleProperty {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #323232; }
+  .productCards__textProperty {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.035em;
+    color: #585858; }
+  .productCards__rectangle {
+    margin-top: 39px;
+    width: 490px;
+    height: 70px;
+    background: #FF3D00;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .productCards__footer {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between; }
+  .productCards__titleProduct {
+    margin: 0;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #323232; }
+  .productCards__descriptionProduct {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.035em;
+    color: #323232; }
+  .productCards__priceProduct {
+    font-size: 20px;
+    line-height: 120.3%;
+    text-align: right;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #323232; }
+  .productCards__linkAllModel {
+    padding-right: 12px;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .productCards__nameModel {
+    padding-top: 135px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: CormorantGaramond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 107.8%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF; }
+  .productCards__textSale {
+    margin-top: 19px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .productCards__watchAll {
+    display: flex;
+    justify-content: center;
+    margin-top: 270px; }

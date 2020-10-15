@@ -8,7 +8,7 @@
         justify-content: space-between;
         align-items: center;
         font-size: 14px;
-        min-height: 40px;
+        height: 40px;
         color: #333333;
         background: rgba(240, 240, 240, 0.88);
     }
@@ -49,21 +49,21 @@
     &__call {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-left: 98px;
     }
     &__wrapperContacts {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-right: 178px;
     }
     &__mailto {
         text-decoration: none;
         color: #333333;
-        line-height: 40px;
     }
     &__tel {
         text-decoration: none;
-        line-height: 40px;
         color: #333333;
     }
     &__textPhone {
