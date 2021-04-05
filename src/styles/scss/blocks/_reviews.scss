@@ -1,0 +1,115 @@
+.reviews {
+	min-height: 791px;
+	background: $bg-color;
+	&__title {
+		margin-left: 160px;
+		font-family: Cormorant Garamond;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 72px;
+		line-height: 117.3%;
+		color: #141414;
+	}
+	&__slider {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		overflow: hidden;
+		margin-left: 164px;
+	}
+	&__item {
+		margin-right: 18px;
+		display: flex;
+		width: 773px;
+		height: 290px;
+		border: 1px solid #CFCFCF;
+	}
+	&__leftColumn {
+		position: relative;
+		margin: 26px 27px 25px 26px;
+	}
+	&__rightColumn {
+		margin: 33px 35px 39px 0;
+	}
+	&__rectangle {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		width: 39px;
+		height: 39px;
+		border: 1px solid #000000;
+		bottom: 11px;
+		right: 12px;
+		&_white {
+			border-color: #FFFFFF;
+		}
+	}
+	&__author {
+		display: flex;
+		align-items: center;
+	}
+	&__authorName {
+		margin-left: 15px;
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: 0.135em;
+		text-transform: uppercase;
+		color: #292929;
+	}
+	&__description {
+		font-size: 16px;
+		line-height: 140%;
+		letter-spacing: 0.035em;
+		color: #666666;
+		margin-top: 28px;
+	}
+	&__footer {
+		margin-top: 25px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__date {
+		font-size: 14px;
+		line-height: 118.49%;
+		letter-spacing: 0.035em;
+		color: #171717;
+		opacity: 0.5;
+	}
+	&__link {
+		font-size: 18px;
+		line-height: 120.3%;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+		color: $main-color;
+		text-decoration: none;
+	}
+	&__line {
+		margin-top: 5px;
+		width: 203px;
+		height: 0px;
+		border: 1px solid rgba(255, 61, 0, 0.21);
+	}
+	&__sliderArrow {
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 169px;
+		margin-top: 54px;
+	}
+	&__circle {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		&_active {
+			background-color: $main-color;
+		}
+	}
+	&__ps {
+		font-size: 35px;
+		line-height: 43px;
+		color: #323232;
+		margin-left: 152px;
+	}
+}

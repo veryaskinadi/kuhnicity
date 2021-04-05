@@ -1,0 +1,46 @@
+.workProcess {
+	margin-top: 200px;
+	min-height: 827px;
+	background: $bg-color;
+	&__wrapper {
+		display: flex;
+	}
+	&__item {
+		position: relative;
+		height: 666px;
+		width: 474px;
+		&_active {
+			color: #FFFFFF;
+			background: url(../img/workProcess/bg1.png) center center/cover no-repeat; ;
+		}
+	}
+	&__title {
+		font-family: CormorantGaramond;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 72px;
+		line-height: 117.3%;
+		padding-left: 160px;
+	}
+	&__titleItem {
+		margin-top: 46px;
+		display: block;
+		font-size: 20px;
+		line-height: 120.3%;
+		text-align: center;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+	}
+	&__description {
+		margin-top: 20px;
+		display: block;
+		font-size: 16px;
+		line-height: 140%;
+		text-align: center;
+		letter-spacing: 0.035em;
+	}
+	&__imgNumber {
+		position: absolute;
+		bottom: 0;
+	}
+}

@@ -2,7 +2,9 @@
     min-height: 1847px;
     padding-top: 109px;
     padding-bottom: 109px;
-    &__title {
+		background: $bg-color;
+
+	&__title {
         padding-right: 160px;
         padding-left: 160px;
         margin-bottom: 0;

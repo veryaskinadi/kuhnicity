@@ -2,6 +2,7 @@
     min-height: 887px;
     display: grid;
     grid-gap: 8px;
+		background: $bg-color;
     &__sale {
         grid-area: sale;
         background: url(../img/catalog/sale.png) center center/cover no-repeat;

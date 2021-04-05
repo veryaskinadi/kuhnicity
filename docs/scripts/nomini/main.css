@@ -350,6 +350,7 @@ body {
   min-height: 887px;
   display: grid;
   grid-gap: 8px;
+  background: #FAFAFA;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 37.6% 26.2% 35.3%;
   grid-template-areas: 'sale appliances kitchen' 'sale appliances kitchen' 'sale case kitchen' 'countertop case kitchen'; }
@@ -432,7 +433,8 @@ body {
 .productCards {
   min-height: 1847px;
   padding-top: 109px;
-  padding-bottom: 109px; }
+  padding-bottom: 109px;
+  background: #FAFAFA; }
   .productCards__title {
     padding-right: 160px;
     padding-left: 160px;
@@ -617,7 +619,8 @@ body {
 
 .designs {
   position: relative;
-  min-height: 725px; }
+  min-height: 725px;
+  background: #FAFAFA; }
   .designs__title {
     margin-left: 49px;
     margin-bottom: 0;
@@ -659,3 +662,139 @@ body {
     bottom: 0;
     right: 308px;
     z-index: -5; }
+
+.workProcess {
+  margin-top: 200px;
+  min-height: 827px;
+  background: #FAFAFA; }
+  .workProcess__wrapper {
+    display: flex; }
+  .workProcess__item {
+    position: relative;
+    height: 666px;
+    width: 474px; }
+    .workProcess__item_active {
+      color: #FFFFFF;
+      background: url(../img/workProcess/bg1.png) center center/cover no-repeat; }
+  .workProcess__title {
+    font-family: CormorantGaramond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 117.3%;
+    padding-left: 160px; }
+  .workProcess__titleItem {
+    margin-top: 46px;
+    display: block;
+    font-size: 20px;
+    line-height: 120.3%;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase; }
+  .workProcess__description {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.035em; }
+  .workProcess__imgNumber {
+    position: absolute;
+    bottom: 0; }
+
+.reviews {
+  min-height: 791px;
+  background: #FAFAFA; }
+  .reviews__title {
+    margin-left: 160px;
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 117.3%;
+    color: #141414; }
+  .reviews__slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    margin-left: 164px; }
+  .reviews__item {
+    margin-right: 18px;
+    display: flex;
+    width: 773px;
+    height: 290px;
+    border: 1px solid #CFCFCF; }
+  .reviews__leftColumn {
+    position: relative;
+    margin: 26px 27px 25px 26px; }
+  .reviews__rightColumn {
+    margin: 33px 35px 39px 0; }
+  .reviews__rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #000000;
+    bottom: 11px;
+    right: 12px; }
+    .reviews__rectangle_white {
+      border-color: #FFFFFF; }
+  .reviews__author {
+    display: flex;
+    align-items: center; }
+  .reviews__authorName {
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+    color: #292929; }
+  .reviews__description {
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.035em;
+    color: #666666;
+    margin-top: 28px; }
+  .reviews__footer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between; }
+  .reviews__date {
+    font-size: 14px;
+    line-height: 118.49%;
+    letter-spacing: 0.035em;
+    color: #171717;
+    opacity: 0.5; }
+  .reviews__link {
+    font-size: 18px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FF3D00;
+    text-decoration: none; }
+  .reviews__line {
+    margin-top: 5px;
+    width: 203px;
+    height: 0px;
+    border: 1px solid rgba(255, 61, 0, 0.21); }
+  .reviews__sliderArrow {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 169px;
+    margin-top: 54px; }
+  .reviews__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; }
+    .reviews__circle_active {
+      background-color: #FF3D00; }
+  .reviews__ps {
+    font-size: 35px;
+    line-height: 43px;
+    color: #323232;
+    margin-left: 152px; }
