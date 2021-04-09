@@ -1,12 +1,19 @@
 body {
-    font-family: 'Averta';
+    font-family: 'Averta',  serif;
     margin: 0;
+}
+
+h2 {
+	margin: 0;
 }
 .headerCreateKitchen {
     position: relative;
 }
+
 @import 'src/styles/scss/base/_fonts.scss';
 @import 'src/styles/scss/base/_variables.scss';
+@import 'src/styles/scss/blocks/_title.scss';
+@import 'src/styles/scss/blocks/_buttons.scss';
 @import 'src/styles/scss/blocks/_header.scss';
 @import 'src/styles/scss/blocks/_createKitchen.scss';
 @import 'src/styles/scss/blocks/_terms.scss';
@@ -16,3 +23,8 @@ body {
 @import 'src/styles/scss/blocks/_designs.scss';
 @import 'src/styles/scss/blocks/_workProcess.scss';
 @import 'src/styles/scss/blocks/_reviews.scss';
+@import 'src/styles/scss/blocks/_ratings.scss';
+@import 'src/styles/scss/blocks/_socialNetwork.scss';
+@import 'src/styles/scss/blocks/_choise.scss';
+@import 'src/styles/scss/blocks/_sliderArrow.scss';
+@import 'src/styles/scss/blocks/_customKitchen.scss';

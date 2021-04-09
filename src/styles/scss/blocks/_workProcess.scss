@@ -1,26 +1,20 @@
 .workProcess {
-	margin-top: 200px;
-	min-height: 827px;
-	background: $bg-color;
+	padding-top: 100px;
+	background-color: $bg-color;
 	&__wrapper {
+		margin-top: 50px;
 		display: flex;
+		justify-content: space-between;
 	}
 	&__item {
 		position: relative;
 		height: 666px;
 		width: 474px;
+		background-color: #FFFFFF;
 		&_active {
 			color: #FFFFFF;
-			background: url(../img/workProcess/bg1.png) center center/cover no-repeat; ;
+			background: url(../img/workProcess/bg1.png) center center/cover no-repeat;
 		}
-	}
-	&__title {
-		font-family: CormorantGaramond;
-		font-style: normal;
-		font-weight: 300;
-		font-size: 72px;
-		line-height: 117.3%;
-		padding-left: 160px;
 	}
 	&__titleItem {
 		margin-top: 46px;

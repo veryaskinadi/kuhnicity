@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/css/main.css">
     <title>kuhnicity</title>
+		<link rel="stylesheet" href="styles/css/main.css">
 </head>
 <body>
     <div class="headerCreateKitchen">
@@ -65,14 +65,14 @@
                         <div class="createKitchen__inputBlocks">
                             <div class="createKitchen__inputBlock">
                                 <label for="name" class="createKitchen__label">Ваше имя</label>
-                                <input class="createKitchen__input" name="name" type="text" value="">
+                                <input class="createKitchen__input" id="name" type="text" value="">
                             </div>
                             <div class="createKitchen__inputBlock">
                                 <label for="phone" class="createKitchen__label">Ваш телефон</label>
-                                <input class="createKitchen__input" name="phone" type="text" aria-invalid="false">
+                                <input class="createKitchen__input" id="phone" type="text" aria-invalid="false">
                             </div>
                         </div>
-                       <button class="createKitchen__button">ПОЛУЧИТЬ ДИЗАЙН-ПРОЕКТ</button>
+                       <button class="button button_createKitchen">ПОЛУЧИТЬ ДИЗАЙН-ПРОЕКТ</button>
                     </form>
                     <div class="createKitchen__order">
                         <p class="createKitchen__year">С 1999 года <br> выполено заказов</p>
@@ -114,7 +114,7 @@
                 <div class="stock__discount">
                     <h3 class="stock__discountTitle">Скидка 40% на все модели месяца</h3>
                     <p class="stock__discountText">Акции и спецпредложения для ещё более выгодной покупки кухни вашей мечты. А ещё мы бесплатно предлагаем дизайн-проект.</p>
-                    <button class="stock__discountButton">Получить скидку</button>
+                    <button class="button button_stock">Получить скидку</button>
                 </div>
             </div>
             <div class="stock__wrapperPresent">
@@ -160,7 +160,7 @@
     </section>
 
     <section class="productCards">
-        <h2 class="productCards__title">Кухни</h2>
+        <h2 class="title title_productCards">Кухни</h2>
         <ul class="productCards__tabs">
             <li class="productCards__tab">
                 <a href="" class="productCards__tabsLink">Кухни со скидкой</a>
@@ -441,11 +441,11 @@
         </div>
         <h2 class="designs__title">150 дизайнеров  </h2>
         <p class="designs__text">150 дизайнеров-архитекторов ежедневно создают пространства индивидуально под каждого клиента. Получите бесплатный дизайн-проект под ваши предпочтения.</p>
-        <button class="designs__button">Бесплатный дизайн-проект</button>
+        <button class="button button_designs">Бесплатный дизайн-проект</button>
     </section>
 
 		<section class="workProcess">
-				<h2 class="workProcess__title">Как мы работаем?</h2>
+				<h2 class="title title_workProcess">Как мы работаем?</h2>
 				<div class="workProcess__wrapper">
 					<div class="workProcess__item workProcess__item_active">
 						<span class="workProcess__titleItem workProcess__titleItem_white">Создание проекта</span>
@@ -472,7 +472,7 @@
 		</section>
 
 	<section class="reviews">
-		<h2 class="reviews__title">Отзывы клиентов КухниСити</h2>
+		<h2 class="title title_reviews">Отзывы клиентов КухниСити</h2>
 		<div class="reviews__slider">
 			<div class="reviews__item">
 				<div class="reviews__leftColumn">
@@ -534,7 +534,33 @@
 				<div class="reviews__rightColumn">
 					<div class="reviews__author">
 						<img src="" alt="" class="reviews__messenger">
-						<span class="reviews__authorName">Андрей Иванов</span>
+						<span class="reviews__authorName">Б Иванов</span>
+					</div>
+					<div class="reviews__description">
+						Спасибо огромное, работа вашей команды бесценный вклад в счастье многих людей, а теперь
+						и частичка моей радости😊 Все оказалось совсем
+						не сложно и главное быстро!!! Вы огромные молодцы🙏 👍
+					</div>
+					<div class="reviews__footer">
+						<span class="reviews__date">06.05.2019 в 15:20</span>
+						<div class="reviews__wrapperLink">
+							<a href="" class="reviews__link">перейти к отзыву &#10230;</a>
+							<div class="reviews__line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews__item">
+				<div class="reviews__leftColumn">
+					<img src="styles/img/reviews/3.jpg" alt="Третий слайд">
+					<div class="reviews__rectangle">
+						<img src="styles/img/icons/vector-white.svg" alt="" class="reviews__vector">
+					</div>
+				</div>
+				<div class="reviews__rightColumn">
+					<div class="reviews__author">
+						<img src="" alt="" class="reviews__messenger">
+						<span class="reviews__authorName">В Иванов</span>
 					</div>
 					<div class="reviews__description">
 						Спасибо огромное, работа вашей команды бесценный вклад в счастье многих людей, а теперь
@@ -551,15 +577,221 @@
 				</div>
 			</div>
 		</div>
-		<div class="reviews__sliderArrow">
-			<div class="reviews__circle">
-				<img src="styles/img/icons/arrowLeft.svg" alt="" class="reviews__arrowLeft">
+		<div class="slider__arrows slider__arrows_reviews">
+			<div id="left" class="slider__circle" onclick="minusSlide()">
+				<img id="1" src="styles/img/icons/arrowLeft.svg" alt="" class="slider__arrowLeft">
+				<img id="2" src="styles/img/icons/arrowLeft-white.svg" alt="" class="slider__arrowLeft-white">
 			</div>
-			<div class="reviews__circle reviews__circle_active">
-				<img src="styles/img/icons/arrowRight.svg" alt="" class="reviews__arrowRight reviews__arrowRight_active">
+			<div id="right" class="slider__circle slider__circle_active" onclick="plusSlide()">
+				<img id="3" src="styles/img/icons/arrowRight.svg" alt="" class="slider__arrowRight">
+				<img id="4" src="styles/img/icons/arrowRight-white.svg" alt="" class="slider__arrowRight-white">
 			</div>
 		</div>
 		<span class="reviews__ps">Занимаем лидирующие позиции</span>
 	</section>
+
+	<section class="ratings">
+		<div class="ratings__company">
+			<div class="ratings__block">
+				<div class="ratings__header ratings__header_1">
+					<span class="ratings__number">4,9</span>
+					<img src="styles/img/icons/star.svg" alt="star" class="rating__imgStar">
+				</div>
+				<img src="styles/img/ratings/otzovik.jpg" alt="company" class="company__logo">
+			</div>
+			<div class="ratings__footer">На основе 32 отзывов</div>
+		</div>
+		<div class="ratings__company">
+			<div class="ratings__block">
+				<div class="ratings__header ratings__header_2">
+					<span class="ratings__number">4,9</span>
+					<img src="styles/img/icons/star.svg" alt="star" class="rating__imgStar">
+				</div>
+				<img src="styles/img/ratings/zoon.jpg" alt="company" class="company__logo">
+			</div>
+			<div class="ratings__footer">На основе 85 отзывов</div>
+		</div>
+		<div class="ratings__company">
+			<div class="ratings__block">
+				<div class="ratings__header ratings__header_3">
+					<span class="ratings__number">4,9</span>
+					<img src="styles/img/icons/star.svg" alt="star" class="rating__imgStar">
+				</div>
+				<img src="styles/img/ratings/recommend.jpg" alt="company" class="company__logo">
+			</div>
+			<div class="ratings__footer">На основе 256 отзывов</div>
+		</div>
+	</section>
+
+	<section class="socialNetwork">
+		<div class="socialNetwork__leftColumn">
+			<div class="socialNetwork__rectangle"></div>
+			<div class="socialNetwork__gallery">
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/11.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/12.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/13.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/21.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/22.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/23.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/31.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/32.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+				<div class="socialNetwork__gallery-item">
+					<img src="styles/img/socialNetwork/33.jpg" alt="11" class="socialNetwork__img">
+					<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+				</div>
+			</div>
+		</div>
+		<div class="socialNetwork__rightColumn">
+			<h2 class="title title_socialNetwork">КухниСити в соцсетях</h2>
+			<span class="socialNetwork__text">
+				Новые модели, выгодные акции и неожиданные дизайнерские решения ежедневно в удобном
+				для вас формате. Подписывайтесь!
+			</span>
+			<span class="socialNetwork__subscribe">Подписывайтесь на нас</span>
+			<div class="socialNetwork__wrapperIcon">
+				<div class="socialNetwork__blockIcon">
+					<img src="styles/img/icons/socialSubscribe/facebook.svg" alt="" class="socialNetwork__icon">
+				</div>
+				<div class="socialNetwork__blockIcon">
+					<img src="styles/img/icons/socialSubscribe/vk.svg" alt="" class="socialNetwork__icon">
+				</div>
+				<div class="socialNetwork__blockIcon">
+					<img src="styles/img/icons/socialSubscribe/ig.svg" alt="" class="socialNetwork__icon">
+				</div>
+				<div class="socialNetwork__blockIcon">
+					<img src="styles/img/icons/socialSubscribe/ok.svg" alt="" class="socialNetwork__icon">
+				</div>
+				<div class="socialNetwork__blockIcon">
+					<img src="styles/img/icons/socialSubscribe/pinterest.svg" alt="" class="socialNetwork__icon">
+				</div>
+				<div class="socialNetwork__blockIcon">
+					<img src="styles/img/icons/socialSubscribe/twitter.svg" alt="" class="socialNetwork__icon">
+				</div>
+				<div class="socialNetwork__blockIcon">
+					<img src="styles/img/icons/socialSubscribe/youtube.svg" alt="" class="socialNetwork__icon">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="choise">
+		<div class="choise__titleBlock">
+			<h2 class="title title_choise">Как выбрать мойку из искусственного камня</h2>
+			<svg class="choise__svg" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M1 20L20 1M20 1V9.70833M20 1H12.0833" stroke="white" stroke-width="2"/>
+			</svg>
+		</div>
+		<span class="choise__subtitle">и другие полезные статьи</span>
+		<div class="choise__slider">
+			<div class="choise__sliderItem choise__sliderItem_1">
+				<img src="styles/img/choise/1.jpg" alt="" class="choise__img">
+				<div class="choise__status">
+					КУХНИ
+				</div>
+			</div>
+			<div class="choise__sliderItem choise__sliderItem_2">
+				<iframe src="https://www.youtube.com/embed/PCVlgLS9cfE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+				<div class="choise__status">
+					CЕЗОН
+				</div>
+			</div>
+			<div class="choise__sliderItem choise__sliderItem_3">
+				<iframe src="https://www.youtube.com/embed/PCVlgLS9cfE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+				<div class="choise__status">
+					СЕЗОН
+				</div>
+			</div>
+			<div class="choise__sliderItem choise__sliderItem_4">
+				<img src="styles/img/choise/4.jpg" alt="" class="choise__img">
+				<div class="choise__status">
+					ЭКОНОМИЯ
+				</div>
+			</div>
+			<div class="choise__sliderItem choise__sliderItem_5">
+				<img src="styles/img/choise/5.jpg" alt="" class="choise__img">
+				<div class="choise__status">
+					ЭКОНОМИЯ
+				</div>
+			</div>
+			<div class="choise__sliderItem choise__sliderItem_6">
+				<img src="styles/img/choise/6.jpg" alt="" class="choise__img">
+				<div class="choise__status">
+					КУХНИ
+				</div>
+			</div>
+			<div class="choise__sliderItem choise__sliderItem_7">
+				<img src="styles/img/choise/7.jpg" alt="" class="choise__img">
+				<div class="choise__status">
+					КУХНИ
+				</div>
+			</div>
+		</div>
+		<div class="choise__footer">
+			<button class="button button_choise">Посмотреть все</button>
+			<div class="slider__arrows slider__arrows_choise">
+				<div  class="slider__circle">
+					<img src="styles/img/icons/arrowLeft.svg" alt="" class="slider__arrowLeft">
+					<img src="styles/img/icons/arrowLeft-white.svg" alt="" class="slider__arrowLeft-white">
+				</div>
+				<div class="slider__circle slider__circle_active">
+					<img src="styles/img/icons/arrowRight.svg" alt="" class="slider__arrowRight">
+					<img src="styles/img/icons/arrowRight-white.svg" alt="" class="slider__arrowRight-white">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="customKitchen">
+		<div class="customKitchen__leftColumn">
+			<h2 class="title title_customKitchen">Кухни на заказ в салонах
+				Кухнисити
+			</h2>
+			<span class="customKitchen__text" >Кухня – одно из самых важных помещений в доме. Здесь готовят еду, устраивают семейные обеды, дружеские посиделки, а порой и званые вечера. Отсюда вытекают главные критерии выбора мебели – материалы и фурнитура (от покрытия столешницы и заканчивая ручками на фасадах) должны быть готовы к интенсивным нагрузкам,  а продуманная планировка должна помогать выполнять бытовые дела с легкостью, комфортом и удовольствием. А еще хочется, чтобы было красиво!
+			Кухня – одно из самых важных помещений в доме. Здесь готовят еду, устраивают семейные обеды, дружеские посиделки, а порой и званые вечера. Отсюда вытекают главные критерии выбора мебели – материалы и фурнитура (от покрытия столешницы и заканчивая ручками на фасадах) должны быть готовы к интенсивным нагрузкам,  а продуманная планировка должна помогать выполнять бытовые дела с легкостью, комфортом и удовольствием. А еще хочется, чтобы было красиво!</span>
+			<div class="customKitchen__expand">
+				<span class="customKitchen__textExpand">Раскрыть</span>
+				<img src="styles/img/icons/vectorExpand.svg" alt="" class="customKitchen__imgVector">
+			</div>
+			<button class="button button_customKitchen">НАписать директору</button>
+		</div>
+		<div class="customKitchen__rightColumn">
+			<div class="customKitchen__wrapperPhoto">
+				<img src="styles/img/customKithen/photo.jpg" alt="" class="customKitchen__photo">
+			</div>
+				<div class="customKitchen__wrapperSignature">
+					<img src="styles/img/customKithen/signature.svg" alt="" class="customKitchen__imgSignature">
+					<div class="customKitchen__blockName">
+						<span class="customKitchen__name">Андрей Селиванов</span>
+						<span class="customKitchen__expert">руководитель производства</span>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<script src="scripts/main.js"></script>
 </body>
 </html>

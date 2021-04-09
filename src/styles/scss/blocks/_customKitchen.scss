@@ -1,0 +1,63 @@
+.customKitchen {
+	background-color: #F2F2F2;
+	min-height: 876px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 159px;
+	&__text {
+		display: block;
+		margin-top: 55px;
+		font-size: 16px;
+		line-height: 140%;
+		letter-spacing: 0.035em;
+		color: #666666;
+	}
+	&__expand {
+		margin-top: 44px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	&__textExpand {
+		font-size: 20px;
+		line-height: 120.3%;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+		color: #232323;
+	}
+	&__leftColumn {
+		padding-right: 257px;
+	}
+	&__rightColumn {
+		width: 742px;
+		display: flex;
+		flex-direction: column;
+	}
+	&__imgVector {
+		margin-left: 11px;
+	}
+	&__wrapperPhoto {
+		margin-left: auto;
+	}
+	&__wrapperSignature {
+		margin-top: 25px;
+		display: flex;
+		justify-content: space-around;
+	}
+	&__name {
+		display: block;
+		font-size: 20px;
+		line-height: 120.3%;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+		color: #000000;
+	}
+	&__expert {
+		font-size: 16px;
+		line-height: 118.49%;
+		letter-spacing: 0.035em;
+		color: #A0A0A0;
+	}
+	&__photo {
+		margin-top: -102px;
+	}
+}

@@ -1,5 +1,5 @@
 .advertising {
-    background: #F2F2F2;
+    background-color: #F2F2F2;
     min-height: 1368px;
     display: flex;
     flex-direction: row;
@@ -51,19 +51,6 @@
         letter-spacing: 0.035em;
         color: #E3E3E3;
         padding-right: 129px;
-    }
-    &__discountButton {
-        margin-top: 64px;
-        margin-left: 83px;
-        width: 293px;
-        height: 70px;
-        background: #F1F1F1;
-        font-size: 20px;
-        line-height: 120.3%;
-        letter-spacing: 0.105em;
-        text-transform: uppercase;
-        color: #323232;
-        border: none;
     }
     &__wrapperDiscount {
         width: 551px;
