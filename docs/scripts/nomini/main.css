@@ -6,6 +6,9 @@ body {
 h2 {
   margin: 0; }
 
+h3 {
+  margin: 0; }
+
 .headerCreateKitchen {
   position: relative; }
 
@@ -50,6 +53,8 @@ h2 {
     color: #FFFFFF; }
   .title_customKitchen {
     margin-top: 88px; }
+  .title_specialOffer {
+    padding-top: 112px; }
 
 .button {
   border: none;
@@ -320,7 +325,7 @@ h2 {
     color: #FFFFFF;
     letter-spacing: -0.025em; }
   .stock__discountText {
-    margin-top: -41px;
+    margin-top: 40px;
     padding-left: 83px;
     font-size: 16px;
     line-height: 140%;
@@ -729,22 +734,18 @@ h2 {
     bottom: 0; }
 
 .reviews {
-  min-height: 750px;
+  min-height: 710px;
   background-color: #fafafa;
   padding-top: 100px; }
   .reviews__slider {
     margin-top: 50px;
-    height: 294px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    overflow: hidden;
     margin-left: 164px; }
   .reviews__item {
-    margin-right: 18px;
     display: flex;
     width: 773px;
     height: 290px;
-    border: 1px solid #CFCFCF; }
+    border: 1px solid #CFCFCF;
+    margin-right: 18px; }
   .reviews__leftColumn {
     position: relative;
     margin: 26px 27px 25px 26px; }
@@ -966,7 +967,8 @@ h2 {
 
 .slider__arrows {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  position: relative; }
   .slider__arrows_reviews {
     margin-right: 169px;
     margin-top: 54px; }
@@ -974,6 +976,7 @@ h2 {
     margin-right: 142px; }
 
 .slider__circle {
+  position: initial;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1040,3 +1043,51 @@ h2 {
     color: #A0A0A0; }
   .customKitchen__photo {
     margin-top: -102px; }
+
+.specialOffer {
+  padding-left: 160px;
+  min-height: 922px;
+  background-color: #fafafa; }
+  .specialOffer__slider {
+    margin-top: 70px;
+    height: 370px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+    -moz-column-gap: 15px;
+         column-gap: 15px; }
+  .specialOffer__item {
+    position: relative; }
+  .specialOffer__content {
+    position: absolute;
+    top: 54px;
+    left: 71px; }
+  .specialOffer__titleItem {
+    font-family: Cormorant Garamond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 117.3%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF; }
+    .specialOffer__titleItem_red {
+      color: #ff3d00; }
+    .specialOffer__titleItem_black {
+      color: #131313; }
+  .specialOffer__divider {
+    margin-top: 60px;
+    display: inline-block;
+    width: 104px;
+    height: 0px;
+    border: 1px solid #FFFFFF; }
+    .specialOffer__divider_black {
+      border-color: #131313; }
+  .specialOffer__text {
+    display: block;
+    font-size: 20px;
+    line-height: 120.3%;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+    .specialOffer__text_black {
+      color: #131313; }

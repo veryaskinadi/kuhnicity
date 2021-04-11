@@ -1,21 +1,17 @@
 .reviews {
-	min-height: 750px;
+	min-height: 710px;
 	background-color: $bg-color;
 	padding-top: 100px;
 	&__slider {
 		margin-top: 50px;
-		height: 294px;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		overflow: hidden;
 		margin-left: 164px;
 	}
 	&__item {
-		margin-right: 18px;
 		display: flex;
 		width: 773px;
 		height: 290px;
 		border: 1px solid #CFCFCF;
+		margin-right: 18px;
 	}
 	&__leftColumn {
 		position: relative;

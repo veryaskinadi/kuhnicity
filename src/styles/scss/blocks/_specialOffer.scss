@@ -1,0 +1,57 @@
+.specialOffer {
+	padding-left: 160px;
+	min-height: 922px;
+	background-color: $bg-color;
+	&__slider {
+		margin-top: 70px;
+		height: 370px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		overflow: hidden;
+		column-gap: 15px;
+	}
+	&__item {
+		position: relative;
+	}
+	&__content {
+		position: absolute;
+		top: 54px;
+		left: 71px;
+	}
+	&__titleItem {
+		font-family: Cormorant Garamond;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 60px;
+		line-height: 117.3%;
+		letter-spacing: -0.025em;
+		color: #FFFFFF;
+		&_red {
+			color: $main-color;
+		}
+		&_black {
+			color: #131313;
+		}
+	}
+	&__divider {
+		margin-top: 60px;
+		display: inline-block;
+		width: 104px;
+		height: 0px;
+		border: 1px solid #FFFFFF;
+		&_black {
+			border-color: #131313;
+		}
+	}
+	&__text {
+		display: block;
+		font-size: 20px;
+		line-height: 120.3%;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		&_black {
+			color: #131313;
+		}
+	}
+}

@@ -1,15 +1,15 @@
-let slideIndex = 0;
+// let slideIndex = 0;
 const plus = document.getElementById("right");
 const minus = document.getElementById("left");
 const leftArrow = document.getElementById("1");
 const leftArrowWhite = document.getElementById("2");
 const rightArrow = document.getElementById("3");
 const rightArrowWhite = document.getElementById("4");
-showSlides(slideIndex);
+//showSlides(slideIndex);
 
 /* Функция увеличивает индекс на 1, показывает следующй слайд*/
 function plusSlide() {
-	showSlides(slideIndex += 1);
+	//showSlides(slideIndex += 1);
 	plus.classList.add("slider__circle_active");
 	minus.classList.remove("slider__circle_active");
 	leftArrowWhite.style.display = "none";
@@ -20,7 +20,7 @@ function plusSlide() {
 
 /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
 function minusSlide() {
-	showSlides(slideIndex -= 1);
+	//showSlides(slideIndex -= 1);
 	minus.classList.add("slider__circle_active");
 	plus.classList.remove("slider__circle_active");
 	leftArrowWhite.style.display = "block";
@@ -56,3 +56,38 @@ function showSlides(n) {
 	slides[slideIndex + 2].style.display = "flex";
 
 }
+
+/* swiper */
+// var swiper = new Swiper('.swiper-container', {
+// 	slidesPerView: 'auto',
+// 	spaceBetween: 18,
+// 	pagination: {
+// 		el: '.swiper-pagination',
+// 		clickable: true,
+// 	},
+// 	cssMode: true,
+// 	navigation: {
+// 		nextEl: '.swiper-button-next',
+// 		prevEl: '.swiper-button-prev',
+// 	},
+// 	pagination: {
+// 		el: '.swiper-pagination'
+// 	},
+// 	mousewheel: true,
+// 	keyboard: true,
+// });
+
+$('.slider').slick({
+	speed: 300,
+	arrows: false,
+	slidesToShow: 1,
+	centerMode: false,
+	variableWidth: true,
+});
+
+$('.slick-prev').on('click', function() {
+	$('.slider').slick('slickPrev');
+});
+$('.slick-next').on('click', function() {
+	$('.slider').slick('slickNext');
+});

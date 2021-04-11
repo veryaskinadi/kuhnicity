@@ -2,6 +2,7 @@
 	&__arrows {
 		display: flex;
 		justify-content: flex-end;
+		position: relative;
 		&_reviews {
 			margin-right: 169px;
 			margin-top: 54px;
@@ -11,6 +12,7 @@
 		}
 	}
 	&__circle {
+		position: initial;
 		display: flex;
 		justify-content: center;
 		align-items: center;
