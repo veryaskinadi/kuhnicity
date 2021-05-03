@@ -5,13 +5,12 @@
 	&__slider {
 		margin-top: 70px;
 		height: 370px;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
 		overflow: hidden;
-		column-gap: 15px;
 	}
 	&__item {
+		width: 628px;
 		position: relative;
+		margin-right: 17px;
 	}
 	&__content {
 		position: absolute;

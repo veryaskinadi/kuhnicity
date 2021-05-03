@@ -929,32 +929,22 @@ h3 {
     justify-content: space-between;
     align-items: center; }
   .choise__slider {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     overflow: hidden;
-    grid-gap: 17px;
-    grid-template-areas: "a b d f" "a c e g"; }
+    margin-top: 114px; }
   .choise__sliderItem {
-    position: relative; }
-    .choise__sliderItem_1 {
-      grid-area: a; }
+    position: relative;
+    margin-right: 17px; }
     .choise__sliderItem_2 {
-      grid-area: b;
+      margin-bottom: 24px;
       width: 525px;
       height: 329px; }
     .choise__sliderItem_3 {
-      grid-area: c;
       width: 525px;
       height: 329px; }
     .choise__sliderItem_4 {
-      grid-area: d; }
-    .choise__sliderItem_5 {
-      grid-area: e; }
+      margin-bottom: 24px; }
     .choise__sliderItem_6 {
-      grid-area: f; }
-    .choise__sliderItem_7 {
-      grid-area: g; }
+      margin-bottom: 24px; }
   .choise__status {
     background-color: #F5EEE4;
     position: absolute;
@@ -973,6 +963,9 @@ h3 {
     margin-right: 169px;
     margin-top: 54px; }
   .slider__arrows_choise {
+    margin-right: 142px; }
+  .slider__arrows_specialOffer {
+    margin-top: 50px;
     margin-right: 142px; }
 
 .slider__circle {
@@ -1051,13 +1044,11 @@ h3 {
   .specialOffer__slider {
     margin-top: 70px;
     height: 370px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    overflow: hidden;
-    -moz-column-gap: 15px;
-         column-gap: 15px; }
+    overflow: hidden; }
   .specialOffer__item {
-    position: relative; }
+    width: 628px;
+    position: relative;
+    margin-right: 17px; }
   .specialOffer__content {
     position: absolute;
     top: 54px;

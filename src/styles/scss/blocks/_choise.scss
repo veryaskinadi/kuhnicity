@@ -37,41 +37,26 @@
 		align-items: center;
 	}
 	&__slider {
-		display: grid;
-		grid-template-rows: repeat(2,1fr);
-		grid-template-columns: 1fr 1fr 1fr 1fr;
 		overflow: hidden;
-		grid-gap: 17px;
-		grid-template-areas:
-			"a b d f"
-			"a c e g";
+		margin-top: 114px;
 	}
 	&__sliderItem {
 		position: relative;
-		&_1 {
-			grid-area: a;
-		}
+		margin-right: 17px;
 		&_2 {
-			grid-area: b;
+			margin-bottom: 24px;
 			width: 525px;
 			height: 329px;
 		}
 		&_3 {
-			grid-area: c;
 			width: 525px;
 			height: 329px;
 		}
 		&_4 {
-			grid-area: d;
-		}
-		&_5 {
-			grid-area: e;
+			margin-bottom: 24px;
 		}
 		&_6 {
-			grid-area: f;
-		}
-		&_7 {
-			grid-area: g;
+			margin-bottom: 24px;
 		}
 	}
 	&__status {

@@ -1,81 +1,77 @@
-// let slideIndex = 0;
-const plus = document.getElementById("right");
-const minus = document.getElementById("left");
-const leftArrow = document.getElementById("1");
-const leftArrowWhite = document.getElementById("2");
-const rightArrow = document.getElementById("3");
-const rightArrowWhite = document.getElementById("4");
-//showSlides(slideIndex);
+const plusReviews = document.getElementById("right-reviews");
+const minusReviews = document.getElementById("left-reviews");
+const leftArrowReviews = document.getElementById("arrowLeft-reviews");
+const leftArrowWhiteReviews = document.getElementById("arrowLeftWhite-reviews");
+const rightArrowReviews = document.getElementById("arrowRight-reviews");
+const rightArrowWhiteReviews = document.getElementById("arrowRightWhite-reviews");
 
-/* Функция увеличивает индекс на 1, показывает следующй слайд*/
-function plusSlide() {
-	//showSlides(slideIndex += 1);
-	plus.classList.add("slider__circle_active");
-	minus.classList.remove("slider__circle_active");
-	leftArrowWhite.style.display = "none";
-	leftArrow.style.display = "block";
-	rightArrowWhite.style.display = "block";
-	rightArrow.style.display = "none";
+const plusChoise = document.getElementById("right-choise");
+const minusChoise = document.getElementById("left-choise");
+const leftArrowChoise = document.getElementById("arrowLeft-choise");
+const leftArrowWhiteChoise = document.getElementById("arrowLeftWhite-choise");
+const rightArrowChoise = document.getElementById("arrowRight-choise");
+const rightArrowWhiteChoise = document.getElementById("arrowRightWhite-choise");
+
+const plusSpecialOffer = document.getElementById("right-specialOffer");
+const minusSpecialOffer = document.getElementById("left-specialOffer");
+const leftArrowSpecialOffer = document.getElementById("arrowLeft-specialOffer");
+const leftArrowWhiteSpecialOffer = document.getElementById("arrowLeftWhite-specialOffer");
+const rightArrowSpecialOffer = document.getElementById("arrowRight-specialOffer");
+const rightArrowWhiteSpecialOffer = document.getElementById("arrowRightWhite-specialOffer");
+
+function plusSlideReviews() {
+	plusReviews.classList.add("slider__circle_active");
+	minusReviews.classList.remove("slider__circle_active");
+	leftArrowWhiteReviews.style.display = "none";
+	leftArrowReviews.style.display = "block";
+	rightArrowWhiteReviews.style.display = "block";
+	rightArrowReviews.style.display = "none";
 }
 
-/* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
-function minusSlide() {
-	//showSlides(slideIndex -= 1);
-	minus.classList.add("slider__circle_active");
-	plus.classList.remove("slider__circle_active");
-	leftArrowWhite.style.display = "block";
-	leftArrow.style.display = "none";
-	rightArrowWhite.style.display = "none";
-	rightArrow.style.display = "block";
+function minusSlideReviews() {
+	minusReviews.classList.add("slider__circle_active");
+	plusReviews.classList.remove("slider__circle_active");
+	leftArrowWhiteReviews.style.display = "block";
+	leftArrowReviews.style.display = "none";
+	rightArrowWhiteReviews.style.display = "none";
+	rightArrowReviews.style.display = "block";
 }
 
-/* Устанавливает текущий слайд */
-function currentSlide(n) {
-	showSlides(slideIndex = n);
+function plusSlideChoise() {
+	plusChoise.classList.add("slider__circle_active");
+	minusChoise.classList.remove("slider__circle_active");
+	leftArrowWhiteChoise.style.display = "none";
+	leftArrowChoise.style.display = "block";
+	rightArrowWhiteChoise.style.display = "block";
+	rightArrowChoise.style.display = "none";
 }
 
-/* Основная функция слайдера */
-function showSlides(n) {
-	let slides = document.getElementsByClassName("reviews__item");
-	slideIndex = n % slides.length
-
-	if (n < 0) {
-		slideIndex = slides.length - 1
-	}
-
-	for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
-	}
-
-	console.log(n)
-	console.log(slideIndex)
-	console.log(slides)
-
-	slides[slideIndex].style.display = "flex";
-	slides[slideIndex + 1].style.display = "flex";
-	slides[slideIndex + 2].style.display = "flex";
-
+function minusSlideChoise() {
+	minusChoise.classList.add("slider__circle_active");
+	plusChoise.classList.remove("slider__circle_active");
+	leftArrowWhiteChoise.style.display = "block";
+	leftArrowChoise.style.display = "none";
+	rightArrowWhiteChoise.style.display = "none";
+	rightArrowChoise.style.display = "block";
 }
 
-/* swiper */
-// var swiper = new Swiper('.swiper-container', {
-// 	slidesPerView: 'auto',
-// 	spaceBetween: 18,
-// 	pagination: {
-// 		el: '.swiper-pagination',
-// 		clickable: true,
-// 	},
-// 	cssMode: true,
-// 	navigation: {
-// 		nextEl: '.swiper-button-next',
-// 		prevEl: '.swiper-button-prev',
-// 	},
-// 	pagination: {
-// 		el: '.swiper-pagination'
-// 	},
-// 	mousewheel: true,
-// 	keyboard: true,
-// });
+function plusSlideSpecialOffer() {
+	plusSpecialOffer.classList.add("slider__circle_active");
+	minusSpecialOffer.classList.remove("slider__circle_active");
+	leftArrowWhiteSpecialOffer.style.display = "none";
+	leftArrowSpecialOffer.style.display = "block";
+	rightArrowWhiteSpecialOffer.style.display = "block";
+	rightArrowSpecialOffer.style.display = "none";
+}
+
+function minusSlideSpecialOffer() {
+	minusSpecialOffer.classList.add("slider__circle_active");
+	plusSpecialOffer.classList.remove("slider__circle_active");
+	leftArrowWhiteSpecialOffer.style.display = "block";
+	leftArrowSpecialOffer.style.display = "none";
+	rightArrowWhiteSpecialOffer.style.display = "none";
+	rightArrowSpecialOffer.style.display = "block";
+}
 
 $('.slider').slick({
 	speed: 300,
