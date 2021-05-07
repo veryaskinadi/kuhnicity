@@ -56,24 +56,76 @@ h3 {
   .title_specialOffer {
     padding-top: 112px; }
 
+.form {
+  margin-top: 60px; }
+  .form_createKitchen {
+    padding-right: 161px; }
+  .form__inputBlocks {
+    display: flex;
+    justify-content: space-between; }
+  .form__inputBlock {
+    width: 100%; }
+    .form__inputBlock:nth-child(2n) {
+      margin-left: 35px; }
+  .form__label {
+    padding-left: 24px;
+    display: block;
+    color: #585858; }
+  .form__input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #9D9D9D;
+    width: 100%;
+    padding-top: 8px; }
+  .form__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+  .form__wrapperButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
+
+.descrText {
+  font-size: 16px;
+  line-height: 140%;
+  color: #666666; }
+  .descrText_createKitchen {
+    margin-top: 46px;
+    padding-right: 161px;
+    color: #494949; }
+  .descrText_designs {
+    margin-top: 174px;
+    margin-left: 166px;
+    max-width: 454px;
+    letter-spacing: 0.035em; }
+  .descrText_socialNetwork {
+    width: 580px;
+    letter-spacing: 0.035em;
+    display: block; }
+  .descrText_customKitchen {
+    display: block;
+    margin-top: 55px;
+    letter-spacing: 0.035em; }
+
 .button {
   border: none;
-  font-size: 20px; }
+  font-size: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.105em;
+  line-height: 120.3%; }
   .button_createKitchen {
     margin-top: 40px;
     width: 606px;
     height: 70px;
-    background-color: #ff3d00;
-    color: #ffffff; }
+    background-color: #ff3d00; }
   .button_stock {
     margin-top: 64px;
     margin-left: 83px;
     width: 293px;
     height: 70px;
     background: #F1F1F1;
-    line-height: 120.3%;
-    letter-spacing: 0.105em;
-    text-transform: uppercase;
     color: #323232; }
   .button_designs {
     margin-top: 79px;
@@ -81,29 +133,23 @@ h3 {
     width: 456px;
     height: 70px;
     background-color: #232323;
-    line-height: 120.3%;
-    text-align: center;
-    letter-spacing: 0.105em;
-    text-transform: uppercase;
-    color: #FFFFFF; }
+    text-align: center; }
   .button_choise {
     width: 302px;
     height: 70px;
     border: 1px solid #323232;
     box-sizing: border-box;
-    line-height: 120.3%;
-    letter-spacing: 0.105em;
-    text-transform: uppercase;
     color: #131313; }
   .button_customKitchen {
     margin-top: 54px;
     width: 361px;
     height: 70px;
-    background: #232323;
-    line-height: 120.3%;
-    letter-spacing: 0.105em;
-    text-transform: uppercase;
-    color: #FFFFFF; }
+    background: #232323; }
+  .button_invitation {
+    width: 285px;
+    height: 70px;
+    background-color: #ff3d00;
+    text-align: center; }
 
 .header {
   width: 100%;
@@ -212,31 +258,6 @@ h3 {
     font-size: 72px;
     line-height: 117.3%;
     color: #181818; }
-  .createKitchen__descr {
-    margin-top: 46px;
-    padding-right: 161px;
-    font-size: 16px;
-    line-height: 140%;
-    color: #494949; }
-  .createKitchen__form {
-    margin-top: 60px;
-    padding-right: 161px; }
-  .createKitchen__inputBlocks {
-    display: flex;
-    justify-content: space-between; }
-  .createKitchen__inputBlock {
-    width: 100%; }
-    .createKitchen__inputBlock:nth-child(2n) {
-      margin-left: 35px; }
-  .createKitchen__label {
-    padding-left: 24px;
-    display: block; }
-  .createKitchen__input {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #9D9D9D;
-    width: 100%;
-    padding-top: 8px; }
   .createKitchen__order {
     margin-top: 5px;
     display: flex;
@@ -680,14 +701,6 @@ h3 {
     line-height: 107.8%;
     letter-spacing: -0.025em;
     color: #ff3d00; }
-  .designs__text {
-    margin-top: 174px;
-    margin-left: 166px;
-    max-width: 454px;
-    font-size: 16px;
-    line-height: 140%;
-    letter-spacing: 0.035em;
-    color: #666666; }
   .designs__wrapperImg1 {
     position: absolute;
     top: 16px;
@@ -865,13 +878,6 @@ h3 {
     right: 10px; }
   .socialNetwork__rightColumn {
     margin-left: 120px; }
-  .socialNetwork__text {
-    width: 580px;
-    font-size: 16px;
-    line-height: 140%;
-    letter-spacing: 0.035em;
-    color: #666666;
-    display: block; }
   .socialNetwork__subscribe {
     margin-top: 50px;
     display: block;
@@ -991,13 +997,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   padding-left: 159px; }
-  .customKitchen__text {
-    display: block;
-    margin-top: 55px;
-    font-size: 16px;
-    line-height: 140%;
-    letter-spacing: 0.035em;
-    color: #666666; }
   .customKitchen__expand {
     margin-top: 44px;
     display: flex;
@@ -1039,7 +1038,7 @@ h3 {
 
 .specialOffer {
   padding-left: 160px;
-  min-height: 922px;
+  min-height: 850px;
   background-color: #fafafa; }
   .specialOffer__slider {
     margin-top: 70px;
@@ -1082,3 +1081,28 @@ h3 {
     color: #FFFFFF; }
     .specialOffer__text_black {
       color: #131313; }
+
+.invitation {
+  display: flex;
+  justify-content: flex-start; }
+  .invitation__photo {
+    width: 621px; }
+  .invitation__photoIMG {
+    margin-top: -49px; }
+  .invitation__column {
+    width: 1075px;
+    margin-left: 47px; }
+  .invitation__wrapperApproval {
+    display: flex;
+    justify-content: flex-end; }
+  .invitation__approval {
+    width: 285px;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 118.49%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #585858; }
+  .invitation__privacyPolicy {
+    text-decoration: none;
+    color: #ff3d00; }

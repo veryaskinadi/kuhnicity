@@ -1,0 +1,26 @@
+.descrText {
+	font-size: 16px;
+	line-height: 140%;
+	color: #666666;
+	&_createKitchen {
+		margin-top: 46px;
+		padding-right: 161px;
+		color: #494949;
+	}
+	&_designs {
+		margin-top: 174px;
+		margin-left: 166px;
+		max-width: 454px;
+		letter-spacing: 0.035em;
+	}
+	&_socialNetwork {
+		width: 580px;
+		letter-spacing: 0.035em;
+		display: block;
+	}
+	&_customKitchen {
+		display: block;
+		margin-top: 55px;
+		letter-spacing: 0.035em;
+	}
+}

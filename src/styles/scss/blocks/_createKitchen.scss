@@ -25,38 +25,6 @@
         line-height: 117.3%;
         color: #181818;
     }
-    &__descr {
-        margin-top: 46px;
-        padding-right: 161px;
-        font-size: 16px;
-        line-height: 140%;
-        color: #494949;
-    }
-    &__form {
-        margin-top: 60px;
-        padding-right: 161px;
-    }
-    &__inputBlocks {
-        display: flex;
-        justify-content: space-between;
-    }
-    &__inputBlock {
-        width: 100%;
-        &:nth-child(2n) {
-            margin-left: 35px;
-        }
-    }
-    &__label {
-        padding-left: 24px;
-        display: block;
-    }
-    &__input {
-        background: transparent;
-        border: none;
-        border-bottom: 1px solid #9D9D9D;
-        width: 100%;
-        padding-top: 8px;
-    }
     &__order {
         margin-top: 5px;
         display: flex;

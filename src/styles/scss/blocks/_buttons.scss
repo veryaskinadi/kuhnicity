@@ -1,12 +1,17 @@
 .button {
 	border: none;
 	font-size: 20px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 0.105em;
+	line-height: 120.3%;
+
+
 	&_createKitchen {
 		margin-top: 40px;
 		width: 606px;
 		height: 70px;
 		background-color: $main-color;
-		color: #ffffff;
 	}
 	&_stock {
 		margin-top: 64px;
@@ -14,9 +19,6 @@
 		width: 293px;
 		height: 70px;
 		background: #F1F1F1;
-		line-height: 120.3%;
-		letter-spacing: 0.105em;
-		text-transform: uppercase;
 		color: #323232;
 	}
 	&_designs {
@@ -25,20 +27,13 @@
 		width: 456px;
 		height: 70px;
 		background-color: #232323;
-		line-height: 120.3%;
 		text-align: center;
-		letter-spacing: 0.105em;
-		text-transform: uppercase;
-		color: #FFFFFF;
 	}
 	&_choise {
 		width: 302px;
 		height: 70px;
 		border: 1px solid #323232;
 		box-sizing: border-box;
-		line-height: 120.3%;
-		letter-spacing: 0.105em;
-		text-transform: uppercase;
 		color: #131313;
 	}
 	&_customKitchen {
@@ -46,9 +41,11 @@
 		width: 361px;
 		height: 70px;
 		background: #232323;
-		line-height: 120.3%;
-		letter-spacing: 0.105em;
-		text-transform: uppercase;
-		color: #FFFFFF;
+	}
+	&_invitation {
+		width: 285px;
+		height: 70px;
+		background-color: $main-color;
+		text-align: center;
 	}
 }

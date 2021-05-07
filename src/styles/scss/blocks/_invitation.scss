@@ -1,0 +1,30 @@
+.invitation {
+	display: flex;justify-content: flex-start;
+	&__photo {
+		width: 621px;
+	}
+	&__photoIMG {
+		margin-top: -49px;
+	}
+	&__column {
+		width: 1075px;
+		margin-left: 47px;
+	}
+	&__wrapperApproval {
+		display: flex;
+		justify-content: flex-end;
+	}
+	&__approval {
+		width: 285px;
+		margin-top: 16px;
+		font-size: 14px;
+		line-height: 118.49%;
+		text-align: center;
+		letter-spacing: 0.035em;
+		color: #585858;
+	}
+	&__privacyPolicy {
+		text-decoration: none;
+		color: $main-color;
+	}
+}
