@@ -234,48 +234,6 @@ h3 {
     margin-top: 5px; }
   .header__textCalculate {
     font-size: 18px; }
-  .header__catalogContent {
-    background-color: #FFFFFF;
-    height: 980px; }
-  .header__itemCatalog {
-    height: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .header__itemCatalog_stock {
-      display: flex; }
-    .header__itemCatalog:hover {
-      background: url("../img/header/bgCatalog.png") center center/cover no-repeat; }
-  .header__deviderCatalog {
-    height: 2px;
-    border: none;
-    background: rgba(50, 50, 50, 0.08);
-    margin: 0; }
-  .header__wrapperContent {
-    padding-left: 141px;
-    padding-right: 139px;
-    height: 158px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .header__linkCatalog {
-    font-size: 18px;
-    line-height: 120.3%;
-    letter-spacing: 0.105em;
-    text-transform: uppercase;
-    color: #272727;
-    text-decoration: none; }
-  .header__circleImg {
-    margin-bottom: 30px;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background-color: #ff3d00;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
 
 .createKitchen {
   margin-top: 139px;
@@ -475,7 +433,10 @@ h3 {
   background-color: #fafafa;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 37.6% 26.2% 35.3%;
-  grid-template-areas: 'sale appliances kitchen' 'sale appliances kitchen' 'sale case kitchen' 'countertop case kitchen'; }
+  grid-template-areas: 'sale appliances kitchen'
+ 'sale appliances kitchen'
+ 'sale case kitchen'
+ 'countertop case kitchen'; }
   .catalog__sale {
     grid-area: sale;
     background: url("../img/catalog/sale.png") center center/cover no-repeat; }
@@ -1148,83 +1109,3 @@ h3 {
   .invitation__privacyPolicy {
     text-decoration: none;
     color: #ff3d00; }
-
-.footer {
-  margin-top: 136px; }
-  .footer__devider {
-    width: 100vw;
-    color: #ECECEC;
-    margin: 0; }
-  .footer__menu {
-    min-height: 632px;
-    background-color: #fafafa;
-    padding-top: 65px;
-    padding-left: 139px;
-    padding-right: 150px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.135em;
-    text-transform: uppercase;
-    color: #323232; }
-  .footer__menuItem {
-    position: relative; }
-  .footer__links {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    line-height: 42px;
-    letter-spacing: 0.035em;
-    color: #6A6A6A; }
-  .footer__link {
-    text-decoration: none;
-    color: #6A6A6A; }
-  .footer__wrapperLink {
-    display: flex;
-    flex-direction: column; }
-  .footer__phone {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    text-align: center; }
-  .footer__socialIcons {
-    margin-top: 40px;
-    display: flex;
-    justify-content: flex-end; }
-  .footer__socialIcon {
-    margin-left: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 46px;
-    height: 46px;
-    border: 1px solid #2B2B2B;
-    text-decoration: none; }
-  .footer__tel {
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.135em;
-    text-transform: uppercase;
-    color: #252525;
-    text-decoration: none; }
-  .footer__wrapperTitleLink {
-    position: absolute;
-    bottom: 71px; }
-  .footer__titleLink {
-    text-decoration: none;
-    color: #323232; }
-  .footer__PS {
-    padding-left: 139px;
-    padding-right: 150px;
-    display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
-    font-size: 16px;
-    line-height: 42px;
-    letter-spacing: 0.035em;
-    color: #A0A0A0; }
-  .footer__creditCard {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; }

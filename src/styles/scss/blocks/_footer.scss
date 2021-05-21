@@ -78,7 +78,10 @@
 	}
 	&__PS {
 		padding-left: 139px;
+<<<<<<< HEAD
 		padding-right: 150px;
+=======
+>>>>>>> origin/master
 		display: grid;
 		grid-template-columns: 2fr 3fr 1fr;
 		font-size: 16px;
@@ -86,9 +89,12 @@
 		letter-spacing: 0.035em;
 		color: #A0A0A0;
 	}
+<<<<<<< HEAD
 	&__creditCard {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 	}
+=======
+>>>>>>> origin/master
 }
