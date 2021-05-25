@@ -101,6 +101,7 @@
 			font-size: 18px;
 	}
 	&__catalogMenu {
+		display: none;
 		background-color: #FFFFFF;
 		height: 980px;
 	}
@@ -160,6 +161,7 @@
 	&__linksSubmenu {
 		display: flex;
 		flex-direction: column;
+		margin-top: 20px;
 	}
 	&__linkSubmenu {
 		font-size: 14px;

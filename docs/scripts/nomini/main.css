@@ -63,10 +63,15 @@ h3 {
   .form__inputBlocks {
     display: flex;
     justify-content: space-between; }
+    .form__inputBlocks_modal {
+      flex-direction: column; }
   .form__inputBlock {
     width: 100%; }
-    .form__inputBlock:nth-child(2n) {
+    .form__inputBlock_right {
       margin-left: 35px; }
+    .form__inputBlock_modal {
+      margin: 25px auto;
+      width: 598px; }
   .form__label {
     padding-left: 24px;
     display: block;
@@ -85,6 +90,26 @@ h3 {
     width: 100%;
     display: flex;
     justify-content: flex-end; }
+  .form__wrapperApproval_invitation {
+    display: flex;
+    justify-content: flex-end; }
+  .form__wrapperApproval_modal {
+    display: block;
+    width: 380px;
+    margin: 10px auto;
+    text-align: center; }
+  .form__approval {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 118.49%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #585858; }
+    .form__approval_invitation {
+      width: 285px; }
+  .form__privacyPolicy {
+    text-decoration: none;
+    color: #ff3d00; }
 
 .descrText {
   font-size: 16px;
@@ -150,6 +175,12 @@ h3 {
     height: 70px;
     background-color: #ff3d00;
     text-align: center; }
+  .button_modal {
+    display: block;
+    width: 597px;
+    height: 70px;
+    background-color: #ff3d00;
+    margin: 15px auto; }
 
 .header {
   width: 100%;
@@ -235,6 +266,7 @@ h3 {
   .header__textCalculate {
     font-size: 18px; }
   .header__catalogMenu {
+    display: none;
     background-color: #FFFFFF;
     height: 980px; }
   .header__itemCatalog {
@@ -284,7 +316,8 @@ h3 {
     padding-right: 225px; }
   .header__linksSubmenu {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 20px; }
   .header__linkSubmenu {
     font-size: 14px;
     line-height: 34px;
@@ -1157,20 +1190,6 @@ h3 {
   .invitation__column {
     width: 1075px;
     margin-left: 47px; }
-  .invitation__wrapperApproval {
-    display: flex;
-    justify-content: flex-end; }
-  .invitation__approval {
-    width: 285px;
-    margin-top: 16px;
-    font-size: 14px;
-    line-height: 118.49%;
-    text-align: center;
-    letter-spacing: 0.035em;
-    color: #585858; }
-  .invitation__privacyPolicy {
-    text-decoration: none;
-    color: #ff3d00; }
 
 .footer {
   margin-top: 136px; }
@@ -1251,3 +1270,37 @@ h3 {
     display: flex;
     justify-content: flex-end;
     align-items: center; }
+
+.modal {
+  background: rgba(0, 0, 0, 0.2); }
+  .modal__window {
+    position: absolute;
+    width: 1305px;
+    height: 763px;
+    background: #FFFFFF; }
+  .modal__title {
+    padding-top: 97px;
+    text-align: center;
+    display: block;
+    font-family: CormorantGaramond;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 117.3%;
+    letter-spacing: -0.025em;
+    color: #141414; }
+  .modal__descr {
+    margin-top: 33px;
+    display: block;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #494949; }
+  .modal__close {
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    cursor: pointer;
+    color: #424242; }

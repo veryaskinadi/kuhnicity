@@ -48,4 +48,11 @@
 		background-color: $main-color;
 		text-align: center;
 	}
+	&_modal {
+		display: block;
+		width: 597px;
+		height: 70px;
+		background-color: $main-color;
+		margin: 15px auto;
+	}
 }

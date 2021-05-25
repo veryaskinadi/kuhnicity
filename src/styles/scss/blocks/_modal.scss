@@ -1,0 +1,41 @@
+.modal {
+	////position: fixed;
+	//height: 100%;
+	//width: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	&__window {
+		position: absolute;
+		width: 1305px;
+		height: 763px;
+		background: #FFFFFF;
+	}
+	&__title {
+		padding-top: 97px;
+		text-align: center;
+		display: block;
+		font-family: CormorantGaramond;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 72px;
+		line-height: 117.3%;
+		letter-spacing: -0.025em;
+		color: #141414;
+	}
+	&__descr {
+		margin-top: 33px;
+		display: block;
+		font-size: 16px;
+		line-height: 140%;
+		text-align: center;
+		letter-spacing: 0.035em;
+		color: #494949;
+	}
+	&__close {
+		font-size: 60px;
+		position: absolute;
+		top: 0;
+		right: 30px;
+		cursor: pointer;
+		color: #424242;
+	}
+}
