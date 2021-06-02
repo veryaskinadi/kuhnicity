@@ -195,9 +195,20 @@ h3 {
     height: 40px;
     color: #333333;
     background: rgba(240, 240, 240, 0.88); }
+  .header__navbar {
+    margin-left: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__item {
+    text-decoration: none;
+    color: #333333;
+    padding-right: 17px;
+    padding-left: 18px; }
   .header__select {
     background: rgba(240, 240, 240, 0.88);
     border: none;
+    padding-left: 11px;
     position: relative;
     display: inline-block; }
     .header__select:after {
@@ -213,15 +224,6 @@ h3 {
       height: 100%;
       pointer-events: none;
       box-sizing: border-box; }
-  .header__navbar {
-    margin-left: 162px;
-    display: flex;
-    justify-content: space-between; }
-  .header__item {
-    text-decoration: none;
-    color: #333333;
-    padding-right: 17px;
-    padding-left: 18px; }
   .header__call {
     display: flex;
     justify-content: space-between;
@@ -269,6 +271,8 @@ h3 {
     display: none;
     background-color: #FFFFFF;
     height: 980px; }
+    .header__catalogMenu_active {
+      display: block; }
   .header__itemCatalog {
     height: 100%;
     padding-left: 20px;
@@ -332,6 +336,13 @@ h3 {
     letter-spacing: 0.105em;
     text-transform: uppercase;
     color: #2E2E2E; }
+  .header__catalogSubmenu {
+    display: none; }
+  .header__circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ff3d00; }
 
 .createKitchen {
   margin-top: 139px;
@@ -609,9 +620,8 @@ h3 {
     color: #FFFFFF; }
 
 .productCards {
-  min-height: 1847px;
+  min-height: 1800px;
   padding-top: 109px;
-  padding-bottom: 109px;
   background-color: #fafafa; }
   .productCards__tabs {
     margin-right: 160px;
@@ -631,7 +641,6 @@ h3 {
     text-transform: uppercase;
     color: #151515; }
   .productCards__content {
-    padding-right: 128px;
     padding-left: 128px;
     margin-top: -16px;
     display: flex;
@@ -786,12 +795,16 @@ h3 {
 
 .designs {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: stretch;
   min-height: 725px;
-  background-color: #fafafa;
-  z-index: -45; }
+  background-color: #fafafa; }
   .designs__title {
+    position: absolute;
+    top: 0;
     margin-left: 49px;
-    margin-bottom: 0;
     font-family: CormorantGaramond;
     font-style: normal;
     font-weight: 300;
@@ -802,16 +815,14 @@ h3 {
   .designs__wrapperImg1 {
     position: absolute;
     top: 16px;
-    right: 0;
-    z-index: -15; }
+    right: 0; }
   .designs__wrapperImg2 {
     position: absolute;
     bottom: 0;
-    right: 308px;
-    z-index: -5; }
+    right: 308px; }
 
 .workProcess {
-  padding-top: 100px;
+  padding-top: 170px;
   background-color: #fafafa; }
   .workProcess__wrapper {
     margin-top: 50px;
@@ -1194,7 +1205,6 @@ h3 {
 .footer {
   margin-top: 136px; }
   .footer__devider {
-    width: 100vw;
     color: #ECECEC;
     margin: 0; }
   .footer__menu {
@@ -1272,17 +1282,26 @@ h3 {
     align-items: center; }
 
 .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 5555;
+  height: 100%;
+  width: 100%;
   background: rgba(0, 0, 0, 0.2); }
   .modal__window {
     position: absolute;
     width: 1305px;
     height: 763px;
-    background: #FFFFFF; }
+    background: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
   .modal__title {
     padding-top: 97px;
     text-align: center;
     display: block;
-    font-family: CormorantGaramond;
+    font-family: 'CormorantGaramond';
     font-style: normal;
     font-weight: 300;
     font-size: 72px;

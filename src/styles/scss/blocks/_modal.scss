@@ -1,19 +1,25 @@
 .modal {
-	////position: fixed;
-	//height: 100%;
-	//width: 100%;
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 5555;
+	height: 100%;
+	width: 100%;
 	background: rgba(0, 0, 0, 0.2);
 	&__window {
 		position: absolute;
 		width: 1305px;
 		height: 763px;
 		background: #FFFFFF;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 	}
 	&__title {
 		padding-top: 97px;
 		text-align: center;
 		display: block;
-		font-family: CormorantGaramond;
+		font-family: 'CormorantGaramond';
 		font-style: normal;
 		font-weight: 300;
 		font-size: 72px;

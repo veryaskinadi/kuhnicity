@@ -1,11 +1,15 @@
 .designs {
     position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-content: stretch;
     min-height: 725px;
 		background-color: $bg-color;
-		z-index: -45;
     &__title {
+				position: absolute;
+				top: 0;
         margin-left: 49px;
-        margin-bottom: 0;
         font-family: CormorantGaramond;
         font-style: normal;
         font-weight: 300;
@@ -18,12 +22,10 @@
         position: absolute;
         top: 16px;
         right: 0;
-        z-index: -15;
     }
     &__wrapperImg2 {
         position: absolute;
         bottom: 0;
         right: 308px;
-        z-index: -5;
     }
 }

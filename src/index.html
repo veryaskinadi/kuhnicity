@@ -12,6 +12,7 @@
         <header class="header">
             <div class="header__menu">
                 <nav class="header__navbar">
+										<div class="header__circle"></div>
                     <select class="header__item header__select" id="cities">
                         <option value="Москва">Москва</option>
                         <option value="Санкт-Петербург">Санкт-Петербург</option>
@@ -19,12 +20,7 @@
                         <option value="Екатеринбург">Екатеринбург</option>
                         <option value="Frattamaggiore">Frattamaggiore</option>
                     </select>
-                    <select class="header__item header__select" id="aboutCompany">
-                        <option value="O компании">O компании</option>
-                        <option value="О нас">О нас</option>
-                        <option value="Написать директору">Написать директору</option>
-                        <option value="Написать Путину">Написать Путину</option>
-                    </select>
+										<a href="#" class="header__item">O компании</a>
                     <a href="#" class="header__item">Акции</a>
                     <a href="#" class="header__item">Контакты</a>
                     <a href="#" class="header__item">Заказать замер</a>
@@ -41,7 +37,7 @@
                 </div>
             </div>
             <div class="header__subheader">
-                <div class="header__catalog">
+                <div id="catalog" class="header__catalog">
                     <div class="header__burger">
                         <img src="styles/img/icons/burger.svg" alt="burger" class="header__burgerIcon">
                     </div>
@@ -50,48 +46,48 @@
                 <div class="header__logo">
                     <img src="styles/img/logo/logo.svg" alt="logo" class="header__kuhnicityLogo">
                 </div>
-                <div class="header__calculate">
+                <div id="calculate" class="header__calculate">
                     <div class="header__textCalculate">РАССЧИТАТЬ КУХНЮ</div>
                     <div class="header__devider"></div>
                 </div>
             </div>
-						<div class="header__catalogMenu">
+						<div id="catalogMenu" class="header__catalogMenu">
 							<div class="header__line">
 								<hr class="header__deviderCatalog">
 							</div>
 							<div class="header__wrapperMenu">
-								<div class="header__itemCatalog">
+								<div id="kitchen" class="header__itemCatalog">
 									<a href="#" class="header__linkCatalog">Кухни</a>
 								</div>
-								<div class="header__itemCatalog">
+								<div id="countertops" class="header__itemCatalog">
 									<a href="#" class="header__linkCatalog">Столешницы</a>
 								</div>
-								<div class="header__itemCatalog">
+								<div id="appliances" class="header__itemCatalog">
 									<a href="#" class="header__linkCatalog">Бытовая&nbsp;техника</a>
 								</div>
-								<div class="header__itemCatalog">
+								<div id="wardrobes" class="header__itemCatalog">
 									<a href="#" class="header__linkCatalog">Шкафы-купе</a>
 								</div>
-								<div class="header__itemCatalog">
+								<div id="diningGroups" class="header__itemCatalog">
 									<a href="#" class="header__linkCatalog">Столовые&nbsp;группы</a>
 								</div>
-								<div class="header__itemCatalog header__itemCatalog_stock">
+								<div id="promotions" class="header__itemCatalog header__itemCatalog_stock">
 									<a href="#" class="header__linkCatalog">Акции</a>
 									<div class="header__circleImg">
 										<img src="styles/img/header/percent.svg" alt="" class="header__imgCatalog">
 									</div>
 								</div>
-								<div class="header__itemCatalog">
+								<div id="sale" class="header__itemCatalog">
 									<a href="#" class="header__linkCatalog">Распродажа</a>
 								</div>
-								<div class="header__itemCatalog">
+								<div id="portfolio" class="header__itemCatalog">
 									<a href="#" class="header__linkCatalog">Портфолио</a>
 								</div>
 							</div>
 							<div class="header__line">
 								<hr class="header__deviderCatalog">
 							</div>
-							<div class="header__catalogSubmenu">
+							<div id="catalogSubmenu" class="header__catalogSubmenu">
 								<div class="header__wrapperSubmenu">
 									<div class="header__itemSubmenu">
 										<span class="header__titleSubmenu">Стиль</span>
@@ -208,7 +204,6 @@
                     </div>
                 </div>
             </div>
-            
         </section>
     </div>
 
@@ -242,14 +237,14 @@
                 <div class="stock__discount">
                     <h3 class="stock__discountTitle">Скидка 40% на все модели месяца</h3>
                     <p class="stock__discountText">Акции и спецпредложения для ещё более выгодной покупки кухни вашей мечты. А ещё мы бесплатно предлагаем дизайн-проект.</p>
-                    <button class="button button_stock">Получить скидку</button>
+                    <button id="buttonStock" class="button button_stock">Получить скидку</button>
                 </div>
             </div>
             <div class="stock__wrapperPresent">
                 <div class="stock__present">
                     <h3 class="stock__presentTitle">Дарим 150 000 ₽  на новую кухню</h3>
                     <p class="stock__presentText">Акции и спецпредложения для ещё более выгодной покупки кухни вашей мечты. А ещё мы бесплатно предлагаем дизайн-проект.</p>
-                    <div class="stock__circle">ПЕРЕЙТИ</div>
+                    <div id="stockCircle" class="stock__circle">ПЕРЕЙТИ</div>
                 </div>
             </div>
             <div class="stock__wrapperTitle">
@@ -569,7 +564,7 @@
         </div>
         <h2 class="designs__title">150 дизайнеров  </h2>
         <p class="descrText descrText_designs">150 дизайнеров-архитекторов ежедневно создают пространства индивидуально под каждого клиента. Получите бесплатный дизайн-проект под ваши предпочтения.</p>
-        <button class="button button_designs">Бесплатный дизайн-проект</button>
+        <button id="buttonDesigns" class="button button_designs">Бесплатный дизайн-проект</button>
     </section>
 
 		<section class="workProcess">
@@ -1133,9 +1128,9 @@
 			</div>
 		</footer>
 
-		<div class="modal">
+		<div id="modal" class="modal">
 			<div class="modal__window">
-				<div class="modal__close">&#xD7;</div>
+				<div id="modalClose" class="modal__close">&#xD7;</div>
 				<span class="modal__title">Оставить заявку</span>
 				<span class="modal__descr">Оставьте свои контактные данные, менеджер свяжется с Вами <br> в течение 15 минут.</span>
 				<form class="form form_modal">

@@ -1,23 +1,31 @@
+const catalogMenu = document.getElementById("catalogMenu");
+const catalogSubmenu = document.getElementById("catalogSubmenu");
+
+catalog.onclick = function () {
+	catalogMenu.classList.toggle("header__catalogMenu_active");
+	catalogSubmenu.style.display = "none";
+}
+
+kitchen.onclick = subMenuActive
+countertops.onclick = subMenuActive
+appliances.onclick = subMenuActive
+wardrobes.onclick = subMenuActive
+diningGroups.onclick = subMenuActive
+promotions.onclick = subMenuActive
+sale.onclick = subMenuActive
+portfolio.onclick = subMenuActive
+
+function subMenuActive() {
+	catalogSubmenu.style.display = "block";
+}
+
+
 const plusReviews = document.getElementById("right-reviews");
 const minusReviews = document.getElementById("left-reviews");
 const leftArrowReviews = document.getElementById("arrowLeft-reviews");
 const leftArrowWhiteReviews = document.getElementById("arrowLeftWhite-reviews");
 const rightArrowReviews = document.getElementById("arrowRight-reviews");
 const rightArrowWhiteReviews = document.getElementById("arrowRightWhite-reviews");
-
-const plusChoise = document.getElementById("right-choise");
-const minusChoise = document.getElementById("left-choise");
-const leftArrowChoise = document.getElementById("arrowLeft-choise");
-const leftArrowWhiteChoise = document.getElementById("arrowLeftWhite-choise");
-const rightArrowChoise = document.getElementById("arrowRight-choise");
-const rightArrowWhiteChoise = document.getElementById("arrowRightWhite-choise");
-
-const plusSpecialOffer = document.getElementById("right-specialOffer");
-const minusSpecialOffer = document.getElementById("left-specialOffer");
-const leftArrowSpecialOffer = document.getElementById("arrowLeft-specialOffer");
-const leftArrowWhiteSpecialOffer = document.getElementById("arrowLeftWhite-specialOffer");
-const rightArrowSpecialOffer = document.getElementById("arrowRight-specialOffer");
-const rightArrowWhiteSpecialOffer = document.getElementById("arrowRightWhite-specialOffer");
 
 function plusSlideReviews() {
 	plusReviews.classList.add("slider__circle_active");
@@ -37,6 +45,14 @@ function minusSlideReviews() {
 	rightArrowReviews.style.display = "block";
 }
 
+
+const plusChoise = document.getElementById("right-choise");
+const minusChoise = document.getElementById("left-choise");
+const leftArrowChoise = document.getElementById("arrowLeft-choise");
+const leftArrowWhiteChoise = document.getElementById("arrowLeftWhite-choise");
+const rightArrowChoise = document.getElementById("arrowRight-choise");
+const rightArrowWhiteChoise = document.getElementById("arrowRightWhite-choise");
+
 function plusSlideChoise() {
 	plusChoise.classList.add("slider__circle_active");
 	minusChoise.classList.remove("slider__circle_active");
@@ -55,6 +71,14 @@ function minusSlideChoise() {
 	rightArrowChoise.style.display = "block";
 }
 
+
+const plusSpecialOffer = document.getElementById("right-specialOffer");
+const minusSpecialOffer = document.getElementById("left-specialOffer");
+const leftArrowSpecialOffer = document.getElementById("arrowLeft-specialOffer");
+const leftArrowWhiteSpecialOffer = document.getElementById("arrowLeftWhite-specialOffer");
+const rightArrowSpecialOffer = document.getElementById("arrowRight-specialOffer");
+const rightArrowWhiteSpecialOffer = document.getElementById("arrowRightWhite-specialOffer");
+
 function plusSlideSpecialOffer() {
 	plusSpecialOffer.classList.add("slider__circle_active");
 	minusSpecialOffer.classList.remove("slider__circle_active");
@@ -72,6 +96,25 @@ function minusSlideSpecialOffer() {
 	rightArrowWhiteSpecialOffer.style.display = "none";
 	rightArrowSpecialOffer.style.display = "block";
 }
+
+
+const modal = document.getElementById("modal")
+
+buttonStock.onclick = openModal
+calculate.onclick = openModal
+stockCircle.onclick = openModal
+buttonDesigns.onclick = openModal
+
+modalClose.onclick = closeModal
+
+function openModal() {
+modal.style.display = "block";
+}
+
+function closeModal() {
+	modal.style.display = "none";
+}
+
 
 $('.slider').slick({
 	speed: 300,
