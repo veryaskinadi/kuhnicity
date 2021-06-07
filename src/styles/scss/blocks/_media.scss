@@ -1,3 +1,295 @@
-@media (max-width: 991px) {
+@media (max-width: 1800px) {
+	.productCards {
+		&__content {
+			padding-left: 56px;
+			padding-right: 56px;
+			justify-content: space-between;
+		}
+		&__card {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+	}
+	.form {
+			&__inputBlock_right {
+				margin-right: 30px;
+			}
+	}
+}
 
+@media (max-width: 1650px) {
+	.productCards {
+		&__card {
+			margin-left: 20px;
+			margin-right: 20px;
+			width: 363px;
+			height: 523px;
+		}
+		&__wrapperItem {
+			overflow: hidden;
+			width: 363px;
+			height: 435px;
+		}
+		&__itemAll {
+			width: 363px;
+			height: 435px;
+		}
+		&__titleProduct {
+			font-size: 18px;
+		}
+		&__priceProduct {
+			font-size: 18px;
+		}
+		&__descriptionProduct {
+			font-size: 14px;
+		}
+		&__wrapperProperty {
+			padding-top: 83px;
+			margin-left: 36px;
+		}
+		&__rectangle {
+			 margin-top: 27px;
+			 width: 363px;
+			 height: 61px;
+			 font-size: 18px;
+			 line-height: 70px;
+	 	}
+		&__property {
+			margin-top: 19px;
+		}
+		&__titleProperty {
+			font-size: 16px;
+		}
+		&__textProperty {
+			font-size: 12px;
+		}
+	}
+}
+
+@media (max-width: 1600px) {
+	.header {
+		&__navbar {
+			margin-left: 60px;
+		}
+		&__wrapperContacts {
+			margin-right: 55px;
+		}
+		&__subheader {
+			min-height: 87px;
+			padding-left: 55px;
+			padding-right: 55px;
+		}
+		&__wrapperMenu {
+			height: 120px;
+			padding-left: 55px;
+			padding-right: 55px	;
+		}
+		&__wrapperSubmenu {
+			margin-top: 40px;
+			padding-left: 73px;
+			padding-right: 83px;
+		}
+		&__linkCatalog {
+			font-size: 16px;
+		}
+		&__titleSubmenu {
+			font-size: 18px;
+		}
+		&__linkSubmenu {
+			font-size: 13px;
+			line-height: 29px;
+		}
+		&__logo {
+			padding-top: 9px;
+		}
+	}
+
+	.createKitchen {
+		&__column {
+			padding-left: 60px;
+			width: 53%;
+		}
+	}
+
+	.terms {
+		&__row {
+			padding: 45px 56px 58px 55px;
+		}
+		&__block {
+			padding-left: 25px;
+			padding-right: 28px;
+		}
+	}
+
+	.sidebar {
+		width: 375px;
+		&__text {
+			transform-origin: 0% 0;
+			font-size: 300px;
+			margin-bottom: -539px;
+		}
+	}
+
+	.stock {
+		&__circle {
+			bottom: -119px;
+			right: 210px;
+		}
+	}
+
+	.productCards {
+		min-height: 1525px;
+		&__tabs {
+			margin-right: 55px;
+			margin-left: 55px;
+			overflow: hidden;
+		}
+	}
+
+	.designs {
+		min-height: 605px;
+		&__title {
+			font-size: 200px;
+		}
+		&__wrapperImg1 {
+			width: 418px;
+			height: 384px;
+		}
+		&__wrapperImg2 {
+
+			width: 505px;
+			height: 359px;
+		}
+	}
+
+	.workProcess {
+		&__item {
+			height: 530px;
+		}
+	}
+
+	.footer {
+		&__menu {
+			min-height: 560px;
+			padding-left: 41px;
+			padding-right: 138px;
+			font-size: 16px;
+		}
+		&__contacts {
+			right: 77px;
+			top: 255px;
+		}
+		&__links {
+			margin-top: 20px;
+		}
+		&__wrapperTitleLink {
+			position: absolute;
+			bottom: 51px;
+		}
+		&__phone {
+			text-align: start;
+		}
+		&__socialIcons {
+			justify-content: flex-start;
+		}
+		&__PS {
+			padding-left: 62px;
+			padding-right: 62px;
+			font-size: 12px;
+			grid-template-columns: 2fr 2fr 1fr;
+		}
+	}
+
+	.form {
+		&_createKitchen {
+			width: 526px;
+		}
+	}
+
+	.button {
+		&_createKitchen {
+			width: 530px;
+		}
+		&_designs {
+			margin-left: 60px;
+			width: 423px;
+		}
+	}
+
+
+
+	.reviews {
+		&__slider {
+			margin-left: 50px;
+		}
+		&__ps {
+			margin-left: 50px;
+		}
+	}
+
+	.ratings {
+		min-height: 232px;
+		margin: 69px 58px 64px 56px;
+	}
+
+	.choise {
+		padding-left: 52px;
+	}
+
+	.customKitchen {
+		padding-left: 60px;
+		min-height: 750px;
+		&__wrapperPhoto {
+			width: 582px;
+			height: 594px;
+		}
+		&__leftColumn {
+			padding-right: 135px;
+		}
+	}
+
+	.specialOffer {
+		padding-left: 55px;
+	}
+
+	.invitation {
+		&__column {
+			margin-right: 62px;
+		}
+	}
+
+	.title {
+		font-size: 64px;
+		&_productCards {
+			padding-left: 55px;
+		}
+		&_workProcess {
+			padding-left: 60px;
+		}
+		&_reviews {
+			margin-left: 50px;
+		}
+		&_customKitchen {
+			margin-top: 45px;
+			width: 500px;
+		}
+	}
+
+	.descrText {
+		&_designs {
+			margin-left: 60px;
+		}
+	}
+
+	.slider {
+		&__arrows {
+			&_choise {
+				margin-right: 62px;
+			}
+			&_specialOffer {
+				margin-right: 62px;
+			}
+		}
+
+	}
 }

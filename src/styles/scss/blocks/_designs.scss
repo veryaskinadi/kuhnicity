@@ -19,11 +19,18 @@
         color: $main-color;
     }
     &__wrapperImg1 {
+				width: 592px;
+				height: 545px;
+				background: url("../img/designs/img1.png")center center/cover no-repeat;
         position: absolute;
         top: 16px;
         right: 0;
     }
     &__wrapperImg2 {
+
+				width: 651px;
+				height: 469px;
+				background: url("../img/designs/img2.png")center center/cover no-repeat;
         position: absolute;
         bottom: 0;
         right: 308px;

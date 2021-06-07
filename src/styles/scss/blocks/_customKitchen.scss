@@ -28,10 +28,14 @@
 		margin-left: 11px;
 	}
 	&__wrapperPhoto {
+		margin-top: -102px;
+		width: 743px;
+		height: 770px;
 		margin-left: auto;
+		background: url("../img/customKithen/photo.jpg")center center/cover no-repeat;
 	}
 	&__wrapperSignature {
-		margin-top: 25px;
+		margin-top: 34px;
 		display: flex;
 		justify-content: space-around;
 	}
@@ -49,7 +53,9 @@
 		letter-spacing: 0.035em;
 		color: #A0A0A0;
 	}
-	&__photo {
-		margin-top: -102px;
+	&__imgSignature {
+		width: 129px;
+		height: 77px;
+		background: url("../img/customKithen/signature.svg")center center/cover no-repeat;
 	}
 }
