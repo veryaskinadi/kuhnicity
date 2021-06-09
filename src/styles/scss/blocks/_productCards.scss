@@ -4,7 +4,6 @@
 	background-color: $bg-color;
 	&__tabs {
 			margin-right: 160px;
-			margin-left: 160px;
 			margin-top: 52px;
 			display: flex;
 			justify-content: space-between;
@@ -23,16 +22,14 @@
 			color: #151515;
 	}
 	&__content {
-			padding-left: 128px;
 			margin-top: -16px;
 			display: flex;
-			justify-content: flex-start;
+			justify-content: space-between;
 			flex-wrap: wrap;
+		margin-right: 160px;
 	}
 	&__card {
 			margin-top: 70px;
-			margin-left: 32px;
-			margin-right: 32px;
 			width: 490px;
 			height: 663px;
 	}

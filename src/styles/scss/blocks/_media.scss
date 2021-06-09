@@ -1,12 +1,18 @@
 @media (max-width: 1800px) {
+	.container {
+		margin-left: 130px;
+	}
+	.createKitchen {
+		&__title {
+			font-size: 64px;
+		}
+	}
 	.productCards {
 		&__content {
-			padding-left: 56px;
-			padding-right: 56px;
 			justify-content: space-between;
+			margin-right: 15px;
 		}
 		&__card {
-			margin-left: 10px;
 			margin-right: 10px;
 		}
 	}
@@ -15,12 +21,17 @@
 				margin-right: 30px;
 			}
 	}
+	.terms {
+		&__block {
+			padding-right: 60px;
+		}
+	}
 }
 
 @media (max-width: 1650px) {
 	.productCards {
+		min-height: 1525px;
 		&__card {
-			margin-left: 20px;
 			margin-right: 20px;
 			width: 363px;
 			height: 523px;
@@ -63,30 +74,26 @@
 		&__textProperty {
 			font-size: 12px;
 		}
-	}
-}
-
-@media (max-width: 1600px) {
-	.header {
-		&__navbar {
-			margin-left: 60px;
+		&__tabs {
+			margin-right: 55px;
+			overflow: hidden;
 		}
+	}
+
+	.header {
 		&__wrapperContacts {
 			margin-right: 55px;
 		}
 		&__subheader {
 			min-height: 87px;
-			padding-left: 55px;
 			padding-right: 55px;
 		}
 		&__wrapperMenu {
 			height: 120px;
-			padding-left: 55px;
 			padding-right: 55px	;
 		}
 		&__wrapperSubmenu {
 			margin-top: 40px;
-			padding-left: 73px;
 			padding-right: 83px;
 		}
 		&__linkCatalog {
@@ -102,18 +109,20 @@
 		&__logo {
 			padding-top: 9px;
 		}
+		&__call {
+			margin-left: 50px;
+		}
 	}
 
 	.createKitchen {
 		&__column {
-			padding-left: 60px;
 			width: 53%;
 		}
 	}
 
 	.terms {
 		&__row {
-			padding: 45px 56px 58px 55px;
+			padding: 75px 56px 58px 55px;
 		}
 		&__block {
 			padding-left: 25px;
@@ -137,15 +146,6 @@
 		}
 	}
 
-	.productCards {
-		min-height: 1525px;
-		&__tabs {
-			margin-right: 55px;
-			margin-left: 55px;
-			overflow: hidden;
-		}
-	}
-
 	.designs {
 		min-height: 605px;
 		&__title {
@@ -165,6 +165,12 @@
 	.workProcess {
 		&__item {
 			height: 530px;
+		}
+	}
+
+	.choise {
+		&__titleBlock {
+			width: 1265px;
 		}
 	}
 
@@ -211,19 +217,7 @@
 			width: 530px;
 		}
 		&_designs {
-			margin-left: 60px;
 			width: 423px;
-		}
-	}
-
-
-
-	.reviews {
-		&__slider {
-			margin-left: 50px;
-		}
-		&__ps {
-			margin-left: 50px;
 		}
 	}
 
@@ -232,12 +226,7 @@
 		margin: 69px 58px 64px 56px;
 	}
 
-	.choise {
-		padding-left: 52px;
-	}
-
 	.customKitchen {
-		padding-left: 60px;
 		min-height: 750px;
 		&__wrapperPhoto {
 			width: 582px;
@@ -248,10 +237,6 @@
 		}
 	}
 
-	.specialOffer {
-		padding-left: 55px;
-	}
-
 	.invitation {
 		&__column {
 			margin-right: 62px;
@@ -260,24 +245,12 @@
 
 	.title {
 		font-size: 64px;
-		&_productCards {
-			padding-left: 55px;
-		}
-		&_workProcess {
-			padding-left: 60px;
-		}
-		&_reviews {
-			margin-left: 50px;
-		}
 		&_customKitchen {
 			margin-top: 45px;
 			width: 500px;
 		}
-	}
-
-	.descrText {
-		&_designs {
-			margin-left: 60px;
+		&_workProcess {
+			padding-left: 130px;
 		}
 	}
 
@@ -289,7 +262,13 @@
 			&_specialOffer {
 				margin-right: 62px;
 			}
+			&_reviews {
+				margin-right: 62px;
+			}
 		}
-
 	}
+}
+
+@media (max-width: 1400px) {
+
 }

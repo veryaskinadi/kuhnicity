@@ -1,9 +1,10 @@
 .customKitchen {
 	background-color: #F2F2F2;
 	min-height: 876px;
-	display: flex;
-	justify-content: space-between;
-	padding-left: 159px;
+	&__block {
+		display: flex;
+		justify-content: space-between;
+	}
 	&__expand {
 		margin-top: 44px;
 		display: flex;
@@ -17,10 +18,9 @@
 		color: #232323;
 	}
 	&__leftColumn {
-		padding-right: 257px;
+		width: 50%;
 	}
 	&__rightColumn {
-		width: 742px;
 		display: flex;
 		flex-direction: column;
 	}
@@ -29,7 +29,7 @@
 	}
 	&__wrapperPhoto {
 		margin-top: -102px;
-		width: 743px;
+		width: 742px;
 		height: 770px;
 		margin-left: auto;
 		background: url("../img/customKithen/photo.jpg")center center/cover no-repeat;

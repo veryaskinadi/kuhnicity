@@ -8,8 +8,8 @@ h2 {
 h3 {
   margin: 0; }
 
-.headerCreateKitchen {
-  position: relative; }
+.container {
+  margin-left: 160px; }
 
 @font-face {
   font-family: 'CormorantGaramond';
@@ -40,12 +40,9 @@ h3 {
   letter-spacing: -0.025em;
   color: #141414; }
   .title_productCards {
-    padding-left: 160px;
     margin-bottom: 0; }
   .title_workProcess {
     padding-left: 160px; }
-  .title_reviews {
-    margin-left: 160px; }
   .title_choise {
     display: inline;
     color: #FFFFFF; }
@@ -119,7 +116,6 @@ h3 {
     color: #494949; }
   .descrText_designs {
     margin-top: 174px;
-    margin-left: 166px;
     max-width: 454px;
     letter-spacing: 0.035em; }
   .descrText_socialNetwork {
@@ -152,7 +148,6 @@ h3 {
     color: #323232; }
   .button_designs {
     margin-top: 79px;
-    margin-left: 166px;
     width: 456px;
     height: 70px;
     background-color: #232323;
@@ -186,15 +181,14 @@ h3 {
   height: 139px;
   z-index: 999; }
   .header__menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 14px;
-    height: 40px;
     color: #333333;
     background: rgba(240, 240, 240, 0.88); }
   .header__navbar {
-    margin-left: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__menuBlock {
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -235,13 +229,13 @@ h3 {
   .header__textPhone {
     margin-right: 37px; }
   .header__subheader {
-    min-height: 99px;
-    padding-left: 161px;
     padding-right: 159px;
+    background-color: #ffffff; }
+  .header__subheaderBlock {
+    min-height: 99px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff; }
+    align-items: center; }
   .header__catalog {
     display: flex;
     justify-content: space-between;
@@ -348,8 +342,7 @@ h3 {
     min-height: 104px; }
   .createKitchen__column {
     min-height: 762px;
-    padding-left: 158px;
-    width: 40%;
+    width: 50%;
     background: rgba(255, 255, 255, 0.8); }
   .createKitchen__title {
     margin: 0;
@@ -396,7 +389,7 @@ h3 {
     line-height: 20px;
     color: #868686; }
   .terms__row {
-    padding: 65px 235px 66px 270px;
+    padding: 65px 235px 66px 110px;
     display: flex;
     justify-content: space-between;
     text-align: left; }
@@ -614,7 +607,6 @@ h3 {
   background-color: #fafafa; }
   .productCards__tabs {
     margin-right: 160px;
-    margin-left: 160px;
     margin-top: 52px;
     display: flex;
     justify-content: space-between;
@@ -630,15 +622,13 @@ h3 {
     text-transform: uppercase;
     color: #151515; }
   .productCards__content {
-    padding-left: 128px;
     margin-top: -16px;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap; }
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 160px; }
   .productCards__card {
     margin-top: 70px;
-    margin-left: 32px;
-    margin-right: 32px;
     width: 490px;
     height: 663px; }
   .productCards__blockItem {
@@ -781,7 +771,7 @@ h3 {
   .designs__title {
     position: absolute;
     top: 0;
-    margin-left: 49px;
+    left: 49px;
     font-family: CormorantGaramond;
     font-style: normal;
     font-weight: 300;
@@ -843,8 +833,7 @@ h3 {
   background-color: #fafafa;
   padding-top: 100px; }
   .reviews__slider {
-    margin-top: 50px;
-    margin-left: 164px; }
+    margin-top: 50px; }
   .reviews__item {
     display: flex;
     width: 773px;
@@ -909,8 +898,7 @@ h3 {
   .reviews__ps {
     font-size: 35px;
     line-height: 43px;
-    color: #323232;
-    margin-left: 152px; }
+    color: #323232; }
 
 .ratings {
   min-height: 261px;
@@ -994,7 +982,6 @@ h3 {
     cursor: pointer; }
 
 .choise {
-  padding-left: 162px;
   background-color: #fafafa;
   padding-bottom: 200px; }
   .choise__titleBlock {
@@ -1085,10 +1072,10 @@ h3 {
 
 .customKitchen {
   background-color: #F2F2F2;
-  min-height: 876px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 159px; }
+  min-height: 876px; }
+  .customKitchen__block {
+    display: flex;
+    justify-content: space-between; }
   .customKitchen__expand {
     margin-top: 44px;
     display: flex;
@@ -1100,16 +1087,15 @@ h3 {
     text-transform: uppercase;
     color: #232323; }
   .customKitchen__leftColumn {
-    padding-right: 257px; }
+    width: 50%; }
   .customKitchen__rightColumn {
-    width: 742px;
     display: flex;
     flex-direction: column; }
   .customKitchen__imgVector {
     margin-left: 11px; }
   .customKitchen__wrapperPhoto {
     margin-top: -102px;
-    width: 743px;
+    width: 742px;
     height: 770px;
     margin-left: auto;
     background: url("../img/customKithen/photo.jpg") center center/cover no-repeat; }
@@ -1135,7 +1121,6 @@ h3 {
     background: url("../img/customKithen/signature.svg") center center/cover no-repeat; }
 
 .specialOffer {
-  padding-left: 160px;
   min-height: 850px;
   background-color: #fafafa; }
   .specialOffer__slider {
@@ -1326,67 +1311,68 @@ h3 {
     color: #424242; }
 
 @media (max-width: 1800px) {
+  .container {
+    margin-left: 130px; }
+  .createKitchen__title {
+    font-size: 64px; }
   .productCards__content {
-    padding-left: 56px;
-    padding-right: 56px;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-right: 15px; }
   .productCards__card {
-    margin-left: 10px;
     margin-right: 10px; }
   .form__inputBlock_right {
-    margin-right: 30px; } }
+    margin-right: 30px; }
+  .terms__block {
+    padding-right: 60px; } }
 
 @media (max-width: 1650px) {
-  .productCards__card {
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 363px;
-    height: 523px; }
-  .productCards__wrapperItem {
-    overflow: hidden;
-    width: 363px;
-    height: 435px; }
-  .productCards__itemAll {
-    width: 363px;
-    height: 435px; }
-  .productCards__titleProduct {
-    font-size: 18px; }
-  .productCards__priceProduct {
-    font-size: 18px; }
-  .productCards__descriptionProduct {
-    font-size: 14px; }
-  .productCards__wrapperProperty {
-    padding-top: 83px;
-    margin-left: 36px; }
-  .productCards__rectangle {
-    margin-top: 27px;
-    width: 363px;
-    height: 61px;
-    font-size: 18px;
-    line-height: 70px; }
-  .productCards__property {
-    margin-top: 19px; }
-  .productCards__titleProperty {
-    font-size: 16px; }
-  .productCards__textProperty {
-    font-size: 12px; } }
-
-@media (max-width: 1600px) {
-  .header__navbar {
-    margin-left: 60px; }
+  .productCards {
+    min-height: 1525px; }
+    .productCards__card {
+      margin-right: 20px;
+      width: 363px;
+      height: 523px; }
+    .productCards__wrapperItem {
+      overflow: hidden;
+      width: 363px;
+      height: 435px; }
+    .productCards__itemAll {
+      width: 363px;
+      height: 435px; }
+    .productCards__titleProduct {
+      font-size: 18px; }
+    .productCards__priceProduct {
+      font-size: 18px; }
+    .productCards__descriptionProduct {
+      font-size: 14px; }
+    .productCards__wrapperProperty {
+      padding-top: 83px;
+      margin-left: 36px; }
+    .productCards__rectangle {
+      margin-top: 27px;
+      width: 363px;
+      height: 61px;
+      font-size: 18px;
+      line-height: 70px; }
+    .productCards__property {
+      margin-top: 19px; }
+    .productCards__titleProperty {
+      font-size: 16px; }
+    .productCards__textProperty {
+      font-size: 12px; }
+    .productCards__tabs {
+      margin-right: 55px;
+      overflow: hidden; }
   .header__wrapperContacts {
     margin-right: 55px; }
   .header__subheader {
     min-height: 87px;
-    padding-left: 55px;
     padding-right: 55px; }
   .header__wrapperMenu {
     height: 120px;
-    padding-left: 55px;
     padding-right: 55px; }
   .header__wrapperSubmenu {
     margin-top: 40px;
-    padding-left: 73px;
     padding-right: 83px; }
   .header__linkCatalog {
     font-size: 16px; }
@@ -1397,11 +1383,12 @@ h3 {
     line-height: 29px; }
   .header__logo {
     padding-top: 9px; }
+  .header__call {
+    margin-left: 50px; }
   .createKitchen__column {
-    padding-left: 60px;
     width: 53%; }
   .terms__row {
-    padding: 45px 56px 58px 55px; }
+    padding: 75px 56px 58px 55px; }
   .terms__block {
     padding-left: 25px;
     padding-right: 28px; }
@@ -1414,12 +1401,6 @@ h3 {
   .stock__circle {
     bottom: -119px;
     right: 210px; }
-  .productCards {
-    min-height: 1525px; }
-    .productCards__tabs {
-      margin-right: 55px;
-      margin-left: 55px;
-      overflow: hidden; }
   .designs {
     min-height: 605px; }
     .designs__title {
@@ -1432,6 +1413,8 @@ h3 {
       height: 359px; }
   .workProcess__item {
     height: 530px; }
+  .choise__titleBlock {
+    width: 1265px; }
   .footer__menu {
     min-height: 560px;
     padding-left: 41px;
@@ -1459,43 +1442,29 @@ h3 {
   .button_createKitchen {
     width: 530px; }
   .button_designs {
-    margin-left: 60px;
     width: 423px; }
-  .reviews__slider {
-    margin-left: 50px; }
-  .reviews__ps {
-    margin-left: 50px; }
   .ratings {
     min-height: 232px;
     margin: 69px 58px 64px 56px; }
-  .choise {
-    padding-left: 52px; }
   .customKitchen {
-    padding-left: 60px;
     min-height: 750px; }
     .customKitchen__wrapperPhoto {
       width: 582px;
       height: 594px; }
     .customKitchen__leftColumn {
       padding-right: 135px; }
-  .specialOffer {
-    padding-left: 55px; }
   .invitation__column {
     margin-right: 62px; }
   .title {
     font-size: 64px; }
-    .title_productCards {
-      padding-left: 55px; }
-    .title_workProcess {
-      padding-left: 60px; }
-    .title_reviews {
-      margin-left: 50px; }
     .title_customKitchen {
       margin-top: 45px;
       width: 500px; }
-  .descrText_designs {
-    margin-left: 60px; }
+    .title_workProcess {
+      padding-left: 130px; }
   .slider__arrows_choise {
     margin-right: 62px; }
   .slider__arrows_specialOffer {
+    margin-right: 62px; }
+  .slider__arrows_reviews {
     margin-right: 62px; } }
