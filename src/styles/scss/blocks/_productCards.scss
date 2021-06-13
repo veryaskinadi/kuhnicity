@@ -2,16 +2,12 @@
 	min-height: 1800px;
 	padding-top: 109px;
 	background-color: $bg-color;
-	&__tabs {
-			margin-right: 160px;
-			margin-top: 52px;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding-left: 0;
+	&__slider {
+		margin-top: 53px;
 	}
 	&__tab {
 			list-style-type: none;
+			padding-right: 96px;
 	}
 	&__tabsLink {
 			text-decoration: none;

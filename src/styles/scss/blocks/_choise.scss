@@ -39,22 +39,21 @@
 		overflow: hidden;
 		margin-top: 114px;
 	}
+	&__slider-img {
+		object-fit: cover;
+		width: 525px;
+		height: 329px;
+	}
+	&__slider-imgLong {
+		object-fit: cover;
+		width: 568px;
+		height: 682px;
+	}
 	&__sliderItem {
+		overflow: hidden;
 		position: relative;
 		margin-right: 17px;
-		&_2 {
-			margin-bottom: 24px;
-			width: 525px;
-			height: 329px;
-		}
-		&_3 {
-			width: 525px;
-			height: 329px;
-		}
-		&_4 {
-			margin-bottom: 24px;
-		}
-		&_6 {
+		&_even {
 			margin-bottom: 24px;
 		}
 	}
@@ -67,5 +66,9 @@
 		left: 0;
 		text-align: center;
 		line-height: 42px;
+	}
+	&__sliderItem-video {
+		width: 525px;
+		height: 329px;
 	}
 }

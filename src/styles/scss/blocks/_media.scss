@@ -89,15 +89,19 @@
 			padding-right: 55px;
 		}
 		&__wrapperMenu {
+			padding-right: 0;
+		}
+		&__catalogMenuBlock {
 			height: 120px;
-			padding-right: 55px	;
+			overflow: hidden;
 		}
 		&__wrapperSubmenu {
 			margin-top: 40px;
 			padding-right: 83px;
+			padding-left: 150px;
 		}
 		&__linkCatalog {
-			font-size: 16px;
+			font-size: 15px;
 		}
 		&__titleSubmenu {
 			font-size: 18px;
@@ -152,7 +156,7 @@
 			font-size: 200px;
 		}
 		&__wrapperImg1 {
-			width: 418px;
+			width: 428px;
 			height: 384px;
 		}
 		&__wrapperImg2 {
@@ -177,8 +181,8 @@
 	.footer {
 		&__menu {
 			min-height: 560px;
-			padding-left: 41px;
-			padding-right: 138px;
+			padding-left: 70px;
+			padding-right: 120px;
 			font-size: 16px;
 		}
 		&__contacts {
@@ -270,5 +274,232 @@
 }
 
 @media (max-width: 1400px) {
+	.container {
+		margin-left: 55px;
+	}
 
+	.title {
+		&_choise {
+			font-size: 40px;
+		}
+	}
+
+	.socialNetwork {
+		min-height: 830px;
+		&__rectangle {
+			width: 285px;
+			height: 586px;
+			top: -38px;
+		}
+		&__gallery-item {
+			width: 158px;
+			height: 158px;
+		}
+	}
+
+	.createKitchen {
+		&__column {
+			width: 60%;
+		}
+	}
+
+	.terms {
+		&__text {
+			font-size: 14px;
+		}
+	}
+
+	.advertising {
+		min-height: 1231px;
+	}
+
+	.stock {
+		&__wrapperDiscount {
+			width: 519px;
+			height: 609px;
+		}
+		&__discountTitle {
+			font-size: 64px;
+
+		}
+		&__wrapperPresent {
+			width: 583px;
+			height: 336px;
+			right: -550px;
+		}
+		&__wrapperTitle {
+			width: 519px;
+			height: 274px;
+			margin-top: 63px;
+			margin-left: 0;
+		}
+		&__presentTitle {
+			font-size: 64px;
+		}
+		&__presentText {
+			margin-top: 17px;
+			padding-left: 40px;
+		}
+		&__circle {
+			width: 146px;
+			height: 146px;
+			bottom: -93px;
+			right: 260px;
+			font-size: 16px;
+		}
+		&__titleText {
+			padding-left: 32px;
+			padding-top: 213px;
+			font-size: 20px;
+		}
+	}
+	.catalog {
+		height: 1063px;
+		display: grid;
+		grid-gap: 8px;
+		background-color: #fafafa;
+		grid-template-rows:  repeat(27,1fr);
+		grid-template-columns: 6fr 4fr;
+		grid-template-areas:
+        'sale appliances'
+				'sale appliances'
+        'sale appliances'
+        'sale appliances'
+        'sale appliances'
+        'sale appliances'
+        'sale appliances'
+        'sale appliances'
+        'sale appliances'
+				'sale case'
+				'sale case'
+				'sale case'
+				'sale case'
+        'countertop case'
+				'countertop case'
+				'countertop case'
+				'countertop case'
+				'countertop case'
+				'countertop case'
+				'kitchen kitchen'
+				'kitchen kitchen'
+				'kitchen kitchen'
+				'kitchen kitchen'
+				'kitchen kitchen'
+				'kitchen kitchen'
+				'kitchen kitchen'
+        'kitchen kitchen';
+
+		&__linkWrapper	{
+			display: none;
+		}
+		&__linkSale {
+			padding-top: 450px;
+		}
+		&__linkAppliances {
+			padding-top: 277px;
+		}
+		&__linkCountertop {
+			padding-top: 165px;
+		}
+		&__linkCase{
+			padding-top: 325px;
+		}
+		&__linkKitchen {
+			padding-top: 243px;
+			margin-left: 140px;
+		}
+	}
+
+	.productCards {
+		&__tab {
+			padding-right: 44px;
+		}
+	}
+
+	.designs {
+		min-height: 620px;
+		&__wrapperImg1 {
+			top: 46px;
+			right: -76px;
+		}
+		&__wrapperImg2 {
+			right: 95px;
+		}
+	}
+
+	.reviews {
+		&__item {
+			width: 672px;
+			height: 260px;
+		}
+		&__leftColumn {
+			width: 208px;
+			height: 208px;
+		}
+		&__rightColumn {
+			margin: 26px 35px 29px 0;
+		}
+		&__link {
+			font-size: 16px;
+		}
+		&__description {
+			margin-top: 16px;
+		}
+	}
+
+	.ratings {
+		margin: 69px 55px 64px 55px;
+		&__header_1 {
+			padding-right: 0px;
+		}
+		&__header_3 {
+			padding-right: 0px;
+		}
+	}
+
+	.socialNetwork {
+		&__rightColumn {
+			margin-left: 78px;
+		}
+		&__subscribe {
+			margin-top: 64px;
+		}
+	}
+
+	.descrText {
+		&_socialNetwork {
+			width: 430px;
+			margin-top: 96px;
+		}
+	}
+
+	.choise {
+		&__titleBlock {
+			width: 733px;
+			height: 54px;
+		}
+		&__subtitle {
+			font-size: 40px;
+		}
+		&__sliderItem {
+			margin-right: 19px;
+			&_even {
+				margin-bottom: 19px;
+			}
+		}
+		&__slider-img {
+			object-fit: cover;
+			width: 530px;
+			height: 313px;
+		}
+		&__slider-imgLong {
+			object-fit: cover;
+			width: 537px;
+			height: 645px;
+		}
+		&__sliderItem-video {
+			width: 530px;
+			height: 313px;
+		}
+	}
 }

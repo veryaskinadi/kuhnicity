@@ -124,6 +124,17 @@ $('.slider').slick({
 	variableWidth: true,
 });
 
+$('.slider__menu').slick({
+	speed: 300,
+	arrows: false,
+	slidesToShow: 1,
+	centerMode: false,
+	variableWidth: true,
+	infinite: false,
+	swipeToSlide: true,
+	touchThreshold: 100,
+});
+
 $('.slick-prev').on('click', function() {
 	$('.slider').slick('slickPrev');
 });

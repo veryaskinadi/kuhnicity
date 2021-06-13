@@ -63,7 +63,6 @@
 			margin-right: 37px;
 	}
 	&__subheader {
-
 			padding-right: 159px;
 			background-color: #ffffff;
 	}
@@ -103,13 +102,16 @@
 			display: block;
 		}
 	}
-	&__itemCatalog{
+	&__itemCatalog {
 		height: 100%;
 		padding-left: 20px;
 		padding-right: 20px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		:nth-last-child(1) {
+			padding-right: 0;
+		}
 		&_stock {
 			display: flex;
 		}
@@ -124,12 +126,13 @@
 		margin: 0;
 	}
 	&__wrapperMenu {
-		padding-left: 141px;
-		padding-right: 139px;
-		height: 158px;
+		padding-right: 120px;
+	}
+	&__catalogMenuBlock {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		height: 158px;
 	}
 	&__linkCatalog {
 		font-size: 18px;
@@ -186,5 +189,6 @@
 		height: 7px;
 		border-radius: 50%;
 		background: $main-color;
+		margin-right: 3px;
 	}
 }

@@ -7,7 +7,6 @@
 }
 .sidebar {
     width: 536px;
-    min-height: 1368px;
     display: flex;
     flex-direction: column-reverse;
     z-index: 1;
@@ -27,15 +26,14 @@
 .stock {
     position: relative;
     &__discount {
-        width: 551px;
-        height: 648px;
+        width: 100%;
+        height: 100%;
         background: url(../img/advertising/discount.png) center center/cover no-repeat;
     }
     &__discountTitle {
         padding-top: 76px;
         padding-left: 83px;
         padding-right: 96px;
-        margin-top: 71px;
         font-family: CormorantGaramond;
         font-weight: 300;
         font-size: 72px;
@@ -53,6 +51,7 @@
         padding-right: 129px;
     }
     &__wrapperDiscount {
+				margin-top: 121px;
         width: 551px;
         height: 648px;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.55) 92.71%);
@@ -74,8 +73,8 @@
     }
     &__present {
         position: relative;
-        width: 675px;
-        height: 388px;
+        width: 100%;
+        height: 100%;
         background: url(../img/advertising/present.png) center center/cover no-repeat;
     }
     &__presentTitle {
@@ -103,8 +102,8 @@
         color: #E3E3E3;
     }
     &__title {
-        width: 631px;
-        height: 333px;
+        width: 100%;
+        height: 100%;
         background: url(../img/advertising/titleStock.png) center center/cover no-repeat;
     }
     &__titleText {

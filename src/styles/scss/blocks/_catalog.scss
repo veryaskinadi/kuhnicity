@@ -1,8 +1,14 @@
 .catalog {
-    min-height: 887px;
+    height: 887px;
     display: grid;
     grid-gap: 8px;
 		background-color: $bg-color;
+		&__block {
+			font-size: 20px;
+			line-height: 120.3%;
+			letter-spacing: 0.105em;
+			text-transform: uppercase;
+		}
     &__sale {
         grid-area: sale;
         background: url("../img/catalog/sale.png") center center/cover no-repeat;
@@ -12,10 +18,6 @@
         padding-top: 330px;
         margin-left: 49px;
         text-decoration: none;
-        font-size: 20px;
-        line-height: 120.3%;
-        letter-spacing: 0.105em;
-        text-transform: uppercase;
         color: #FFFFFF;
     }
     &__linkChoose {
@@ -39,10 +41,6 @@
         padding-top: 350px;
         margin-left: 40px;
         text-decoration: none;
-        font-size: 20px;
-        line-height: 120.3%;
-        letter-spacing: 0.105em;
-        text-transform: uppercase;
         color: #FFFFFF;
     }
     &__kitchen {
@@ -54,10 +52,6 @@
         padding-top: 807px;
         margin-left: 40px;
         text-decoration: none;
-        font-size: 20px;
-        line-height: 120.3%;
-        letter-spacing: 0.105em;
-        text-transform: uppercase;
         color: #FFFFFF;
     }
     &__countertop {
@@ -69,10 +63,7 @@
         text-decoration: none;
         padding-top: 137px;
         margin-left: 49px;
-        font-size: 20px;
-        line-height: 120.3%;
-        letter-spacing: 0.105em;
-        text-transform: uppercase;
+
         color: #FFFFFF;
     }
     &__case {
@@ -84,10 +75,6 @@
         text-decoration: none;
         padding-top: 360px;
         margin-left: 40px;
-        font-size: 20px;
-        line-height: 120.3%;
-        letter-spacing: 0.105em;
-        text-transform: uppercase;
         color: #FFFFFF;
     }
     
