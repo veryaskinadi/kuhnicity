@@ -3,11 +3,9 @@
 	background-color: $bg-color;
 	&__slider {
 		margin-top: 70px;
-		height: 370px;
 		overflow: hidden;
 	}
 	&__item {
-		width: 628px;
 		position: relative;
 		margin-right: 17px;
 	}
@@ -51,5 +49,10 @@
 		&_black {
 			color: #131313;
 		}
+	}
+	&__img {
+		width: 628px;
+		height: 360px;
+		object-fit: cover;
 	}
 }

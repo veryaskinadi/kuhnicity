@@ -1,10 +1,11 @@
 .invitation {
-	display: flex;justify-content: flex-start;
-	&__photo {
-		width: 621px;
-	}
+	display: flex;
+	justify-content: flex-start;
 	&__photoIMG {
 		margin-top: -49px;
+		width: 621px;
+		height: 650px;
+		object-fit: cover;
 	}
 	&__column {
 		width: 100%;
