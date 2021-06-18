@@ -1509,6 +1509,9 @@ h3 {
     margin-top: 77px; }
   .form__approval_invitation {
     font-size: 12px; }
+  .header__wrapperSubmenu {
+    padding-right: 85px;
+    padding-left: 90px; }
   .socialNetwork {
     min-height: 830px; }
     .socialNetwork__rectangle {
@@ -1583,18 +1586,20 @@ h3 {
       right: -76px; }
     .designs__wrapperImg2 {
       right: 95px; }
-  .reviews__item {
-    width: 672px;
-    height: 260px; }
-  .reviews__leftColumn {
-    width: 208px;
-    height: 208px; }
-  .reviews__rightColumn {
-    margin: 26px 35px 29px 0; }
-  .reviews__link {
-    font-size: 16px; }
-  .reviews__description {
-    margin-top: 16px; }
+  .reviews {
+    min-height: 635px; }
+    .reviews__item {
+      width: 672px;
+      height: 260px; }
+    .reviews__leftColumn {
+      width: 208px;
+      height: 208px; }
+    .reviews__rightColumn {
+      margin: 26px 35px 29px 0; }
+    .reviews__link {
+      font-size: 16px; }
+    .reviews__description {
+      margin-top: 16px; }
   .ratings {
     margin: 69px 55px 64px 55px; }
     .ratings__header_1 {
@@ -1653,4 +1658,13 @@ h3 {
     height: 500px; }
   .footer__socialIcon {
     width: 38px;
-    height: 38px; } }
+    height: 38px; }
+  .footer__menu {
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 15px; }
+  .footer__contacts {
+    right: 10px; }
+  .footer__PS {
+    padding-left: 55px;
+    padding-right: 55px; } }
