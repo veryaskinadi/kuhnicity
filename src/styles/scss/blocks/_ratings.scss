@@ -1,15 +1,18 @@
 .ratings {
 	min-height: 261px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 69px 179px 64px 161px;
+	&__slider {
+		padding-top: 55px;
+	}
 	&__block {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+		cursor: pointer;
 	}
 	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		&_1 {
 			padding-right: 20px;
 		}
@@ -33,5 +36,8 @@
 		font-size: 45px;
 		line-height: 56px;
 		color: #323232;
+	}
+	&__company {
+		margin-right: 204px;
 	}
 }

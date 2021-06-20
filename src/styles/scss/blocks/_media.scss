@@ -78,6 +78,9 @@
 			margin-right: 55px;
 			overflow: hidden;
 		}
+		&__watchAll {
+			margin-top: 115px;
+		}
 	}
 
 	.header {
@@ -166,12 +169,6 @@
 		}
 	}
 
-	.workProcess {
-		&__item {
-			height: 530px;
-		}
-	}
-
 	.choise {
 		&__titleBlock {
 			width: 1265px;
@@ -227,7 +224,10 @@
 
 	.ratings {
 		min-height: 232px;
-		margin: 69px 58px 64px 56px;
+		&__company {
+			margin-right: 95px;
+		}
+
 	}
 
 	.customKitchen {
@@ -443,6 +443,13 @@
 		}
 	}
 
+	.workProcess {
+		&__item {
+			height: 530px;
+			width: 344px;
+		}
+	}
+
 	.reviews {
 		min-height: 635px;
 		&__item {
@@ -465,12 +472,14 @@
 	}
 
 	.ratings {
-		margin: 69px 55px 64px 55px;
 		&__header_1 {
 			padding-right: 0px;
 		}
 		&__header_3 {
 			padding-right: 0px;
+		}
+		&__company {
+			margin-right: 60px;
 		}
 	}
 
@@ -569,6 +578,28 @@
 		&__PS {
 			padding-left: 55px;
 			padding-right: 55px;
+		}
+	}
+}
+@media (max-width: 1279px) {
+	.header {
+		&__menu {
+			font-size: 11px;
+		}
+		&__item {
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+		&__call {
+			margin-left: 25px;
+		}
+		&__textPhone {
+			margin-right: 15px;
+		}
+	}
+	.workProcess {
+		&__item {
+			width: 318px;
 		}
 	}
 }

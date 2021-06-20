@@ -3,21 +3,20 @@
 	background-color: $bg-color;
 	&__wrapper {
 		margin-top: 50px;
-		display: flex;
-		justify-content: space-between;
 	}
 	&__item {
 		position: relative;
 		height: 666px;
-		width: 24.5%;
+		width: 475px;
 		background-color: #FFFFFF;
+		margin-right: 6px;
 		&_active {
 			color: #FFFFFF;
 			background: url(../img/workProcess/bg1.png) center center/cover no-repeat;
 		}
 	}
 	&__titleItem {
-		margin-top: 46px;
+		padding-top: 46px;
 		display: block;
 		font-size: 20px;
 		line-height: 120.3%;
