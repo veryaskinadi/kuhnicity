@@ -29,10 +29,12 @@
 	}
 	&__wrapperPhoto {
 		margin-top: -102px;
+		margin-left: auto;
+	}
+	&__photo {
 		width: 742px;
 		height: 770px;
-		margin-left: auto;
-		background: url("../img/customKithen/photo.jpg")center center/cover no-repeat;
+		object-fit: cover;
 	}
 	&__wrapperSignature {
 		margin-top: 34px;

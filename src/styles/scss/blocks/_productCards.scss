@@ -20,7 +20,7 @@
 	&__content {
 			margin-top: -16px;
 			display: flex;
-			justify-content: space-between;
+			justify-content: space-around;
 			flex-wrap: wrap;
 		margin-right: 160px;
 	}
@@ -112,7 +112,7 @@
 	}
 
 	&__rectangle {
-			margin-top: 39px;
+			margin-top: 42px;
 			width: 490px;
 			height: 70px;
 			background: #FF3D00;

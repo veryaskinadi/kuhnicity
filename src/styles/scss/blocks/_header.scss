@@ -120,6 +120,9 @@
 		}
 		&:hover {
 			background: url("../img/header/bgCatalog.png")center center/cover no-repeat;
+			a {
+				color: #FFFFFF;
+			}
 		}
 	}
 	&__deviderCatalog {

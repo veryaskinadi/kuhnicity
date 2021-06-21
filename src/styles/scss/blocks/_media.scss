@@ -59,7 +59,7 @@
 			margin-left: 36px;
 		}
 		&__rectangle {
-			 margin-top: 27px;
+			 margin-top: 32px;
 			 width: 363px;
 			 height: 61px;
 			 font-size: 18px;
@@ -232,7 +232,7 @@
 
 	.customKitchen {
 		min-height: 750px;
-		&__wrapperPhoto {
+		&__photo {
 			width: 582px;
 			height: 594px;
 		}
@@ -244,6 +244,9 @@
 	.invitation {
 		&__column {
 			margin-right: 62px;
+		}
+		&__photoIMG {
+			width: 500px;
 		}
 	}
 
@@ -281,6 +284,9 @@
 	.title {
 		&_choise {
 			font-size: 40px;
+		}
+		&_workProcess {
+			padding-left: 55px;
 		}
 	}
 
@@ -354,7 +360,8 @@
 		}
 		&__presentText {
 			margin-top: 17px;
-			padding-left: 40px;
+			padding-left: 80px;
+			padding-right: 80px;
 		}
 		&__circle {
 			width: 146px;
@@ -531,6 +538,9 @@
 			width: 530px;
 			height: 313px;
 		}
+		&__svg {
+			padding-bottom: 0;
+		}
 	}
 
 	.specialOffer {
@@ -582,6 +592,38 @@
 	}
 }
 @media (max-width: 1279px) {
+	.title {
+		font-size: 55px;
+		&_choise {
+			font-size: 40px;
+		}
+	}
+	.descrText {
+		&_socialNetwork {
+			width: 330px;
+			margin-top: 55px;
+		}
+		&_designs {
+			max-width: 329px;
+		}
+	}
+	.button {
+		&_stock {
+			margin-top: 23px;
+			margin-left: 41px;
+			width: 231px;
+			height: 60px;
+			font-size: 14px;
+		}
+		&_invitation {
+			width: 100%;
+			max-width: 500px;
+		}
+		&_modal {
+			width: 436px;
+		}
+	}
+
 	.header {
 		&__menu {
 			font-size: 11px;
@@ -596,10 +638,217 @@
 		&__textPhone {
 			margin-right: 15px;
 		}
+		&__linkCatalog {
+			font-size: 12px;
+		}
+		&__itemCatalog {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
 	}
+
+	.terms {
+		&__row {
+			padding: 75px 30px 35px 0px;
+		}
+		&__subtitle {
+			font-size: 20px;
+		}
+	}
+
+	.form {
+		&__wrapperButton {
+			width: 100%;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		&__block {
+			flex-wrap: wrap;
+		}
+		&__inputBlock {
+			width: 48%;
+		}
+		&__inputBlock_right {
+			margin-right: 0;
+			margin-left: 0;
+		}
+		&__wrapperApproval_invitation {
+			justify-content: center;
+		}
+		&__approval_invitation {
+			width: 100%;
+		}
+		&_modal {
+			margin-top: 40px;
+		}
+	}
+
+	.advertising {
+		min-height: 900px;
+	}
+
+	.sidebar {
+		&__text {
+			font-size: 254px;
+			margin-bottom: -355px;
+		}
+	}
+
+	.stock {
+		&__wrapperDiscount {
+			margin-top: 32px;
+			width: 396px;
+			height: 465px;
+		}
+		&__wrapperPresent {
+			width: 504px;
+			height: 290px;
+			right: -403px;
+			top: 378px;
+		}
+		&__wrapperTitle {
+			width: 369px;
+			height: 195px;
+			margin-top: 84px;
+		}
+		&__discountTitle {
+			font-size: 45px;
+			padding-top: 48px;
+			padding-left: 41px;
+			padding-right: 106px;
+		}
+		&__discountText {
+			margin-top: 7px;
+			padding-left: 41px;
+		}
+		&__presentTitle {
+			font-size: 45px;
+		}
+		&__circle {
+			width: 100px;
+			height: 100px;
+			bottom: -58px;
+			right: 312px;
+			font-size: 12px;
+		}
+		&__titleText {
+			padding-top: 158px;
+		}
+	}
+
 	.workProcess {
 		&__item {
 			width: 318px;
+		}
+	}
+	.socialNetwork {
+		&__gallery {
+			margin-left: 40px;
+		}
+		&__rectangle {
+			width: 241px;
+		}
+		&__blockIcon {
+			margin-bottom: 7px;
+		}
+	}
+	.customKitchen {
+		&__photo {
+			width: 322px;
+		}
+		&__wrapperSignature {
+			flex-direction: column-reverse;
+			align-items: flex-end;
+			margin-right: 50px;
+		}
+		&__blockName {
+			margin-top: 32px;
+			margin-bottom: 30px;
+			text-align: right;
+		}
+	}
+	.designs {
+		&__title {
+			font-size: 118px;
+			top: 120px;
+		}
+		&__wrapperImg1 {
+			width: 301px;
+			height: 323px;
+			right: 0;
+			top: 150px;
+		}
+		&__wrapperImg2 {
+			width: 371px;
+			height: 251px;
+		}
+	}
+	.invitation {
+		&__photoIMG {
+			height: 588px;
+		}
+	}
+	.footer {
+		&__socialIcon {
+			width: 36px;
+			height: 36px;
+		}
+		&__socialIcons {
+			margin-top: 20px;
+		}
+		&__tel {
+			font-size: 16px;
+		}
+		&__schedule {
+			font-size: 15px;
+		}
+		&__menu {
+			font-size: 12px;
+		}
+		&__links {
+			font-size: 12px;
+		}
+		&__phone {
+			text-align: end;
+		}
+		&__socialIcons {
+			justify-content: flex-end;
+		}
+		&__PS {
+			font-size: 11px;
+		}
+	}
+	.modal {
+		&__window {
+			width: 900px;
+			height: 600px;
+		}
+		&__title {
+			padding-top: 45px;
+			font-size: 64px;
+		}
+		&__descr {
+			font-size: 14px;
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.sidebar {
+		width: 251px;
+		&__text {
+			font-size: 162px;
+			margin-bottom: -226px;
+		}
+	}
+	.designs {
+		&__wrapperImg1 {
+			width: 189px;
+			height: 216px;
+		}
+		&__wrapperImg2 {
+			width: 284px;
+			height: 202px;
 		}
 	}
 }
