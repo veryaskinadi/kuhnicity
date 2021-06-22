@@ -13,6 +13,9 @@ h3 {
 
 .container {
 	margin-left: 160px;
+	&_menu {
+		margin-left: 160px;
+	}
 }
 
 @import 'src/styles/scss/base/_fonts.scss';
