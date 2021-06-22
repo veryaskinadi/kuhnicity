@@ -205,7 +205,7 @@ h3 {
     color: #333333;
     padding-right: 17px;
     padding-left: 18px; }
-  .header__select {
+  .header__city {
     background-color: rgba(240, 240, 240, 0.88);
     background: url("../img/icons/arrowSelect.svg") no-repeat;
     border: none;
@@ -218,6 +218,23 @@ h3 {
     appearance: none;
     background-position: top right;
     background-position: 100%; }
+    .header__city_selected {
+      cursor: pointer; }
+    .header__city_list {
+      display: none;
+      position: absolute;
+      background: white;
+      padding: 10px 0;
+      box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 3px 1px; }
+      .header__city_list.visible {
+        display: block; }
+    .header__city_listOption {
+      white-space: nowrap;
+      padding: 10px 20px;
+      cursor: pointer;
+      top: 10px; }
+      .header__city_listOption:hover {
+        color: red; }
   .header__call {
     display: flex;
     justify-content: space-between;
@@ -542,7 +559,7 @@ h3 {
   background-color: #fafafa;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: 2fr 1.5fr 2fr;
-  grid-template-areas: 'sale appliances kitchen' 'sale appliances kitchen' 'sale case kitchen' 'countertop case kitchen'; }
+  grid-template-areas: 'sale appliances kitchen' 'sale appliances kitchen' 'sale case kitchen' 'countertop case kitchen'; }
   .catalog__block {
     position: relative;
     font-size: 20px;
@@ -1589,7 +1606,7 @@ h3 {
     background-color: #fafafa;
     grid-template-rows: repeat(27, 1fr);
     grid-template-columns: 6fr 4fr;
-    grid-template-areas: 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale case' 'sale case' 'sale case' 'sale case' 'countertop case' 'countertop case' 'countertop case' 'countertop case' 'countertop case' 'countertop case' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen'; }
+    grid-template-areas: 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale appliances' 'sale case' 'sale case' 'sale case' 'sale case' 'countertop case' 'countertop case' 'countertop case' 'countertop case' 'countertop case' 'countertop case' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen' 'kitchen kitchen'; }
     .catalog__linkWrapper {
       display: none; }
     .catalog__linkSale {

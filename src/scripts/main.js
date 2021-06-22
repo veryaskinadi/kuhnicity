@@ -1,3 +1,41 @@
+// header city select
+const citySelected = document.getElementById("citySelected");
+const firstCityInList = document.querySelector(".header__city_listOption").innerHTML;
+const citiesList = document.getElementById("citySelectOptions");
+citySelected.innerHTML = firstCityInList
+
+function openCitiesList() {
+	if (!citiesList.classList.contains('visible')) {
+		citiesList.classList.add('visible')
+	} else {
+		closeCitiesList()
+	}
+}
+function closeCitiesList() {
+	if (citiesList.classList.contains('visible')) {
+		citiesList.classList.remove('visible')
+	}
+}
+
+citySelected.onclick = function() {
+	openCitiesList()
+};
+
+document.onclick = function(event){
+	const clickedOnCity = event.target.id === 'citySelected'
+	if (!clickedOnCity) {
+		closeCitiesList()
+	}
+};
+
+const listOptions = document.getElementsByClassName('header__city_listOption');
+for (var i = 0; i < listOptions.length; i++) {
+	listOptions[i].addEventListener('click', function (event) {
+		citySelected.innerHTML = event.target.innerHTML
+	});
+}
+
+
 const catalogMenu = document.getElementById("catalogMenu");
 const catalogSubmenu = document.getElementById("catalogSubmenu");
 

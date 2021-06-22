@@ -25,7 +25,7 @@
 			padding-right: 17px;
 			padding-left: 18px;
 	}
-	&__select {
+	&__city {
 			background-color: rgba(240, 240, 240, 0.88);
 			background: url("../img/icons/arrowSelect.svg")no-repeat;
 			border: none;
@@ -38,6 +38,33 @@
 			appearance: none;
 			background-position: top right;
 			background-position: 100%;
+
+			&_selected {
+				cursor: pointer;
+			}
+
+			&_list {
+				display: none;
+				position: absolute;
+				background: white;
+				padding: 10px 0;
+				box-shadow: rgba(0, 0, 0, .3) 1px 1px 3px 1px;
+
+				&.visible {
+					display: block;
+				}
+			}
+
+			&_listOption {
+				white-space: nowrap;
+				padding: 10px 20px;
+				cursor: pointer;
+				top: 10px;
+
+				&:hover {
+					color:red;
+				}
+			}
 	}
 	&__call {
 			display: flex;
