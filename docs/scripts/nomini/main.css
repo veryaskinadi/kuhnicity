@@ -2244,7 +2244,7 @@ h3 {
     flex-wrap: wrap; }
   .form__inputBlock {
     width: 90%;
-    margin: 13px auto; }
+    padding-bottom: 25px; }
     .form__inputBlock_modal {
       padding-bottom: 0; }
   .form_invitation {
