@@ -1,8 +1,8 @@
 .ratings {
 	min-height: 261px;
-	&__slider {
-		padding-top: 55px;
-	}
+	display: flex;
+	align-items: center;
+	overflow: hidden;
 	&__block {
 		display: flex;
 		justify-content: space-around;

@@ -676,8 +676,8 @@ h3 {
     transition: .5s all; }
   .productCards__itemAll {
     background-color: #FF3D00;
-    width: 490px;
-    height: 628px; }
+    width: 100%;
+    height: 100%; }
   .productCards__calculateModel {
     position: absolute;
     top: 68px;
@@ -750,7 +750,8 @@ h3 {
     letter-spacing: 0.105em;
     text-transform: uppercase;
     color: #FFFFFF;
-    cursor: pointer; }
+    cursor: pointer;
+    text-decoration: none; }
   .productCards__nameModel {
     padding-top: 135px;
     margin-top: 0;
@@ -775,6 +776,14 @@ h3 {
     display: flex;
     justify-content: center;
     margin-top: 270px; }
+  .productCards__wrapperLinkAllModel {
+    display: none;
+    margin-top: 50px;
+    width: 272px;
+    height: 50px;
+    background-color: #ff3d00;
+    align-items: center;
+    justify-content: center; }
 
 .designs {
   position: relative;
@@ -848,7 +857,7 @@ h3 {
     bottom: 0; }
 
 .reviews {
-  min-height: 710px;
+  min-height: 660px;
   background-color: #fafafa;
   padding-top: 100px; }
   .reviews__slider {
@@ -929,9 +938,10 @@ h3 {
     color: #323232; }
 
 .ratings {
-  min-height: 261px; }
-  .ratings__slider {
-    padding-top: 55px; }
+  min-height: 261px;
+  display: flex;
+  align-items: center;
+  overflow: hidden; }
   .ratings__block {
     display: flex;
     justify-content: space-around;
@@ -1390,9 +1400,6 @@ h3 {
       overflow: hidden;
       width: 363px;
       height: 435px; }
-    .productCards__itemAll {
-      width: 363px;
-      height: 435px; }
     .productCards__titleProduct {
       font-size: 18px; }
     .productCards__priceProduct {
@@ -1624,7 +1631,7 @@ h3 {
     height: 530px;
     width: 344px; }
   .reviews {
-    min-height: 635px; }
+    min-height: 600px; }
     .reviews__item {
       width: 672px;
       height: 260px; }
@@ -1946,6 +1953,8 @@ h3 {
     .socialNetwork__leftColumn {
       margin-top: 62px;
       margin-right: 48px; }
+  .reviews {
+    min-height: 560px; }
   .terms__block {
     padding-left: 25px;
     padding-right: 0;
@@ -2035,24 +2044,96 @@ h3 {
 @media (max-width: 767px) {
   .title_customKitchen {
     width: 410px; }
-  .button_customKitchen {
-    position: initial;
-    margin-top: 15px; }
-  .button_createKitchen {
-    width: 506px; }
+  .button {
+    font-size: 18px; }
+    .button_customKitchen {
+      position: initial;
+      margin-top: 15px; }
+    .button_createKitchen {
+      width: 506px; }
+    .button_designs {
+      margin-top: 25px; }
+    .button_choise {
+      width: 270px;
+      height: 60px; }
   .descrText_customKitchen {
     padding-right: 40px; }
   .descrText_socialNetwork {
     width: 500px; }
+  .descrText_designs {
+    margin-top: 558px;
+    max-width: 454px; }
   .form_createKitchen {
     width: 500px; }
-  .socialNetwork__gallery-item {
-    width: 130px;
-    height: 130px; }
-  .choise__titleBlock {
-    width: 360px;
-    height: 91px;
-    padding-left: 15px; }
+  .form__inputBlock_modal {
+    width: 60%; }
+  .slider__arrows_reviews {
+    margin-bottom: 20px; }
+  .header__calculate {
+    display: none; }
+  .header__subheader {
+    min-height: 69px; }
+  .header__subheaderBlock {
+    min-height: 55px; }
+  .header__kuhnicityLogo {
+    width: 156px;
+    height: 35px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .sidebar {
+    width: 185px; }
+    .sidebar__text {
+      margin-bottom: -53px;
+      font-size: 162px;
+      line-height: 90.8%; }
+  .modal__window {
+    width: 544px; }
+  .modal__close {
+    top: -9px;
+    right: 21px; }
+  .modal__title {
+    font-size: 60px; }
+  .advertising {
+    min-height: 1092px; }
+  .stock__wrapperPresent {
+    right: -155px;
+    top: 508px; }
+  .stock__wrapperTitle {
+    margin-top: 318px; }
+  .createKitchen__title {
+    font-size: 57px; }
+  .terms__row {
+    justify-content: center; }
+  .socialNetwork {
+    padding: 50px 0 150px 0; }
+    .socialNetwork__gallery-item {
+      width: 130px;
+      height: 130px; }
+    .socialNetwork__leftColumn {
+      margin-right: 0; }
+  .choise {
+    padding-bottom: 85px; }
+    .choise__titleBlock {
+      width: 360px;
+      height: 91px;
+      padding-left: 15px; }
+    .choise__sliderItem-video {
+      width: 270px;
+      height: 180px; }
+    .choise__sliderItem {
+      margin-bottom: 11px;
+      margin-right: 11px; }
+    .choise__slider-img {
+      width: 270px;
+      height: 180px; }
+    .choise__slider-imgLong {
+      width: 270px;
+      height: 372px; }
+    .choise__status {
+      width: 91px;
+      height: 32px;
+      line-height: 32px;
+      font-size: 12px; }
   .customKitchen {
     min-height: 1350px; }
     .customKitchen__block {
@@ -2067,4 +2148,346 @@ h3 {
       align-items: flex-start;
       margin-top: 0; }
     .customKitchen__blockName {
-      margin-top: 0; } }
+      margin-top: 0; }
+  .reviews__item {
+    width: 270px;
+    height: 583px;
+    flex-direction: column;
+    align-items: center; }
+  .reviews__footer {
+    align-items: flex-start;
+    flex-direction: column; }
+  .reviews__authorName {
+    font-size: 16px; }
+  .reviews__rightColumn {
+    margin-left: 25px; }
+  .reviews__wrapperLink {
+    margin-top: 15px; }
+  .reviews__ps {
+    font-size: 30px; }
+  .productCards__linkAllModel {
+    font-size: 16px; }
+  .productCards__nameModel {
+    font-size: 64px; }
+  .productCards__textSale {
+    font-size: 15px; }
+  .designs__wrapperImg2 {
+    bottom: 241px; }
+  .footer__menu {
+    flex-wrap: wrap;
+    padding-top: 35px;
+    height: 1093px; }
+  .footer__contacts {
+    bottom: 150px;
+    right: initial;
+    left: 55px; }
+  .footer__schedule {
+    display: none; } }
+
+@media (max-width: 567px) {
+  .container {
+    margin-left: 25px; }
+  .title {
+    font-size: 36px; }
+    .title_choise {
+      font-size: 25px; }
+    .title_specialOffer {
+      padding-top: 70px; }
+    .title_customKitchen {
+      width: 300px; }
+  .button {
+    font-size: 12px; }
+    .button_createKitchen {
+      width: 270px; }
+    .button_stock {
+      margin-top: 16px;
+      margin-left: 28px;
+      width: 207px;
+      height: 50px; }
+    .button_designs {
+      width: 270px;
+      height: 50px; }
+    .button_choise {
+      height: 50px;
+      width: 170px; }
+    .button_customKitchen {
+      width: 210px;
+      height: 53px; }
+    .button_modal {
+      width: 90%;
+      height: 50px;
+      margin-left: 20px;
+      margin-right: 20px; }
+  .header__kuhnicityLogo {
+    width: 128px;
+    height: 29px; }
+  .header__subheader {
+    min-height: 87px;
+    padding-right: 15px; }
+  .descrText {
+    font-size: 14px; }
+    .descrText_createKitchen {
+      padding-right: 45px; }
+    .descrText_designs {
+      margin-top: 516px; }
+    .descrText_socialNetwork {
+      width: 300px;
+      text-align: start;
+      margin-top: 45px; }
+    .descrText_customKitchen {
+      margin-top: 40px; }
+    .descrText_invitation {
+      width: 280px; }
+  .form_createKitchen {
+    width: 90%; }
+  .form__inputBlocks {
+    flex-wrap: wrap; }
+  .form__inputBlock {
+    width: 90%;
+    margin: 13px auto; }
+    .form__inputBlock_modal {
+      padding-bottom: 0; }
+  .form_invitation {
+    margin-top: 60px; }
+  .form__wrapperButton {
+    justify-content: start; }
+  .form__wrapperApproval_modal {
+    width: 100%; }
+  .modal__window {
+    width: 320px; }
+  .modal__title {
+    font-size: 36px; }
+  .modal__close {
+    font-size: 45px;
+    right: 17px; }
+  .slider__arrows_reviews {
+    margin-right: 27px;
+    margin-top: 40px;
+    margin-bottom: 50px; }
+  .slider__arrows_choise {
+    margin-right: 20px; }
+  .slider__arrows_specialOffer {
+    margin-right: 30px;
+    margin-top: 37px; }
+  .advertising {
+    justify-content: center;
+    padding-top: 40px; }
+  .createKitchen__title {
+    font-size: 36px; }
+  .createKitchen__wrapper {
+    min-height: 790px; }
+  .createKitchen__column {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6); }
+  .createKitchen__year {
+    font-size: 14px; }
+  .createKitchen__numberOrder {
+    font-size: 40px;
+    margin-left: 0;
+    padding-right: 25px; }
+  .createKitchen__order {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between; }
+  .catalog {
+    height: 1300px;
+    grid-gap: 10px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: 'sale' 'appliances' 'case' 'countertop' 'kitchen'; }
+    .catalog__block {
+      position: relative;
+      font-size: 18px;
+      line-height: 22px;
+      width: 100%;
+      height: 250px; }
+    .catalog__linkSale {
+      padding-top: 202px;
+      margin-left: 25px; }
+    .catalog__linkAppliances {
+      padding-top: 202px;
+      margin-left: 25px; }
+    .catalog__linkKitchen {
+      padding-top: 210px;
+      margin-left: 25px; }
+    .catalog__linkCountertop {
+      padding-top: 202px;
+      margin-left: 25px; }
+    .catalog__linkCase {
+      padding-top: 202px;
+      margin-left: 25px; }
+  .advertising {
+    min-height: 1050px; }
+  .terms__row {
+    padding-top: 70px; }
+  .terms__block {
+    width: 80%; }
+  .sidebar {
+    display: none; }
+  .stock__wrapperDiscount {
+    width: 269px;
+    height: 332px; }
+  .stock__wrapperPresent {
+    top: 410px;
+    width: 269px;
+    right: 0; }
+  .stock__wrapperTitle {
+    width: 269px;
+    margin-top: 380px; }
+  .stock__discountTitle {
+    font-size: 30px;
+    padding-top: 26px;
+    padding-left: 26px;
+    padding-right: 58px; }
+  .stock__discountText {
+    margin-top: 16px;
+    padding-left: 28px;
+    padding-right: 5px;
+    font-size: 14px; }
+  .stock__presentTitle {
+    font-size: 30px;
+    padding-top: 78px; }
+  .stock__presentText {
+    padding-left: 28px;
+    padding-right: 20px;
+    font-size: 14px; }
+  .stock__titleText {
+    font-size: 17px; }
+  .stock__circle {
+    bottom: -69px;
+    right: 32%; }
+  .productCards {
+    min-height: 1585px; }
+    .productCards__card {
+      width: 272px;
+      height: 405px;
+      margin-top: 60px; }
+    .productCards__slider {
+      margin-top: 35px; }
+    .productCards__wrapperItem {
+      width: 272px;
+      height: 323px; }
+    .productCards__content {
+      margin-left: 0;
+      margin-right: 20px; }
+    .productCards__descriptionProduct {
+      position: absolute;
+      width: 200px; }
+    .productCards__imgStatus {
+      width: 60px; }
+    .productCards__tabsLink {
+      font-size: 18px; }
+    .productCards__nameModel {
+      padding-top: 14px; }
+    .productCards__card_ivisibleMobile {
+      display: none; }
+    .productCards__wrapperLinkAllModel {
+      display: flex; }
+  .designs__title {
+    font-size: 60px;
+    left: 25px; }
+  .designs__wrapperImg1 {
+    width: 124px;
+    height: 125px; }
+  .designs__wrapperImg2 {
+    width: 270px;
+    height: 202px;
+    bottom: 223px;
+    right: 0; }
+  .workProcess__imgNumber {
+    height: 245px; }
+  .workProcess__item {
+    width: 270px;
+    height: 448px; }
+  .workProcess__titleItem {
+    font-size: 16px; }
+  .workProcess__description {
+    font-size: 16px; }
+  .reviews__ps {
+    font-size: 20px;
+    line-height: 25px; }
+  .ratings {
+    min-height: 185px; }
+    .ratings__number {
+      font-size: 30px; }
+    .ratings__imgStar {
+      width: 18px; }
+    .ratings__companyLogo {
+      width: 135px; }
+    .ratings__footer {
+      font-size: 12px; }
+  .socialNetwork {
+    padding-bottom: 115px; }
+    .socialNetwork__rightColumn {
+      padding-left: 25px; }
+    .socialNetwork__subscribe {
+      margin-top: 50px;
+      font-size: 18px;
+      padding-right: 55px; }
+    .socialNetwork__gallery {
+      margin-left: 0;
+      grid-template-rows: repeat(5 1fr);
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px; }
+  .choise__titleBlock {
+    width: 253px;
+    height: 58px; }
+  .choise__svg {
+    width: 12px;
+    height: 12px;
+    padding-left: 6px; }
+  .choise__subtitle {
+    font-size: 25px;
+    padding-left: 15px; }
+  .customKitchen {
+    min-height: 970px; }
+    .customKitchen__photo {
+      width: 290px;
+      height: 258px; }
+    .customKitchen__blockName {
+      text-align: left; }
+    .customKitchen__wrapperPhoto {
+      margin-left: 0; }
+    .customKitchen__wrapperSignature {
+      margin-bottom: 40px; }
+  .specialOffer__slider {
+    margin-top: 60px; }
+  .specialOffer__img {
+    width: 270px;
+    height: 387px; }
+  .specialOffer__titleItem {
+    font-size: 30px; }
+  .specialOffer__content {
+    text-align: center; }
+  .specialOffer__content {
+    top: 83px;
+    left: 15px; }
+  .specialOffer__text {
+    font-size: 14px; }
+  .specialOffer__divider {
+    margin-top: 145px; }
+  .specialOffer__text {
+    margin-top: 15px; }
+  .invitation__photoIMG {
+    margin-top: 0; }
+  .invitation__column {
+    margin-left: 25px;
+    margin-right: 25px; }
+  .footer__links {
+    margin-top: 5px; }
+  .footer__menu {
+    height: 1438px;
+    padding-left: 50px;
+    padding-right: 25px;
+    flex-direction: column;
+    justify-content: flex-start; }
+  .footer__menuItem {
+    width: 100%; }
+  .footer__contacts {
+    bottom: 185px;
+    left: 50px; }
+  .footer__PS {
+    line-height: 28px;
+    padding-top: 18px; }
+  .footer__copyright {
+    line-height: 20px; } }
