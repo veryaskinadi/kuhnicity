@@ -110,6 +110,7 @@ function css() {
 function img() {
 	return gulp
 		.src(path.src.img)
+		.pipe(imagemin())
 		.pipe(gulp.dest(path.docs.img))
 		.pipe(browserSync.stream());
 }
