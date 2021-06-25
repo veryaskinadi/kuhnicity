@@ -153,6 +153,9 @@
 		&__titleBlock {
 			width: 674px;
 		}
+		&__slider {
+			margin-top: 75px;
+		}
 	}
 	.customKitchen {
 		&__leftColumn {
@@ -211,11 +214,6 @@
 	}
 	.workProcess {
 		padding-top: 125px;
-	}
-	.choise {
-		&__slider {
-			margin-top: 75px;
-		}
 	}
 	.specialOffer {
 		min-height: 750px;
@@ -393,6 +391,10 @@
 		&__sliderItem-video {
 			width: 270px;
 			height: 180px;
+			iframe {
+				width: 270px;
+				height: 180px;
+			}
 		}
 		&__sliderItem {
 			margin-bottom: 11px;

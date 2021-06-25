@@ -2003,6 +2003,8 @@ h3 {
     padding-left: 10px; }
   .choise__titleBlock {
     width: 674px; }
+  .choise__slider {
+    margin-top: 75px; }
   .customKitchen__leftColumn {
     padding-right: 0; }
   .customKitchen__wrapperPhoto {
@@ -2040,8 +2042,6 @@ h3 {
     width: 50%; }
   .workProcess {
     padding-top: 125px; }
-  .choise__slider {
-    margin-top: 75px; }
   .specialOffer {
     min-height: 750px; }
   .footer__menu {
@@ -2158,6 +2158,9 @@ h3 {
     .choise__sliderItem-video {
       width: 270px;
       height: 180px; }
+      .choise__sliderItem-video iframe {
+        width: 270px;
+        height: 180px; }
     .choise__sliderItem {
       margin-bottom: 11px;
       margin-right: 11px; }
