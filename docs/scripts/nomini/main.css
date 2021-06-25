@@ -1110,6 +1110,8 @@ h3 {
   .choise__sliderItem-video {
     width: 525px;
     height: 329px; }
+    .choise__sliderItem-video iframe {
+      border: none; }
 
 .slider__arrows {
   display: flex;

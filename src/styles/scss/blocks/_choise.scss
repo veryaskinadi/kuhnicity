@@ -70,5 +70,8 @@
 	&__sliderItem-video {
 		width: 525px;
 		height: 329px;
+		iframe {
+			border: none;
+		}
 	}
 }
