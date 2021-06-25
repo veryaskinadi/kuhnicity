@@ -1,0 +1,36 @@
+.slider {
+	&__arrows {
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		&_reviews {
+			margin-right: 169px;
+			margin-top: 54px;
+		}
+		&_choise {
+			margin-right: 142px;
+		}
+		&_specialOffer {
+			margin-top: 50px;
+			margin-right: 142px;
+		}
+	}
+	&__circle {
+		position: initial;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 70px;
+		height: 70px;
+		border-radius: 50%;
+		&_active {
+			background-color: $main-color;
+		}
+	}
+	&__arrowLeft-white {
+		display: none;
+	}
+	&__arrowRight {
+		display: none;
+	}
+}

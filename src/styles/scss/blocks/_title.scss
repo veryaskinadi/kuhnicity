@@ -1,0 +1,25 @@
+.title {
+	font-family: CormorantGaramond;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 72px;
+	line-height: 117.3%;
+	letter-spacing: -0.025em;
+	color: #141414;
+	&_productCards {
+		margin-bottom: 0;
+	}
+	&_workProcess {
+		padding-left: 160px;
+	}
+	&_choise {
+		display: inline;
+		color: #FFFFFF;
+	}
+	&_customKitchen {
+		margin-top: 88px;
+	}
+	&_specialOffer {
+		padding-top: 112px;
+	}
+}

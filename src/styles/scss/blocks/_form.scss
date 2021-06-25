@@ -1,0 +1,75 @@
+.form {
+	margin-top: 60px;
+	&_createKitchen {
+		width: 606px;
+	}
+	&_invitation {
+		margin-top: 87px;
+	}
+	&__inputBlocks {
+		display: flex;
+		justify-content: space-between;
+		&_modal {
+			flex-direction: column;
+		}
+	}
+	&__inputBlock {
+		width: 100%;
+		&_right {
+			margin-left: 35px;
+		}
+		&_modal {
+			margin: 25px auto;
+			width: 598px;
+		}
+	}
+	&__label {
+		padding-left: 24px;
+		display: block;
+		color: #585858;
+	}
+	&__input {
+		background: transparent;
+		border: none;
+		border-bottom: 1px solid #9D9D9D;
+		width: 100%;
+		padding-top: 8px;
+	}
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	&__wrapperButton {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	&__wrapperApproval {
+		&_invitation {
+			display: flex;
+			justify-content: flex-end;
+		}
+		&_modal {
+			display: block;
+			width: 380px;
+			margin: 10px auto;
+			text-align: center;
+		}
+	}
+	&__approval {
+		margin-top: 16px;
+		font-size: 14px;
+		line-height: 118.49%;
+		text-align: center;
+		letter-spacing: 0.035em;
+		color: #585858;
+		&_invitation {
+			width: 285px;
+		}
+	}
+	&__privacyPolicy {
+		text-decoration: none;
+		color: $main-color;
+	}
+}

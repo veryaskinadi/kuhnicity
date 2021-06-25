@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kuhnicity</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+		<link rel="stylesheet" href="styles/css/main.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__menu">
+			<div class="container">
+				<div class="header__menuBlock">
+					<nav class="header__navbar">
+						<div class="header__circle"></div>
+							<div class="header__item header__city" id="cities">
+								<div class="header__city_selected" id="citySelected"></div>
+								<div class="header__city_list" id="citySelectOptions">
+									<div class="header__city_listOption">Москва</div>
+									<div class="header__city_listOption">Санкт-Петербург</div>
+									<div class="header__city_listOption">Казань</div>
+									<div class="header__city_listOption">Екатеринбург</div>
+									<div class="header__city_listOption">Frattamaggiore</div>
+								</div>
+							</div>
+							<a href="#" class="header__item header__item_invisible567">O компании</a>
+							<a href="#" class="header__item header__item_invisible991">Акции</a>
+							<a href="#" class="header__item header__item_invisible991">Контакты</a>
+							<a href="#" class="header__item header__item_invisible991">Заказать замер</a>
+							<a href="#" class="header__item header__item_invisible991">Адреса салонов</a>
+					</nav>
+					<div class="header__wrapperContacts">
+						<div class="header__mail header__mail_invisible567">
+							<a href="mailto: info@kuhnicity.ru" class="header__mailto">info@kuhnicity.ru</a>
+						</div>
+						<div class="header__call">
+							<p class="header__textPhone header__textPhone_invisible991">Заказать звонок</p>
+							<a href="tel: +74991354378" class="header__tel">+7 (499) 135-43-78</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__subheader">
+			<div class="container">
+				<div class="header__subheaderBlock">
+					<div id="catalog" class="header__catalog">
+						<div class="header__burger">
+							<img src="styles/img/icons/burger.svg" alt="burger" class="header__burgerIcon">
+						</div>
+						<div class="header__catalogText">КАТАЛОГ</div>
+					</div>
+					<div class="header__logo">
+						<img src="styles/img/logo/logo.svg" alt="logo" class="header__kuhnicityLogo">
+					</div>
+					<div id="calculate" class="header__calculate">
+						<div class="header__textCalculate">РАССЧИТАТЬ КУХНЮ</div>
+						<div class="header__devider"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="catalogMenu" class="header__catalogMenu">
+			<div class="header__line">
+				<hr class="header__deviderCatalog">
+			</div>
+			<div class="header__wrapperMenu">
+				<div class="container_menu">
+					<div class="header__catalogMenuBlock">
+						<div id="kitchen" class="header__itemCatalog">
+							<a href="#" class="header__linkCatalog">Кухни</a>
+						</div>
+						<div id="countertops" class="header__itemCatalog">
+							<a href="#" class="header__linkCatalog">Столешницы</a>
+						</div>
+						<div id="appliances" class="header__itemCatalog">
+							<a href="#" class="header__linkCatalog">Бытовая&nbsp;техника</a>
+						</div>
+						<div id="wardrobes" class="header__itemCatalog">
+							<a href="#" class="header__linkCatalog">Шкафы-купе</a>
+						</div>
+						<div id="diningGroups" class="header__itemCatalog">
+							<a href="#" class="header__linkCatalog">Столовые&nbsp;группы</a>
+						</div>
+						<div id="promotions" class="header__itemCatalog header__itemCatalog_stock">
+							<a href="#" class="header__linkCatalog">Акции</a>
+							<div class="header__circleImg">
+								<img src="styles/img/header/percent.svg" alt="" class="header__imgCatalog">
+							</div>
+						</div>
+						<div id="sale" class="header__itemCatalog">
+							<a href="#" class="header__linkCatalog">Распродажа</a>
+						</div>
+						<div id="portfolio" class="header__itemCatalog">
+							<a href="#" class="header__linkCatalog">Портфолио</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__line">
+				<hr class="header__deviderCatalog">
+			</div>
+			<div id="catalogSubmenu" class="header__catalogSubmenu">
+				<div class="header__wrapperSubmenu">
+					<div class="header__itemSubmenu">
+						<span class="header__titleSubmenu">Стиль</span>
+						<div class="header__linksSubmenu">
+							<a href="#" class="header__linkSubmenu">Классические</a>
+							<a href="#" class="header__linkSubmenu">Лофт</a>
+							<a href="#" class="header__linkSubmenu">Модерн</a>
+							<a href="#" class="header__linkSubmenu">Скандинавский</a>
+							<a href="#" class="header__linkSubmenu">Прованс</a>
+							<a href="#" class="header__linkSubmenu">Хай-тек</a>
+							<a href="#" class="header__linkSubmenu">Английский</a>
+							<a href="#" class="header__linkSubmenu">Итальянский</a>
+							<a href="#" class="header__linkSubmenu">Неоклассика</a>
+							<a href="#" class="header__linkSubmenu">Ар-деко</a>
+							<a href="#" class="header__linkSubmenu">Кантри</a>
+							<a href="#" class="header__linkSubmenu">Минимализм</a>
+							<a href="#" class="header__linkSubmenu">Современные</a>
+						</div>
+					</div>
+					<div class="header__itemSubmenu">
+						<span class="header__titleSubmenu">Фасад</span>
+						<div class="header__linksSubmenu">
+							<a href="#" class="header__linkSubmenu">Массив</a>
+							<a href="#" class="header__linkSubmenu">Шпон</a>
+							<a href="#" class="header__linkSubmenu">"Эко-шпон"</a>
+							<a href="#" class="header__linkSubmenu">ЛДСП</a>
+							<a href="#" class="header__linkSubmenu">МДФ</a>
+							<a href="#" class="header__linkSubmenu">Пластик</a>
+							<a href="#" class="header__linkSubmenu">Акрил</a>
+							<a href="#" class="header__linkSubmenu">Эмаль</a>
+							<a href="#" class="header__linkSubmenu">Пленка ПВХ</a>
+							<a href="#" class="header__linkSubmenu">TSS-плита</a>
+						</div>
+					</div>
+					<div class="header__itemSubmenu">
+						<span class="header__titleSubmenu">Покрытие</span>
+						<div class="header__linksSubmenu">
+							<a href="#" class="header__linkSubmenu">Глянец обычный</a>
+							<a href="#" class="header__linkSubmenu">Ультра глянец</a>
+							<a href="#" class="header__linkSubmenu">Матовый</a>
+							<a href="#" class="header__linkSubmenu">Soft tuch</a>
+							<a href="#" class="header__linkSubmenu">С патиной</a>
+							<a href="#" class="header__linkSubmenu">Поталь</a>
+							<a href="#" class="header__linkSubmenu">Синхро</a>
+						</div>
+					</div>
+					<div class="header__itemSubmenu">
+						<span class="header__titleSubmenu">Планировка</span>
+						<div class="header__linksSubmenu">
+							<a href="#" class="header__linkSubmenu">Прямые</a>
+							<a href="#" class="header__linkSubmenu">Угловые</a>
+							<a href="#" class="header__linkSubmenu">П-образные</a>
+							<a href="#" class="header__linkSubmenu">С островом</a>
+							<a href="#" class="header__linkSubmenu">С полуостровом</a>
+							<a href="#" class="header__linkSubmenu">С барной стойкой</a>
+						</div>
+					</div>
+					<div class="header__itemSubmenu">
+						<span class="header__titleSubmenu">Цвет</span>
+						<div class="header__linksSubmenu">
+							<a href="#" class="header__linkSubmenu">Белые</a>
+							<a href="#" class="header__linkSubmenu">Бежевые</a>
+							<a href="#" class="header__linkSubmenu">Серые</a>
+							<a href="#" class="header__linkSubmenu">Чёрные</a>
+							<a href="#" class="header__linkSubmenu">Ванильные</a>
+							<a href="#" class="header__linkSubmenu">Коричневые</a>
+							<a href="#" class="header__linkSubmenu">Красные</a>
+							<a href="#" class="header__linkSubmenu">Зелёные</a>
+							<a href="#" class="header__linkSubmenu">Синие</a>
+						</div>
+					</div>
+					<div class="header__itemSubmenu">
+						<span class="header__titleSubmenu">Размер</span>
+						<div class="header__linksSubmenu">
+							<a href="#" class="header__linkSubmenu">Большие</a>
+							<a href="#" class="header__linkSubmenu">Средние</a>
+							<a href="#" class="header__linkSubmenu">Маленькие</a>
+							<a href="#" class="header__linkSubmenu">2 метра</a>
+							<a href="#" class="header__linkSubmenu">4 метра</a>
+							<a href="#" class="header__linkSubmenu">6 метров</a>
+							<a href="#" class="header__linkSubmenu">7 метров</a>
+							<a href="#" class="header__linkSubmenu">8 метров</a>
+							<a href="#" class="header__linkSubmenu">9 метров</a>
+							<a href="#" class="header__linkSubmenu">10 метров</a>
+							<a href="#" class="header__linkSubmenu">11 метров</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="createKitchen">
+		<div class="createKitchen__wrapper">
+			<div class="createKitchen__column">
+				<div class="container">
+					<h1 class="createKitchen__title">Создаем кухни,<br> в которые вы влюбитесь</h1>
+					<p class="descrText descrText_createKitchen">Производим кухни по российской-немецкой технологии.<br> В каталоге более 300 моделей. А ещё, делаем бесплатный дизайн-проект конкретно для вас. </p>
+					<form action="#" class="form form_createKitchen">
+						<div class="form__inputBlocks">
+							<div class="form__inputBlock">
+								<label for="name" class="form__label">Ваше имя</label>
+								<input class="form__input" id="name" type="text" value="">
+							</div>
+							<div class="form__inputBlock form__inputBlock_right">
+								<label for="phone" class="form__label">Ваш телефон</label>
+								<input class="form__input" id="phone" type="text" aria-invalid="false">
+							</div>
+						</div>
+						<button class="button button_createKitchen">ПОЛУЧИТЬ ДИЗАЙН-ПРОЕКТ</button>
+					</form>
+					<div class="createKitchen__order">
+						<p class="createKitchen__year">С 1999 года <br> выполено заказов</p>
+						<p class="createKitchen__numberOrder">72 125</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="terms">
+		<div class="container">
+			<div class="terms__row">
+				<div class="terms__block">
+						<h3 class="terms__subtitle">100 салонов</h3>
+						<p class="terms__text">70 салонов в России и 30 в Казахстане,  Украине и  Беларусь.</p>
+				</div>
+				<div class="terms__block">
+						<h3 class="terms__subtitle">Рассрочка 2 года</h3>
+						<p class="terms__text">Удобная рассрочка оплаты на 2 года без процентов</p>
+				</div>
+				<div class="terms__block">
+						<h3 class="terms__subtitle">Свое производство</h3>
+						<p class="terms__text">Производство 60 тыс. м² в Зеленограде. 600 сотрудников и 69 тыс. заказов с 1991 г.</p>
+				</div>
+				<div class="terms__block">
+						<h3 class="terms__subtitle">Гарантия 24 месяца</h3>
+						<p class="terms__text">2 года сервисного  обслуживания всего кухонного гарнитура KUCHENBERG </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="advertising">
+			<aside class="sidebar">
+					<p class="sidebar__text">Акции Акции</p>
+			</aside>
+			<div class="stock">
+					<div class="stock__wrapperDiscount">
+							<div class="stock__discount">
+									<h3 class="stock__discountTitle">Скидка 40% на все модели месяца</h3>
+									<p class="stock__discountText">Акции и спецпредложения для ещё более выгодной покупки кухни вашей мечты. А ещё мы бесплатно предлагаем дизайн-проект.</p>
+									<button id="buttonStock" class="button button_stock">Получить скидку</button>
+							</div>
+					</div>
+					<div class="stock__wrapperPresent">
+							<div class="stock__present">
+									<h3 class="stock__presentTitle">Дарим 150 000 ₽  на новую кухню</h3>
+									<p class="stock__presentText">Акции и спецпредложения для ещё более выгодной покупки кухни вашей мечты. А ещё мы бесплатно предлагаем дизайн-проект.</p>
+									<div id="stockCircle" class="stock__circle">ПЕРЕЙТИ</div>
+							</div>
+					</div>
+					<div class="stock__wrapperTitle">
+							<div class="stock__title">
+									<h3 class="stock__titleText">Заголовок акции</h3>
+							</div>
+					</div>
+			</div>
+	</section>
+
+	<section class="catalog">
+			<div class="catalog__block catalog__sale">
+					<img class="catalog__img" src="styles/img/catalog/sale.png" alt="sale">
+					<div class="catalog__linkMenu">
+						<div class="catalog__linkSaleWrapper">
+								<a href="#" class="catalog__linkSale">РАСПРОДАЖА</a>
+						</div>
+						<div class="catalog__linkWrapper">
+								<a href="#" class="catalog__linkChoose">Кухни</a>
+								<a href="#" class="catalog__linkChoose">Столешницы</a>
+								<a href="#" class="catalog__linkChoose">Бытовая техника</a>
+								<a href="#" class="catalog__linkChoose">Шкафы-купе</a>
+								<a href="#" class="catalog__linkChoose">Столовые группы</a>
+						</div>
+					</div>
+			</div>
+			<div class="catalog__block catalog__appliances">
+					<img class="catalog__img" src="styles/img/catalog/appliances.png" alt="appliances">
+					<a href="#" class="catalog__linkAppliances">Бытовая техника</a>
+			</div>
+			<div class="catalog__block catalog__kitchen">
+					<img class="catalog__img" src="styles/img/catalog/kitchen.png" alt="kitchen">
+					<a href="" class="catalog__linkKitchen">Кухни</a>
+			</div>
+			<div class="catalog__block catalog__countertop">
+					<img class="catalog__img" src="styles/img/catalog/countertop.png" alt="countertop">
+					<a href="#" class="catalog__linkCountertop">Столешницы</a>
+			</div>
+			<div class="catalog__block catalog__case">
+					<img class="catalog__img" src="styles/img/catalog/case.png" alt="case">
+					<a href="#" class="catalog__linkCase">Шкафы-купе</a>
+			</div>
+	</section>
+
+	<section class="productCards">
+		<div class="container">
+			<h2 class="title title_productCards">Кухни</h2>
+			<div class="productCards__slider">
+				<div class="slider__menu">
+					<div class="slide">
+						<div class="productCards__tab">
+							<a href="" class="productCards__tabsLink">Кухни&nbsp;со&nbsp;скидкой</a>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="productCards__tab">
+							<a href="" class="productCards__tabsLink">Прямые </a>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="productCards__tab">
+							<a href="" class="productCards__tabsLink">С&nbsp;островом</a>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="productCards__tab">
+							<a href="" class="productCards__tabsLink">Белые</a>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="productCards__tab">
+							<a href="" class="productCards__tabsLink">Красные</a>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="productCards__tab">
+							<a href="" class="productCards__tabsLink">Из&nbsp;массива</a>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="productCards__tab">
+							<a href="" class="productCards__tabsLink">Из&nbsp;дерева</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="productCards__content productCards__content_active">
+					<div class="productCards__card">
+							<div class="productCards__wrapperItem productCards__wrapperItem_1">
+									<div class="productCards__itemStatus">
+											<img class="productCards__imgStatus" src="styles/img/icons/sale.svg" alt="sale">
+									</div>
+									<div class="productCards__blockItem">
+											<div class="productCards__item productCards__item_active">
+													<div class="productCards__calculateModel">
+															<img src="styles/img/icons/calculate.svg" alt="calc">
+													</div>
+													<div class="productCards__wrapperProperty">
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Фасад </p>
+																	<p class="productCards__textProperty">рамки из массива ясеня <br> с панелью из МДФ, покрытой шпоном</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Толщина фасада</p>
+																	<p class="productCards__textProperty">19 мм
+																	</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Виды фасадов  </p>
+																	<p class="productCards__textProperty">глухой, стекло</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Отделка </p>
+																	<p class="productCards__textProperty">финишная отделка шелковисто-матовая <br> или глянцевая</p>
+															</div>
+													</div>
+													<div class="productCards__rectangle">
+															Посмотреть подробности
+													</div>
+											</div>
+									</div>
+							</div>
+
+							<div class="productCards__footer">
+									<div class="productCards__nameProduct">
+											<p class="productCards__titleProduct">Bristel PRO</p>
+											<p class="productCards__descriptionProduct">Роскошная дворцовая классика</p>
+									</div>
+									<div class="productCards__priceProduct">от 40 215 ₽/м²</div>
+							</div>
+					</div>
+
+					<div class="productCards__card">
+							<div class="productCards__wrapperItem productCards__wrapperItem_2">
+									<div class="productCards__itemStatus">
+											<img class="productCards__imgStatus" src="styles/img/icons/hit.svg" alt="hit">
+									</div>
+									<div class="productCards__blockItem">
+											<div class="productCards__item productCards__item_active">
+													<div class="productCards__calculateModel">
+															<img src="styles/img/icons/calculate.svg" alt="calc">
+													</div>
+													<div class="productCards__wrapperProperty">
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Фасад </p>
+																	<p class="productCards__textProperty">рамки из массива ясеня <br> с панелью из МДФ, покрытой шпоном</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Толщина фасада</p>
+																	<p class="productCards__textProperty">19 мм
+																	</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Виды фасадов  </p>
+																	<p class="productCards__textProperty">глухой, стекло</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Отделка </p>
+																	<p class="productCards__textProperty">финишная отделка шелковисто-матовая <br> или глянцевая</p>
+															</div>
+													</div>
+													<div class="productCards__rectangle">
+															Посмотреть подробности
+													</div>
+											</div>
+									</div>
+							</div>
+
+							<div class="productCards__footer">
+									<div class="productCards__nameProduct">
+											<p class="productCards__titleProduct">Bristel PRO</p>
+											<p class="productCards__descriptionProduct">Роскошная дворцовая классика</p>
+									</div>
+									<div class="productCards__priceProduct">от 40 215 ₽/м²</div>
+							</div>
+					</div>
+
+					<div class="productCards__card">
+							<div class="productCards__wrapperItem productCards__wrapperItem_3">
+									<div class="productCards__itemStatus">
+											<img class="productCards__imgStatus" src="styles/img/icons/new.svg" alt="new">
+									</div>
+									<div class="productCards__blockItem">
+											<div class="productCards__item productCards__item_active">
+													<div class="productCards__calculateModel">
+															<img src="styles/img/icons/calculate.svg" alt="calc">
+													</div>
+													<div class="productCards__wrapperProperty">
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Фасад </p>
+																	<p class="productCards__textProperty">рамки из массива ясеня <br> с панелью из МДФ, покрытой шпоном</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Толщина фасада</p>
+																	<p class="productCards__textProperty">19 мм
+																	</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Виды фасадов  </p>
+																	<p class="productCards__textProperty">глухой, стекло</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Отделка </p>
+																	<p class="productCards__textProperty">финишная отделка шелковисто-матовая <br> или глянцевая</p>
+															</div>
+													</div>
+													<div class="productCards__rectangle">
+															Посмотреть подробности
+													</div>
+											</div>
+									</div>
+							</div>
+
+							<div class="productCards__footer">
+									<div class="productCards__nameProduct">
+											<p class="productCards__titleProduct">Bristel PRO</p>
+											<p class="productCards__descriptionProduct">Роскошная дворцовая классика</p>
+									</div>
+									<div class="productCards__priceProduct">от 40 215 ₽/м²</div>
+							</div>
+					</div>
+
+					<div class="productCards__card productCards__card_ivisibleMobile">
+							<div class="productCards__wrapperItem productCards__wrapperItem_4">
+									<div class="productCards__itemStatus">
+											<img class="productCards__imgStatus" src="styles/img/icons/hit.svg" alt="hit">
+									</div>
+									<div class="productCards__blockItem">
+											<div class="productCards__item productCards__item_active">
+													<div class="productCards__calculateModel">
+															<img src="styles/img/icons/calculate.svg" alt="calc">
+													</div>
+													<div class="productCards__wrapperProperty">
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Фасад </p>
+																	<p class="productCards__textProperty">рамки из массива ясеня <br> с панелью из МДФ, покрытой шпоном</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Толщина фасада</p>
+																	<p class="productCards__textProperty">19 мм
+																	</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Виды фасадов  </p>
+																	<p class="productCards__textProperty">глухой, стекло</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Отделка </p>
+																	<p class="productCards__textProperty">финишная отделка шелковисто-матовая <br> или глянцевая</p>
+															</div>
+													</div>
+													<div class="productCards__rectangle">
+															Посмотреть подробности
+													</div>
+											</div>
+									</div>
+							</div>
+
+							<div class="productCards__footer">
+									<div class="productCards__nameProduct">
+											<p class="productCards__titleProduct">Bristel PRO</p>
+											<p class="productCards__descriptionProduct">Роскошная дворцовая классика</p>
+									</div>
+									<div class="productCards__priceProduct">от 40 215 ₽/м²</div>
+							</div>
+					</div>
+
+					<div class="productCards__card productCards__card_ivisibleMobile">
+							<div class="productCards__wrapperItem productCards__wrapperItem_5">
+									<div class="productCards__itemStatus">
+											<img class="productCards__imgStatus" src="styles/img/icons/new.svg" alt="new">
+									</div>
+									<div class="productCards__blockItem">
+											<div class="productCards__item productCards__item_active">
+													<div class="productCards__calculateModel">
+															<img src="styles/img/icons/calculate.svg" alt="calc">
+													</div>
+													<div class="productCards__wrapperProperty">
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Фасад </p>
+																	<p class="productCards__textProperty">рамки из массива ясеня <br> с панелью из МДФ, покрытой шпоном</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Толщина фасада</p>
+																	<p class="productCards__textProperty">19 мм
+																	</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Виды фасадов  </p>
+																	<p class="productCards__textProperty">глухой, стекло</p>
+															</div>
+															<div class="productCards__property">
+																	<p class="productCards__titleProperty">Отделка </p>
+																	<p class="productCards__textProperty">финишная отделка шелковисто-матовая <br> или глянцевая</p>
+															</div>
+													</div>
+													<div class="productCards__rectangle">
+															Посмотреть подробности
+													</div>
+											</div>
+									</div>
+							</div>
+
+							<div class="productCards__footer">
+									<div class="productCards__nameProduct">
+											<p class="productCards__titleProduct">Bristel PRO</p>
+											<p class="productCards__descriptionProduct">Роскошная дворцовая классика</p>
+									</div>
+									<div class="productCards__priceProduct">от 40 215 ₽/м²</div>
+							</div>
+					</div>
+
+					<div class="productCards__card productCards__card_ivisibleMobile">
+							<div class="productCards__wrapperItem productCards__wrapperItem_6">
+									<div class="productCards__itemAll">
+										 <p class="productCards__nameModel">127 моделей</p>
+										 <p class="productCards__textSale">со скидкой</p>
+										 <div class="productCards__watchAll">
+											 	<a href="#" class="productCards__linkAllModel">Посмотреть все</a>
+												<img src="styles/img/icons/arrow.svg" alt="arrow">
+										 </div>
+									</div>
+							</div>
+					</div>
+					<div class="productCards__wrapperLinkAllModel">
+						<a href="#" class="productCards__linkAllModel">Посмотреть все</a>
+						<img src="styles/img/icons/arrow.svg" alt="arrow">
+					</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="designs">
+		<div class="container">
+			<div class="designs__wrapperImg1">
+				<img class="designs__img" src="styles/img/designs/img1.png" alt="1">
+			</div>
+			<div class="designs__wrapperImg2">
+				<img class="designs__img" src="styles/img/designs/img2.png" alt="2">
+			</div>
+			<h2 class="designs__title">150 дизайнеров  </h2>
+			<p class="descrText descrText_designs">150 дизайнеров-архитекторов ежедневно создают пространства индивидуально под каждого клиента. Получите бесплатный дизайн-проект под ваши предпочтения.</p>
+			<button id="buttonDesigns" class="button button_designs">Бесплатный дизайн-проект</button>
+		</div>
+	</section>
+
+	<section class="workProcess">
+			<h2 class="title title_workProcess">Как мы работаем?</h2>
+			<div class="workProcess__wrapper">
+				<div class="slider__menu">
+					<div class="slide">
+						<div class="workProcess__item workProcess__item_active">
+							<span class="workProcess__titleItem workProcess__titleItem_white">Создание проекта</span>
+							<span class="workProcess__description workProcess__description_white">Онлайн-заявка<br>или визит в салон</span>
+							<img src="styles/img/workProcess/11.svg" alt="1" class="workProcess__imgNumber">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="workProcess__item">
+							<span class="workProcess__titleItem">ЗАмер помещения</span>
+							<span class="workProcess__description">Дистанционные замер или<br>выезд замерщика</span>
+							<img src="styles/img/workProcess/22.svg" alt="2" class="workProcess__imgNumber">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="workProcess__item">
+							<span class="workProcess__titleItem">Заключение договора</span>
+							<span class="workProcess__description">Онлайн-оплата<br>или визит в салон</span>
+							<img src="styles/img/workProcess/33.svg" alt="3" class="workProcess__imgNumber">
+						</div>
+					</div>
+					<div class="slide">
+						<div class="workProcess__item">
+							<span class="workProcess__titleItem">Доставка мебели</span>
+							<span class="workProcess__description">Сборка и установка<br>происходит безопасно</span>
+							<img src="styles/img/workProcess/44.svg" alt="4" class="workProcess__imgNumber">
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="reviews">
+		<div class="container">
+			<h2 class="title title_reviews">Отзывы клиентов КухниСити</h2>
+			<div class="reviews__slider">
+				<div class="slider">
+					<div class="slide">
+						<div class="reviews__item">
+							<div class="reviews__leftColumn">
+								<img class="reviews__imgAuthor" src="styles/img/reviews/1.jpg" alt="Первый слайд">
+								<div class="reviews__rectangle">
+									<img src="styles/img/icons/vector.svg" alt="" class="reviews__vector">
+								</div>
+							</div>
+							<div class="reviews__rightColumn">
+								<div class="reviews__author">
+									<img  src="styles/img/icons/vk.svg" alt="vk" class="reviews__messenger">
+									<span class="reviews__authorName">Андрей Иванов</span>
+								</div>
+								<div class="reviews__description">
+									Спасибо огромное, работа вашей команды бесценный вклад в счастье многих людей, а теперь
+									и частичка моей радости😊 Все оказалось совсем
+									не сложно и главное быстро!!! Вы огромные молодцы🙏 👍
+								</div>
+								<div class="reviews__footer">
+									<span class="reviews__date">06.05.2019 в 15:20</span>
+									<div class="reviews__wrapperLink">
+										<a href="" class="reviews__link">перейти к отзыву &#10230;</a>
+										<div class="reviews__line"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="reviews__item">
+							<div class="reviews__leftColumn">
+								<img class="reviews__imgAuthor" src="styles/img/reviews/2.jpg" alt="Второй слайд">
+								<div class="reviews__rectangle reviews__rectangle_white">
+									<img src="styles/img/icons/vector-white.svg" alt="" class="reviews__vector">
+								</div>
+							</div>
+							<div class="reviews__rightColumn">
+								<div class="reviews__author">
+									<img src="styles/img/icons/ig.svg" alt="" class="reviews__messenger">
+									<span class="reviews__authorName">Jullias_23</span>
+								</div>
+								<div class="reviews__description">
+									Мой дизайнер уже давно просил разместить отзыв, но время нашлось только теперь во время карантина. Если вы приняли решение купить новую кухню от Кухни-Сити, то я могу порекомендовать салон на Проспект Мира. Кухню заказала БристельМой...
+								</div>
+								<div class="reviews__footer">
+									<span class="reviews__date">06.05.2019 в 15:20</span>
+									<div class="reviews__wrapperLink">
+										<a href="" class="reviews__link">перейти к отзыву &#10230;</a>
+										<div class="reviews__line"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="reviews__item">
+							<div class="reviews__leftColumn">
+								<img class="reviews__imgAuthor" src="styles/img/reviews/3.jpg" alt="Третий слайд">
+								<div class="reviews__rectangle reviews__rectangle_white">
+									<img src="styles/img/icons/vector-white.svg" alt="" class="reviews__vector">
+								</div>
+							</div>
+							<div class="reviews__rightColumn">
+								<div class="reviews__author">
+									<img src="" alt="" class="reviews__messenger">
+									<span class="reviews__authorName">Б Иванов</span>
+								</div>
+								<div class="reviews__description">
+									Спасибо огромное, работа вашей команды бесценный вклад в счастье многих людей, а теперь
+									и частичка моей радости😊 Все оказалось совсем
+									не сложно и главное быстро!!! Вы огромные молодцы🙏 👍
+								</div>
+								<div class="reviews__footer">
+									<span class="reviews__date">06.05.2019 в 15:20</span>
+									<div class="reviews__wrapperLink">
+										<a href="" class="reviews__link">перейти к отзыву &#10230;</a>
+										<div class="reviews__line"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="reviews__item">
+							<div class="reviews__leftColumn">
+								<img class="reviews__imgAuthor" src="styles/img/reviews/3.jpg" alt="Четвертый слайд">
+								<div class="reviews__rectangle reviews__rectangle_white">
+									<img src="styles/img/icons/vector-white.svg" alt="" class="reviews__vector">
+								</div>
+							</div>
+							<div class="reviews__rightColumn">
+								<div class="reviews__author">
+									<img src="" alt="" class="reviews__messenger">
+									<span class="reviews__authorName">В Иванов</span>
+								</div>
+								<div class="reviews__description">
+									Спасибо огромное, работа вашей команды бесценный вклад в счастье многих людей, а теперь
+									и частичка моей радости😊 Все оказалось совсем
+									не сложно и главное быстро!!! Вы огромные молодцы🙏 👍
+								</div>
+								<div class="reviews__footer">
+									<span class="reviews__date">06.05.2019 в 15:20</span>
+									<div class="reviews__wrapperLink">
+										<a href="" class="reviews__link">перейти к отзыву &#10230;</a>
+										<div class="reviews__line"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider__arrows slider__arrows_reviews">
+					<div id="left-reviews" class="slick-prev slider__prevArrow slider__circle" onclick="minusSlideReviews()">
+						<img id="arrowLeft-reviews" src="styles/img/icons/arrowLeft.svg" alt="" class="slider__arrowLeft">
+						<img id="arrowLeftWhite-reviews" src="styles/img/icons/arrowLeft-white.svg" alt="" class="slider__arrowLeft-white">
+					</div>
+
+					<div id="right-reviews" class="slick-next slider__nextArrow slider__circle slider__circle_active" onclick="plusSlideReviews()">
+						<img id="arrowRight-reviews" src="styles/img/icons/arrowRight.svg" alt="" class="slider__arrowRight">
+						<img id="arrowRightWhite-reviews" src="styles/img/icons/arrowRight-white.svg" alt="" class="slider__arrowRight-white">
+					</div>
+			</div>
+			<span class="reviews__ps">Занимаем лидирующие позиции</span>
+		</div>
+	</section>
+
+	<section class="ratings">
+		<div class="container">
+			<div class="ratings__slider">
+				<div class="slider__menu">
+				<div class="slide">
+					<div class="ratings__company">
+						<div class="ratings__block">
+							<div class="ratings__header ratings__header_1">
+								<span class="ratings__number">4,9</span>
+								<img src="styles/img/icons/star.svg" alt="star" class="ratings__imgStar">
+							</div>
+							<img src="styles/img/ratings/otzovik.jpg" alt="company" class="ratings__companyLogo">
+						</div>
+						<div class="ratings__footer">На основе 32 отзывов</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="ratings__company">
+						<div class="ratings__block">
+							<div class="ratings__header ratings__header_2">
+								<span class="ratings__number">4,9</span>
+								<img src="styles/img/icons/star.svg" alt="star" class="ratings__imgStar">
+							</div>
+							<img src="styles/img/ratings/zoon.jpg" alt="company" class="ratings__companyLogo">
+						</div>
+						<div class="ratings__footer">На основе 85 отзывов</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="ratings__company">
+						<div class="ratings__block">
+							<div class="ratings__header ratings__header_3">
+								<span class="ratings__number">4,9</span>
+								<img src="styles/img/icons/star.svg" alt="star" class="ratings__imgStar">
+							</div>
+							<img src="styles/img/ratings/recommend.jpg" alt="company" class="ratings__companyLogo">
+						</div>
+						<div class="ratings__footer">На основе 256 отзывов</div>
+					</div>
+				</div>
+		</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="socialNetwork">
+	<div class="socialNetwork__leftColumn">
+		<div class="socialNetwork__rectangle"></div>
+		<div class="socialNetwork__gallery">
+			<div class="socialNetwork__gallery-item">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/11.jpg" alt="11">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_12">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/12.jpg" alt="12">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_13">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/13.jpg" alt="13">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_21">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/21.jpg" alt="21">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_22">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/22.jpg" alt="22">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_23">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/23.jpg" alt="23">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_31">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/31.jpg" alt="31">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_32">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/32.jpg" alt="32">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+			<div class="socialNetwork__gallery-item socialNetwork__gallery-item_33">
+				<img class="socialNetwork__gallery-img" src="styles/img/socialNetwork/33.jpg" alt="33">
+				<img src="styles/img/icons/igSocialNetwork.svg" alt="" class="socialNetwork__ig">
+			</div>
+		</div>
+	</div>
+	<div class="socialNetwork__rightColumn">
+		<h2 class="title title_socialNetwork">КухниСити в соцсетях</h2>
+		<div class="descrText descrText_socialNetwork">
+			Новые модели, выгодные акции и неожиданные дизайнерские решения ежедневно в удобном
+			для вас формате. Подписывайтесь!
+		</div>
+		<span class="socialNetwork__subscribe">Подписывайтесь на нас</span>
+		<div class="socialNetwork__wrapperIcon">
+			<div class="socialNetwork__blockIcon">
+				<img src="styles/img/icons/socialSubscribe/facebook.svg" alt="" class="socialNetwork__icon">
+			</div>
+			<div class="socialNetwork__blockIcon">
+				<img src="styles/img/icons/socialSubscribe/vk.svg" alt="" class="socialNetwork__icon">
+			</div>
+			<div class="socialNetwork__blockIcon">
+				<img src="styles/img/icons/socialSubscribe/ig.svg" alt="" class="socialNetwork__icon">
+			</div>
+			<div class="socialNetwork__blockIcon">
+				<img src="styles/img/icons/socialSubscribe/ok.svg" alt="" class="socialNetwork__icon">
+			</div>
+			<div class="socialNetwork__blockIcon">
+				<img src="styles/img/icons/socialSubscribe/pinterest.svg" alt="" class="socialNetwork__icon">
+			</div>
+			<div class="socialNetwork__blockIcon">
+				<img src="styles/img/icons/socialSubscribe/twitter.svg" alt="" class="socialNetwork__icon">
+			</div>
+			<div class="socialNetwork__blockIcon">
+				<img src="styles/img/icons/socialSubscribe/youtube.svg" alt="" class="socialNetwork__icon">
+			</div>
+		</div>
+	</div>
+</section>
+
+	<section class="choise">
+		<div class="container">
+			<div class="choise__titleBlock">
+				<h2 class="title title_choise">Как выбрать мойку из искусственного камня</h2>
+				<svg class="choise__svg" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 20L20 1M20 1V9.70833M20 1H12.0833" stroke="white" stroke-width="2"/>
+				</svg>
+			</div>
+			<span class="choise__subtitle">и другие полезные статьи</span>
+			<div class="choise__slider">
+				<div class="slider">
+					<div class="slide slide__choise">
+						<div class="choise__sliderItem">
+							<img class="choise__slider-imgLong" src="styles/img/choise/1.jpg" alt="" class="choise__img">
+							<div class="choise__status">
+								КУХНИ
+							</div>
+						</div>
+					</div>
+					<div class="slide slide__choise">
+						<div class="choise__sliderItem choise__sliderItem_even choise__sliderItem-video">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/E4hzEtA9u4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="choise__status">
+								CЕЗОН
+							</div>
+						</div>
+						<div class="choise__sliderItem choise__sliderItem-video">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/gQ-DCVLAfEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div class="choise__status">
+								СЕЗОН
+							</div>
+						</div>
+					</div>
+					<div class="slide slide__choise">
+						<div class="choise__sliderItem choise__sliderItem_even">
+							<img class="choise__slider-img" src="styles/img/choise/4.jpg" alt="" class="choise__img">
+							<div class="choise__status">
+								ЭКОНОМИЯ
+							</div>
+						</div>
+						<div class="choise__sliderItem">
+							<img class="choise__slider-img" src="styles/img/choise/5.jpg" alt="" class="choise__img">
+							<div class="choise__status">
+								ЭКОНОМИЯ
+							</div>
+						</div>
+					</div>
+					<div class="slide slide__choise">
+						<div class="choise__sliderItem choise__sliderItem_even">
+							<img class="choise__slider-img" src="styles/img/choise/6.jpg" alt="" class="choise__img">
+							<div class="choise__status">
+								КУХНИ
+							</div>
+						</div>
+						<div class="choise__sliderItem">
+							<img class="choise__slider-img" src="styles/img/choise/7.jpg" alt="" class="choise__img">
+							<div class="choise__status">
+								КУХНИ
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="choise__footer">
+				<button class="button button_choise">Посмотреть все</button>
+				<div class="slider__arrows slider__arrows_choise">
+					<div id="left-choise" class="slick-prev slider__prevArrow slider__circle" onclick="minusSlideChoise()">
+						<img id="arrowLeft-choise" src="styles/img/icons/arrowLeft.svg" alt="" class="slider__arrowLeft">
+						<img id="arrowLeftWhite-choise" src="styles/img/icons/arrowLeft-white.svg" alt="" class="slider__arrowLeft-white">
+					</div>
+					<div id="right-choise" class="slick-next slider__nextArrow slider__circle slider__circle_active" onclick="plusSlideChoise()">
+						<img id="arrowRight-choise" src="styles/img/icons/arrowRight.svg" alt="" class="slider__arrowRight">
+						<img id="arrowRightWhite-choise" src="styles/img/icons/arrowRight-white.svg" alt="" class="slider__arrowRight-white">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="customKitchen">
+		<div class="container">
+			<div class="customKitchen__block">
+				<div class="customKitchen__leftColumn">
+					<h2 class="title title_customKitchen">Кухни на заказ в салонах
+						Кухнисити
+					</h2>
+					<p class="descrText descrText_customKitchen" >Кухня – одно из самых важных помещений в доме. Здесь готовят еду, устраивают семейные обеды, дружеские посиделки, а порой и званые вечера. Отсюда вытекают главные критерии выбора мебели – материалы и фурнитура (от покрытия столешницы и заканчивая ручками на фасадах) должны быть готовы к интенсивным нагрузкам,  а продуманная планировка должна помогать выполнять бытовые дела с легкостью, комфортом и удовольствием. А еще хочется, чтобы было красиво!
+					</p>
+					<button class="button button_customKitchen">НАписать директору</button>
+				</div>
+				<div class="customKitchen__rightColumn">
+					<div class="customKitchen__wrapperPhoto">
+						<img src="styles/img/customKithen/photo.jpg" alt="photo" class="customKitchen__photo">
+					</div>
+					<div class="customKitchen__wrapperSignature">
+						<div class="customKitchen__imgSignature"></div>
+						<div class="customKitchen__blockName">
+							<span class="customKitchen__name">Андрей Селиванов</span>
+							<span class="customKitchen__expert">руководитель производства</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="specialOffer">
+		<div class="container">
+			<h2 class="title title_specialOffer">Спецпредложения и бонусы</h2>
+			<div class="specialOffer__slider">
+				<div class="slider">
+					<div class="slide">
+						<div class="specialOffer__item">
+							<div class="specialOffer__wrapperImg">
+								<img src="styles/img/specialOffer/1.jpg" alt="1" class="specialOffer__img">
+							</div>
+							<div class="specialOffer__content">
+								<h3 class="specialOffer__titleItem">
+									Купите кухню <br>
+									<span class="specialOffer__titleItem_red">Ascona</span>
+								</h3>
+								<hr class="specialOffer__divider">
+								<span class="specialOffer__text">Столешница в подарок</span>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="specialOffer__item">
+							<div class="specialOffer__wrapperImg">
+								<img src="styles/img/specialOffer/2.jpg" alt="2" class="specialOffer__img">
+							</div>
+							<div class="specialOffer__content">
+								<h3 class="specialOffer__titleItem specialOffer__titleItem_black">
+									Получи сертификат <br> на 100 000 ₽
+								</h3>
+								<hr class="specialOffer__divider specialOffer__divider_black">
+								<span class="specialOffer__text specialOffer__text_black">До конца августа</span>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="specialOffer__item">
+							<div class="specialOffer__wrapperImg">
+								<img src="styles/img/specialOffer/2.jpg" alt="3" class="specialOffer__img">
+							</div>
+							<div class="specialOffer__content">
+								<h3 class="specialOffer__titleItem specialOffer__titleItem_black">
+									Скидка 40% <br>
+									на все модели месяца
+								</h3>
+								<hr class="specialOffer__divider specialOffer__divider_black">
+								<span class="specialOffer__text specialOffer__text_black">Бесплатный дизайн-проект в подарок</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slider__arrows slider__arrows_specialOffer">
+				<div id="left-specialOffer" class="slick-prev slider__prevArrow slider__circle" onclick="minusSlideSpecialOffer()">
+					<img id="arrowLeft-specialOffer" src="styles/img/icons/arrowLeft.svg" alt="left" class="slider__arrowLeft">
+					<img id="arrowLeftWhite-specialOffer" src="styles/img/icons/arrowLeft-white.svg" alt="" class="slider__arrowLeft-white">
+				</div>
+				<div id="right-specialOffer" class="slick-next slider__nextArrow slider__circle slider__circle_active" onclick="plusSlideSpecialOffer()">
+					<img id="arrowRight-specialOffer" src="styles/img/icons/arrowRight.svg" alt="right" class="slider__arrowRight">
+					<img id="arrowRightWhite-specialOffer"src="styles/img/icons/arrowRight-white.svg" alt="" class="slider__arrowRight-white">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="invitation">
+		<div class="invitation__photo">
+			<img src="styles/img/invitation/imgInvitation.jpg" alt="image" class="invitation__photoIMG">
+		</div>
+		<div class="invitation__column">
+			<h2 class="title title_invitation">Приходите к нам,<br>
+				поговорим о вашем проекте</h2>
+			<p class="descrText descrText_invitation">Новые модели, выгодные акции и неожиданные дизайнерские решения ежедневно в удобном <br>
+				для вас формате. Подписывайтесь!</p>
+			<form action="#" class="form form_invitation">
+				<div class="form__block">
+					<div class="form__inputBlock">
+						<label for="nameInvitation" class="form__label">Ваше имя</label>
+						<input class="form__input" id="nameInvitation" type="text" value="">
+					</div>
+					<div class="form__inputBlock form__inputBlock_right">
+						<label for="phoneInvitation" class="form__label">Ваш телефон</label>
+						<input class="form__input" id="phoneInvitation" type="text" aria-invalid="false">
+					</div>
+					<div class="form__wrapperButton">
+						<button class="button button_invitation">Отправить</button>
+					</div>
+				</div>
+				<div class="form__wrapperApproval form__wrapperApproval_invitation">
+					<span class="form__approval form__approval_invitation">Отправляя контакты, вы соглашаетесь с
+						<a href="#" class="form__privacyPolicy">политикой конфиденциальности</a>
+					</span>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<hr class="footer__devider">
+		<div class="footer__menu">
+			<div class="footer__menuItem">
+				<span class="footer__titleItem">Кухни</span>
+				<div class="footer__links">
+					<a href="#" class="footer__link">Каталог Стиль</a>
+					<a href="#" class="footer__link">Фасад</a>
+					<a href="#" class="footer__link">Покрытие</a>
+					<a href="#" class="footer__link">Планировка</a>
+					<a href="#" class="footer__link">Цвет</a>
+					<a href="#" class="footer__link">Размер</a>
+				</div>
+				<div class="footer__wrapperTitleLink">
+					<a href="#" class="footer__titleLink">Акции </a>
+				</div>
+			</div>
+			<div class="footer__menuItem">
+				<span class="footer__titleItem">Сопутствующие товары</span>
+				<div class="footer__links">
+					<a href="#" class="footer__link">Столешницы</a>
+					<a href="#" class="footer__link">Бытовая техника</a>
+					<a href="#" class="footer__link">Шкафы-купе</a>
+					<a href="#" class="footer__link">Столовые группы</a>
+					<a href="#" class="footer__link">Барны опоры</a>
+					<a href="#" class="footer__link">Аксессуары</a>
+				</div>
+				<div class="footer__wrapperTitleLink">
+					<a href="#" class="footer__titleLink">РАспродажа</a>
+				</div>
+			</div>
+			<div class="footer__menuItem">
+				<span class="footer__titleItem">Покупателям</span>
+				<div class="footer__links">
+					<a href="#" class="footer__link">Портфолио</a>
+					<a href="#" class="footer__link">Доставка</a>
+					<a href="#" class="footer__link">Рассрочка</a>
+					<a href="#" class="footer__link">Вызов дизайнера</a>
+					<a href="#" class="footer__link">Сборка</a>
+					<a href="#" class="footer__link">Замер</a>
+				</div>
+				<div class="footer__wrapperTitleLink">
+					<a href="#" class="footer__titleLink">Калькулятор&nbsp;кухни</a>
+				</div>
+			</div>
+			<div class="footer__menuItem">
+				<span class="footer__titleItem">Компания</span>
+				<div class="footer__links">
+					<a href="#" class="footer__link">О компании</a>
+					<a href="#" class="footer__link">Производство</a>
+					<a href="#" class="footer__link">Новости</a>
+					<a href="#" class="footer__link">Пресса</a>
+					<a href="#" class="footer__link">Видео</a>
+					<a href="#" class="footer__link">Сотрудничество</a>
+					<a href="#" class="footer__link">Вакансии</a>
+					<a href="#" class="footer__link">Благотворительность</a>
+				</div>
+				<div class="footer__wrapperTitleLink">
+					<a href="#" class="footer__titleLink">Бесплатный&nbsp;дизайн</a>
+				</div>
+			</div>
+			<div class="footer__menuItem">
+				<span class="footer__titleItem footer__titleItem_contact">Контакты</span>
+				<div class="footer__links">
+					<div class="footer__wrapperLink footer__wrapperLink_contact">
+						<a href="#" class="footer__link">Адреса салонов</a>
+						<a href="#" class="footer__link">Офис и склад</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__contacts">
+			<div class="footer__phone">
+				<a href="tel:+74991354378" class="footer__tel">+7 (499) 135-43-78</a>
+				<span class="footer__schedule">Ежедневно с 10.00 до 22.00</span>
+			</div>
+			<div class="footer__socialIcons">
+				<a href="#" class="footer__socialIcon">
+					<img src="styles/img/icons/socialFooter/fb.svg" alt="fb" class="footer__socialImg">
+				</a>
+				<a href="#" class="footer__socialIcon">
+					<img src="styles/img/icons/socialFooter/vk.svg" alt="fb" class="footer__socialImg">
+				</a>
+				<a href="#" class="footer__socialIcon">
+					<img src="styles/img/icons/socialFooter/ig.svg" alt="fb" class="footer__socialImg">
+				</a>
+			</div>
+		</div>
+		<div class="footer__PS">
+			<div class="footer__copyright">
+				<span class="footer__copyrightText">© 2019 КухниСити и Kuchenberg. Все права защищены</span>
+			</div>
+			<div class="footer__privacyPolicy">
+				<span class="footer__privacyPolicyText">Политика конфиденциальности</span>
+			</div>
+			<div class="footer__creditCard">
+				<img src="styles/img/footer/creditCard.jpg" alt="creditCard" class="footer__creditCardImg">
+			</div>
+		</div>
+	</footer>
+
+	<div id="modal" class="modal">
+		<div class="modal__window">
+			<div id="modalClose" class="modal__close">&#xD7;</div>
+			<span class="modal__title">Оставить заявку</span>
+			<span class="modal__descr">Оставьте свои контактные данные, менеджер свяжется с Вами <br> в течение 15 минут.</span>
+			<form class="form form_modal">
+				<div class="form__inputBlocks form__inputBlocks_modal">
+					<div class="form__inputBlock form__inputBlock_modal">
+						<label for="nameModal" class="form__label">Ваше имя</label>
+						<input class="form__input" id="nameModal" type="text" value="">
+					</div>
+					<div class="form__inputBlock form__inputBlock_modal">
+						<label for="phoneModal" class="form__label">Ваш телефон</label>
+						<input class="form__input" id="phoneModal" type="text" aria-invalid="false">
+					</div>
+				</div>
+				<button class="button button_modal">Оставить заявку</button>
+				<div class="form__wrapperApproval form__wrapperApproval_modal">
+					<span class="form__approval form__approval_modal">Отправляя контакты, вы соглашаетесь с
+								<a href="#" class="form__privacyPolicy">политикой конфиденциальности</a>
+					</span>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>

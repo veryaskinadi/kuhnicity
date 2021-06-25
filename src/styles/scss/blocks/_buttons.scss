@@ -1,0 +1,59 @@
+.button {
+	border: none;
+	font-family: 'Averta',  serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 0.105em;
+	line-height: 120.3%;
+	cursor: pointer;
+	&_createKitchen {
+		margin-top: 40px;
+		width: 606px;
+		height: 70px;
+		background-color: $main-color;
+	}
+	&_stock {
+		margin-top: 64px;
+		margin-left: 83px;
+		width: 293px;
+		height: 70px;
+		background: #F1F1F1;
+		color: #323232;
+	}
+	&_designs {
+		margin-top: 79px;
+		width: 456px;
+		height: 70px;
+		background-color: #232323;
+		text-align: center;
+	}
+	&_choise {
+		width: 302px;
+		height: 70px;
+		border: 1px solid #323232;
+		box-sizing: border-box;
+		color: #131313;
+		background-color: $bg-color;
+	}
+	&_customKitchen {
+		position: absolute;
+		bottom: 0;
+		width: 361px;
+		height: 70px;
+		background: #232323;
+	}
+	&_invitation {
+		width: 285px;
+		height: 70px;
+		background-color: $main-color;
+		text-align: center;
+	}
+	&_modal {
+		display: block;
+		width: 597px;
+		height: 70px;
+		background-color: $main-color;
+		margin: 15px auto;
+	}
+}

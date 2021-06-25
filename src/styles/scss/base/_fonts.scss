@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url('../fonts/CormorantGaramond-Light.eot');
+    src: url('../fonts/CormorantGaramond-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CormorantGaramond-Light.woff') format('woff'),
+    url('../fonts/CormorantGaramond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url('../fonts/CormorantGaramond-Medium.eot');
+    src: url('../fonts/CormorantGaramond-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CormorantGaramond-Medium.woff') format('woff'),
+    url('../fonts/CormorantGaramond-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Averta';
+    src: local('../fonts/Averta Regular'), local('Averta-Regular'),
+        url('../fonts/AvertaDemoPE-Regular.woff2') format('woff2'),
+        url('../fonts/AvertaDemoPE-Regular.woff') format('woff'),
+        url('../fonts/AvertaDemoPE-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

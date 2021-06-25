@@ -1,0 +1,64 @@
+.customKitchen {
+	background-color: #F2F2F2;
+	min-height: 876px;
+	&__block {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__expand {
+		margin-top: 44px;
+		display: flex;
+		justify-content: flex-start;
+	}
+	&__textExpand {
+		font-size: 20px;
+		line-height: 120.3%;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+		color: #232323;
+	}
+	&__leftColumn {
+		width: 50%;
+		position: relative;
+	}
+	&__rightColumn {
+		display: flex;
+		flex-direction: column;
+	}
+	&__imgVector {
+		margin-left: 11px;
+	}
+	&__wrapperPhoto {
+		margin-top: -102px;
+		margin-left: auto;
+	}
+	&__photo {
+		width: 742px;
+		height: 770px;
+		object-fit: cover;
+	}
+	&__wrapperSignature {
+		margin-top: 34px;
+		display: flex;
+		justify-content: space-around;
+	}
+	&__name {
+		display: block;
+		font-size: 20px;
+		line-height: 120.3%;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+		color: #000000;
+	}
+	&__expert {
+		font-size: 16px;
+		line-height: 118.49%;
+		letter-spacing: 0.035em;
+		color: #A0A0A0;
+	}
+	&__imgSignature {
+		width: 129px;
+		height: 77px;
+		background: url("../img/customKithen/signature.svg")center center/cover no-repeat;
+	}
+}

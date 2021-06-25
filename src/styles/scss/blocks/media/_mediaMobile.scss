@@ -1,0 +1,470 @@
+@media (max-width: 567px) {
+	.container {
+		margin-left: 25px;
+	}
+	.title {
+		font-size: 36px;
+		&_choise {
+			font-size: 25px;
+		}
+		&_specialOffer {
+			padding-top: 70px;
+		}
+		&_customKitchen {
+			width: 300px;
+		}
+	}
+	.button {
+		font-size: 12px;
+		&_createKitchen {
+			width: 270px;
+		}
+		&_stock {
+			margin-top: 16px;
+			margin-left: 28px;
+			width: 207px;
+			height: 50px;
+		}
+		&_designs {
+			width: 270px;
+			height: 50px;
+		}
+		&_choise {
+			height: 50px;
+			width: 170px;
+		}
+		&_customKitchen {
+			width: 210px;
+			height: 53px;
+		}
+		&_modal {
+			width: 90%;
+			height: 50px;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	}
+	.header {
+		&__kuhnicityLogo {
+			width: 128px;
+			height: 29px;
+		}
+		&__subheader {
+			padding-right: 15px;
+		}
+		&__item {
+			&_invisible567 {
+				display: none;
+			}
+		}
+		&__mail {
+			&_invisible567 {
+				display: none;
+			}
+		}
+		&__menu {
+			font-size: 14px;
+		}
+		&__catalogText {
+			margin-left: 10px;
+		}
+	}
+	.descrText {
+		font-size: 14px;
+		&_createKitchen {
+			padding-right: 45px;
+		}
+		&_designs {
+			margin-top: 516px;
+		}
+		&_socialNetwork {
+			width: 300px;
+			text-align: start;
+			margin-top: 45px;
+		}
+		&_customKitchen {
+			margin-top: 40px;
+		}
+		&_invitation {
+			width: 280px;
+		}
+	}
+	.form {
+		&_createKitchen {
+			width: 90%;
+		}
+		&__inputBlocks {
+			flex-wrap: wrap;
+		}
+		&__inputBlock {
+			width: 90%;
+			padding-bottom: 25px;
+			&_modal {
+				padding-bottom: 0;
+			}
+		}
+		&_invitation {
+			margin-top: 60px;
+		}
+		&__wrapperButton {
+			justify-content: start;
+		}
+		&__wrapperApproval {
+			&_modal {
+				width: 100%;
+			}
+		}
+
+	}
+	.modal {
+		&__window {
+			width: 320px;
+		}
+		&__title {
+			font-size: 36px;
+		}
+		&__close {
+			font-size: 45px;
+			right: 17px;
+		}
+	}
+	.slider {
+		&__arrows_reviews {
+			margin-right: 27px;
+			margin-top: 40px;
+			margin-bottom: 50px;
+		}
+		&__arrows_choise {
+			margin-right: 20px;
+		}
+		&__arrows_specialOffer {
+			margin-right: 30px;
+			margin-top: 37px;
+		}
+	}
+	.advertising {
+		justify-content: center;
+		padding-top: 40px;
+	}
+	.createKitchen {
+		&__title {
+			font-size: 36px;
+		}
+		&__wrapper {
+			min-height: 790px;
+		}
+		&__column {
+			height: 100%;
+			background: rgba(255,255,255,.6);
+		}
+		&__year {
+			font-size: 14px;
+		}
+		&__numberOrder {
+			font-size: 40px;
+			margin-left: 0;
+			padding-right: 25px;
+		}
+		&__order {
+			margin-top: 5px;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	.catalog {
+		height: 1300px;
+		grid-gap: 10px;
+		grid-template-rows: repeat(5, 1fr);
+		grid-template-columns: 1fr;
+		grid-template-areas:
+		'sale'
+		'appliances'
+		'case'
+		'countertop'
+		'kitchen';
+		&__block {
+			position: relative;
+			font-size: 18px;
+			line-height: 22px;
+			width: 100%;
+			height: 250px;
+		}
+		&__linkSale {
+			padding-top: 202px;
+			margin-left: 25px;
+		}
+		&__linkAppliances {
+			padding-top: 202px;
+			margin-left: 25px;
+		}
+		&__linkKitchen {
+			padding-top: 210px;
+			margin-left: 25px;
+		}
+		&__linkCountertop {
+			padding-top: 202px;
+			margin-left: 25px;
+		}
+		&__linkCase {
+			padding-top: 202px;
+			margin-left: 25px;
+		}
+	}
+	.advertising {
+		min-height: 1050px;
+	}
+	.terms {
+		&__row {
+			padding-top: 70px;
+		}
+		&__block {
+			width: 80%;
+		}
+	}
+	.sidebar {
+		display: none;
+	}
+	.stock {
+		&__wrapperDiscount {
+			width: 269px;
+			height: 332px;
+		}
+		&__wrapperPresent {
+			top: 410px;
+			width: 269px;
+			right: 0;
+		}
+		&__wrapperTitle {
+			width: 269px;
+			margin-top: 380px;
+		}
+		&__discountTitle {
+			font-size: 30px;
+			padding-top: 26px;
+			padding-left: 26px;
+			padding-right: 58px;
+		}
+		&__discountText {
+			margin-top: 16px;
+			padding-left: 28px;
+			padding-right: 5px;
+			font-size: 14px;
+		}
+		&__presentTitle{
+			font-size: 30px;
+			padding-top: 78px;
+		}
+		&__presentText {
+			padding-left: 28px;
+			padding-right: 20px;
+			font-size: 14px;
+		}
+		&__titleText {
+			font-size: 17px;
+		}
+		&__circle {
+			bottom: -69px;
+			right: 32%;
+		}
+	}
+	.productCards {
+		&__card {
+			width: 272px;
+			height: 405px;
+			margin-top: 60px;
+		}
+		&__slider {
+			margin-top: 35px;
+		}
+		&__wrapperItem {
+			width: 272px;
+			height: 323px;
+		}
+		&__content {
+			margin-left: 0;
+			margin-right: 20px;
+		}
+		&__descriptionProduct {
+			position: absolute;
+			width: 200px;
+		}
+		&__imgStatus {
+			width: 60px;
+		}
+		&__tabsLink {
+			font-size: 18px;
+		}
+		&__nameModel {
+			padding-top: 14px;
+		}
+		&__card_ivisibleMobile {
+			display: none;
+		}
+		&__wrapperLinkAllModel {
+			display: flex;
+		}
+	}
+	.designs {
+		&__title {
+			font-size: 60px;
+			left: 25px;
+		}
+		&__wrapperImg1 {
+			width: 124px;
+			height: 125px;
+		}
+		&__wrapperImg2 {
+			width: 270px;
+			height: 202px;
+			bottom: 223px;
+			right: 0;
+		}
+	}
+	.workProcess {
+		&__imgNumber {
+			height: 245px;
+		}
+		&__item {
+			width: 270px;
+			height: 448px;
+		}
+		&__titleItem {
+			font-size: 16px;
+		}
+		&__description {
+			font-size: 16px;
+		}
+	}
+	.reviews {
+		&__ps {
+			font-size: 20px;
+			line-height: 25px;
+		}
+	}
+	.ratings {
+		min-height: 185px;
+		&__number {
+			font-size: 30px;
+		}
+		&__imgStar {
+			width: 18px;
+		}
+		&__companyLogo {
+			width: 135px;
+		}
+		&__footer {
+			font-size: 12px;
+		}
+	}
+	.socialNetwork {
+		padding-bottom: 115px;
+		&__rightColumn {
+			padding-left: 25px;
+		}
+		&__subscribe {
+			margin-top: 50px;
+			font-size: 18px;
+			padding-right: 55px;
+		}
+		&__gallery {
+			margin-left: 0;
+			grid-template-rows: repeat(5 1fr);
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 15px;
+		}
+	}
+	.choise {
+		&__titleBlock {
+			width: 253px;
+			height: 58px;
+		}
+		&__svg {
+			width: 12px;
+			height: 12px;
+			padding-left: 6px;
+		}
+		&__subtitle {
+			font-size: 25px;
+			padding-left: 15px;
+		}
+	}
+	.customKitchen {
+		min-height: 930px;
+		&__photo {
+			width: 290px;
+			height: 258px;
+		}
+		&__blockName {
+			text-align: left;
+		}
+		&__wrapperPhoto {
+			margin-left: 0;
+		}
+		&__wrapperSignature {
+			margin-bottom: 40px;
+		}
+	}
+	.specialOffer {
+		&__slider {
+			margin-top: 60px;
+		}
+		&__img {
+			width: 270px;
+			height: 387px;
+		}
+		&__titleItem {
+			font-size: 30px;
+		}
+		&__content {
+			text-align: center;
+		}
+		&__content {
+			top: 83px;
+			left: 15px;
+		}
+		&__text {
+			font-size: 14px;
+		}
+		&__divider {
+			margin-top: 145px;
+		}
+		&__text {
+			margin-top: 15px;
+		}
+	}
+	.invitation {
+		&__photoIMG {
+			margin-top: 0;
+		}
+		&__column {
+			margin-left: 25px;
+			margin-right: 25px;
+		}
+	}
+	.footer {
+		&__links {
+			margin-top: 5px;
+		}
+		&__menu {
+			height: 1362px;
+			padding-left: 50px;
+			padding-right: 25px;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		&__menuItem {
+			width: 100%;
+		}
+		&__contacts {
+			bottom: 185px;
+			left: 50px;
+		}
+		&__PS {
+			line-height: 28px;
+			padding-top: 18px;
+		}
+		&__copyright {
+			line-height: 20px;
+		}
+	}
+}

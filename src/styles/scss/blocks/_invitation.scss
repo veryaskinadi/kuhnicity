@@ -1,0 +1,16 @@
+.invitation {
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: flex-start;
+	&__photoIMG {
+		margin-top: -49px;
+		width: 621px;
+		height: 650px;
+		object-fit: cover;
+	}
+	&__column {
+		width: 100%;
+		margin-left: 47px;
+		margin-right: 150px;
+	}
+}

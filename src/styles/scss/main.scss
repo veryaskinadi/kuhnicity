@@ -1,0 +1,48 @@
+body {
+    font-family: 'Averta',  serif;
+    margin: 0;
+}
+
+h2 {
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+}
+
+.container {
+	margin-left: 160px;
+	&_menu {
+		margin-left: 160px;
+	}
+}
+
+@import 'src/styles/scss/base/_fonts.scss';
+@import 'src/styles/scss/base/_variables.scss';
+@import 'src/styles/scss/blocks/_title.scss';
+@import 'src/styles/scss/blocks/_form.scss';
+@import 'src/styles/scss/blocks/_descrText.scss';
+@import 'src/styles/scss/blocks/_buttons.scss';
+@import 'src/styles/scss/blocks/_header.scss';
+@import 'src/styles/scss/blocks/_createKitchen.scss';
+@import 'src/styles/scss/blocks/_terms.scss';
+@import 'src/styles/scss/blocks/_advertising.scss';
+@import 'src/styles/scss/blocks/_catalog.scss';
+@import 'src/styles/scss/blocks/_productCards.scss';
+@import 'src/styles/scss/blocks/_designs.scss';
+@import 'src/styles/scss/blocks/_workProcess.scss';
+@import 'src/styles/scss/blocks/_reviews.scss';
+@import 'src/styles/scss/blocks/_ratings.scss';
+@import 'src/styles/scss/blocks/_socialNetwork.scss';
+@import 'src/styles/scss/blocks/_choise.scss';
+@import 'src/styles/scss/blocks/_sliderArrow.scss';
+@import 'src/styles/scss/blocks/_customKitchen.scss';
+@import 'src/styles/scss/blocks/_specialOffer.scss';
+@import 'src/styles/scss/blocks/_invitation.scss';
+@import 'src/styles/scss/blocks/_footer.scss';
+@import 'src/styles/scss/blocks/_modal.scss';
+@import 'blocks/media/mediaDesctopBig.scss';
+@import 'blocks/media/mediaDesctopLittle.scss';
+@import 'blocks/media/mediaTablet.scss';
+@import 'blocks/media/mediaMobile.scss';

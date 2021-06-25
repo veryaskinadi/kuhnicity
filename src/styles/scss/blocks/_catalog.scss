@@ -1,0 +1,101 @@
+.catalog {
+    height: 887px;
+    display: grid;
+    grid-gap: 8px;
+		background-color: $bg-color;
+		&__block {
+			position: relative;
+			font-size: 20px;
+			line-height: 120.3%;
+			letter-spacing: 0.105em;
+			text-transform: uppercase;
+		}
+		&__linkMenu {
+			position: absolute;
+			top: 0;
+		}
+    &__sale {
+        grid-area: sale;
+    }
+    &__linkSale {
+        display: block;
+        padding-top: 330px;
+        margin-left: 49px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    &__linkChoose {
+        margin-left: 49px;
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 252%;
+        letter-spacing: 0.035em;
+        color: #FFFFFF;
+    }
+    &__linkWrapper {
+        margin-top: 29px;
+    }
+    &__appliances {
+        grid-area: appliances;
+    }
+    &__linkAppliances {
+				position: absolute;
+				top: 0;
+        display: block;
+        padding-top: 350px;
+        margin-left: 40px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    &__kitchen {
+        grid-area: kitchen;
+    }
+    &__linkKitchen {
+				position: absolute;
+				top: 0;
+        display: block;
+        padding-top: 807px;
+        margin-left: 40px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    &__countertop {
+        grid-area: countertop;
+    }
+    &__linkCountertop {
+				position: absolute;
+				top: 0;
+        display: block;
+        text-decoration: none;
+        padding-top: 137px;
+        margin-left: 49px;
+
+        color: #FFFFFF;
+    }
+    &__case {
+        grid-area: case;
+    }
+    &__linkCase {
+				position: absolute;
+				top: 0;
+        display: block;
+        text-decoration: none;
+        padding-top: 360px;
+        margin-left: 40px;
+        color: #FFFFFF;
+    }
+
+		&__img {
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+		}
+    
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 2fr 1.5fr 2fr;
+    grid-template-areas: 'sale appliances kitchen'
+                        'sale appliances kitchen'
+                        'sale case kitchen'
+                        'countertop case kitchen';
+}

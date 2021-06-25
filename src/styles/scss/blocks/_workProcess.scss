@@ -1,0 +1,39 @@
+.workProcess {
+	padding-top: 170px;
+	background-color: $bg-color;
+	&__wrapper {
+		margin-top: 50px;
+	}
+	&__item {
+		position: relative;
+		height: 666px;
+		width: 475px;
+		background-color: #FFFFFF;
+		margin-right: 6px;
+		&_active {
+			color: #FFFFFF;
+			background: url(../img/workProcess/bg1.png) center center/cover no-repeat;
+		}
+	}
+	&__titleItem {
+		padding-top: 46px;
+		display: block;
+		font-size: 20px;
+		line-height: 120.3%;
+		text-align: center;
+		letter-spacing: 0.105em;
+		text-transform: uppercase;
+	}
+	&__description {
+		margin-top: 20px;
+		display: block;
+		font-size: 16px;
+		line-height: 140%;
+		text-align: center;
+		letter-spacing: 0.035em;
+	}
+	&__imgNumber {
+		position: absolute;
+		bottom: 0;
+	}
+}
