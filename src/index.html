@@ -276,7 +276,7 @@
 
 	<section class="catalog">
 			<div class="catalog__block catalog__sale">
-					<img class="catalog__img" src="styles/img/catalog/sale.png" alt="sale">
+					<img class="catalog__img" src="styles/img/catalog/sale.jpg" alt="sale">
 					<div class="catalog__linkMenu">
 						<div class="catalog__linkSaleWrapper">
 								<a href="#" class="catalog__linkSale">РАСПРОДАЖА</a>
@@ -291,19 +291,19 @@
 					</div>
 			</div>
 			<div class="catalog__block catalog__appliances">
-					<img class="catalog__img" src="styles/img/catalog/appliances.png" alt="appliances">
+					<img class="catalog__img" src="styles/img/catalog/appliances.jpg" alt="appliances">
 					<a href="#" class="catalog__linkAppliances">Бытовая техника</a>
 			</div>
 			<div class="catalog__block catalog__kitchen">
-					<img class="catalog__img" src="styles/img/catalog/kitchen.png" alt="kitchen">
+					<img class="catalog__img" src="styles/img/catalog/kitchen.jpg" alt="kitchen">
 					<a href="" class="catalog__linkKitchen">Кухни</a>
 			</div>
 			<div class="catalog__block catalog__countertop">
-					<img class="catalog__img" src="styles/img/catalog/countertop.png" alt="countertop">
+					<img class="catalog__img" src="styles/img/catalog/countertop.jpg" alt="countertop">
 					<a href="#" class="catalog__linkCountertop">Столешницы</a>
 			</div>
 			<div class="catalog__block catalog__case">
-					<img class="catalog__img" src="styles/img/catalog/case.png" alt="case">
+					<img class="catalog__img" src="styles/img/catalog/case.jpg" alt="case">
 					<a href="#" class="catalog__linkCase">Шкафы-купе</a>
 			</div>
 	</section>
@@ -599,10 +599,10 @@
 	<section class="designs">
 		<div class="container">
 			<div class="designs__wrapperImg1">
-				<img class="designs__img" src="styles/img/designs/img1.png" alt="1">
+				<img class="designs__img" src="styles/img/designs/img1.jpg" alt="1">
 			</div>
 			<div class="designs__wrapperImg2">
-				<img class="designs__img" src="styles/img/designs/img2.png" alt="2">
+				<img class="designs__img" src="styles/img/designs/img2.jpg" alt="2">
 			</div>
 			<h2 class="designs__title">150 дизайнеров  </h2>
 			<p class="descrText descrText_designs">150 дизайнеров-архитекторов ежедневно создают пространства индивидуально под каждого клиента. Получите бесплатный дизайн-проект под ваши предпочтения.</p>
@@ -1100,6 +1100,32 @@
 		</div>
 	</section>
 
+	<div id="modal" class="modal">
+		<div class="modal__window">
+			<div id="modalClose" class="modal__close">&#xD7;</div>
+			<span class="modal__title">Оставить заявку</span>
+			<span class="modal__descr">Оставьте свои контактные данные, менеджер свяжется с Вами <br> в течение 15 минут.</span>
+			<form class="form form_modal">
+				<div class="form__inputBlocks form__inputBlocks_modal">
+					<div class="form__inputBlock form__inputBlock_modal">
+						<label for="nameModal" class="form__label">Ваше имя</label>
+						<input class="form__input" id="nameModal" type="text" value="">
+					</div>
+					<div class="form__inputBlock form__inputBlock_modal">
+						<label for="phoneModal" class="form__label">Ваш телефон</label>
+						<input class="form__input" id="phoneModal" type="text" aria-invalid="false">
+					</div>
+				</div>
+				<button class="button button_modal">Оставить заявку</button>
+				<div class="form__wrapperApproval form__wrapperApproval_modal">
+					<span class="form__approval form__approval_modal">Отправляя контакты, вы соглашаетесь с
+								<a href="#" class="form__privacyPolicy">политикой конфиденциальности</a>
+					</span>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<footer class="footer">
 		<hr class="footer__devider">
 		<div class="footer__menu">
@@ -1201,31 +1227,7 @@
 		</div>
 	</footer>
 
-	<div id="modal" class="modal">
-		<div class="modal__window">
-			<div id="modalClose" class="modal__close">&#xD7;</div>
-			<span class="modal__title">Оставить заявку</span>
-			<span class="modal__descr">Оставьте свои контактные данные, менеджер свяжется с Вами <br> в течение 15 минут.</span>
-			<form class="form form_modal">
-				<div class="form__inputBlocks form__inputBlocks_modal">
-					<div class="form__inputBlock form__inputBlock_modal">
-						<label for="nameModal" class="form__label">Ваше имя</label>
-						<input class="form__input" id="nameModal" type="text" value="">
-					</div>
-					<div class="form__inputBlock form__inputBlock_modal">
-						<label for="phoneModal" class="form__label">Ваш телефон</label>
-						<input class="form__input" id="phoneModal" type="text" aria-invalid="false">
-					</div>
-				</div>
-				<button class="button button_modal">Оставить заявку</button>
-				<div class="form__wrapperApproval form__wrapperApproval_modal">
-					<span class="form__approval form__approval_modal">Отправляя контакты, вы соглашаетесь с
-								<a href="#" class="form__privacyPolicy">политикой конфиденциальности</a>
-					</span>
-				</div>
-			</form>
-		</div>
-	</div>
+
 
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
